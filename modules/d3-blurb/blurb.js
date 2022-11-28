@@ -2,7 +2,7 @@
  * @author Koen Wösten
  * @version 0.1
  */
-export {Blurb, blurb};
+export { Blurb, blurb };
 
 function Blurb() {
   this._data =
@@ -33,8 +33,8 @@ Blurb.prototype = blurb.prototype = {
   create: blurb_create,
 }
 
-function supplant_default(t, old, d, i, length){
-  return (t < (i-d.wi)/length ? '' : d.c)
+function supplant_default(t, old, d, i, length) {
+  return (t < (i - d.wi) / length ? '' : d.c)
 }
 
 /**
@@ -46,7 +46,6 @@ function blurb_create() {
   let self = this;
 
   return function () {
-
     let element = document.createElement("g");
     element.classList.add("animated-text");
 
@@ -63,63 +62,47 @@ function blurb_create() {
  * @param {*} duration duration of the supplant in seconds (default 2500)
  * @returns 
  */
-function blurb_supplant(func, duration=2500){
-    let self = this;
-    if (typeof func == 'function'){
-      this._supplant_f = func;  
-    
-      this._supplant_t = function (selection) {
-        selection.transition("supplant")
+function blurb_supplant(func, duration = 2500) {
+  let self = this;
+  if (typeof func == 'function') {
+    this._supplant_f = func;
+
+    this._supplant_t = function (selection) {
+      selection.transition("supplant")
         .duration(duration)
         .ease(d3.easeLinear)
-        .tween("text", (d,i,n) => {
+        .tween("text", (d, i, n) => {
           let length = n.length;
           let letter = d3.select(n[i]);
           let old = letter.text();
           let didit = false;
 
           return (t) => {
-            if(i == 0){
-              letter.attr("y", 0);
+            if (i == 0) {
+              letter.attr("y", 0).attr("x", 0);
             }
-
-            letter.style("opacity", 0);
-            letter.text(self._supplant_f(t, old, d, i, length));
-
-            if ((t > i/length) && !didit){  
-              didit = true;  
-              if(i == 0){
-                letter.attr('x', 0)
-                      .attr('y', 0);
-              } else {
-                if (d.wi == 0 || d.c == '\n'){
-                  letter.text(d.w);
-                  let bbox = letter.node().getBBox();
-                  if (bbox.x + bbox.width > parseFloat(self._parent.style("width")) ||  d.c == '\n'){
-                    letter.attr('x', 0)
-                          .attr('y', parseFloat(d3.select(n[i-d.wi-1]).attr('y')) + 42);
-                  } else {
-                    letter.attr('x', parseFloat(d3.select(n[i-1]).attr('x')) + parseFloat(n[i-1].getBBox().width))
-                          letter.attr('y', d3.select(n[i-1]).attr('y'));
-                        
-                  }
-                  letter.text(self._supplant_f(t, old, d, i, length));
-
-                } else {
-                      letter.attr('x', parseFloat(d3.select(n[i-1]).attr('x')) + parseFloat(n[i-1].getBBox().width))
-                      letter.attr('y', d3.select(n[i-1]).attr('y'));
+            else if ((t > i / length) && !didit) {
+              didit = true;
+              letter.attr("dy", "0").attr("x", null);
+              const isNewline = d3.select(n[i - 1]).text() == "\n";
+              if (d.wi == 0 || isNewline) {
+                letter.style("opacity", 0);
+                letter.text("W".repeat(d.wl)); //W is the widest letter in most fonts
+                let bbox = letter.node().getBBox();
+                if (bbox.x + bbox.width > parseFloat(self._parent.style("width")) || isNewline) {
+                  letter.attr('x', 0).attr('dy', '1.5em'); 
                 }
               }
             }
-
+            letter.text(self._supplant_f(t, old, d, i, length));
             letter.style("opacity", 1);
-            }
-          }
+          };
+        }
         )
-      }
     }
+  }
 
-    return this;
+  return this;
 }
 
 /**
@@ -132,7 +115,7 @@ function blurb_update() {
   return function () {
     _blurb_next.apply(self);
 
-    if(self._supplant_t){
+    if (self._supplant_t) {
       self.letters.call(self._supplant_t);
     }
 
@@ -144,8 +127,8 @@ function blurb_update() {
 }
 
 /**
- * 
- * @returns 
+ * Staggers the letters. and starts the animation
+ * @returns this
  */
 function _blurb_next() {
   this._selection = this._parent.select("g.animated-text");
@@ -160,18 +143,29 @@ function _blurb_next() {
 
   this.letters = this.sentences.selectAll('tspan')
     .data(d => {
-        console.log(d);
-        let d_split = d.split('');
-        return d_split.slice(1).reduce( (previous, current) => {
-          previous.push({c: current, 
-                         i: previous[previous.length - 1].i + 1, 
-                         w: current == ' ' ? previous[previous.length - 1].w+ 1: previous[previous.length - 1].w,
-                         wi: previous[previous.length - 1].c == ' ' ? 0: previous[previous.length - 1].wi + 1}); 
-          return previous; },
-          [{c: d_split[0], i:0,w:0,wi:0}]);
-      })
+      console.log(d);
+      let d_split = d.split('');
+      return d_split.slice(1).reduce((previous, current) => {
+        if (/\s/.test(previous[previous.length - 1].c)) {
+          for (let j = previous[previous.length - 1].wi + 1; j > 0; j--) {
+            previous[previous.length - j].wl = previous[previous.length - 1].wl;
+          }
+        }
+
+        previous.push({
+          c: current,
+          i: previous[previous.length - 1].i + 1,
+          w: /\s/.test(previous[previous.length - 1].c) && !/\s/.test(current) ? previous[previous.length - 1].w + 1 : previous[previous.length - 1].w,
+          wi: /\s/.test(previous[previous.length - 1].c) ? 0 : previous[previous.length - 1].wi + 1,
+          wl: /\s/.test(previous[previous.length - 1].c) ? 0 : previous[previous.length - 1].wl + 1
+        });
+
+        return previous;
+      },
+        [{ c: d_split[0], i: 0, w: 0, wi: 0, wl: 0 }]);
+    })
     .join('tspan')
-      .classed("animated-text-letter", true);
+    .classed("animated-text-letter", true);
 
 
   return this;
@@ -183,7 +177,7 @@ function _blurb_next() {
  * @param {*} delim character to split different 
  * @returns 
  */
-function blurb_datum(data, delim='\n') {
+function blurb_datum(data, delim = '\n') {
   this._data = data.split(delim);
   this._length = this._data.length;
 

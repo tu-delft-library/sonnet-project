@@ -43,7 +43,7 @@ function supplant_typewriter(t, old, d, i, length) {
  * @returns 
  */
 function supplant_default(t, old, d, i, length) {
-    return (t < (i - d.wi) / length ? '' : d.c)
+    return (t < (i + d.wl - d.wi)/ length ? '' : d.c)
 }
 
-export { supplant_typewriter }
+export { supplant_default, supplant_typewriter }
