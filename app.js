@@ -1,5 +1,5 @@
 import {Blurb,blurb} from "./modules/d3-blurb/blurb.js";
-import {supplant_typewriter} from "./modules/d3-blurb/supplant_styles.js"
+import {supplant_typewriter, supplant_default} from "./modules/d3-blurb/supplant_styles.js"
 
 let dt = 15000;
 let data = [];
@@ -19,7 +19,7 @@ d3.text("data/quotes.txt")
             let b = blurb();
             svg.append(b.create());
             b.datum(texts[0],'*')
-             .supplant(supplant_typewriter,40000);
+             .supplant(supplant_default,40000);
         
             //weird bug, where the svg is nor properly updated. So need to write "nothing" for the svg to be rendered
             svg.node().innerHTML += "";
