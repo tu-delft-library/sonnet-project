@@ -87,10 +87,10 @@ function blurb_supplant(func, duration = 2500) {
               const isNewline = d3.select(n[i - 1]).text() == "\n";
               if (d.wi == 0 || isNewline) {
                 letter.style("opacity", 0);
-                letter.text("W" * d.w); //W is the widest letter in most fonts
+                letter.text("W".repeat(d.wl)); //W is the widest letter in most fonts
                 let bbox = letter.node().getBBox();
                 if (bbox.x + bbox.width > parseFloat(self._parent.style("width")) || isNewline) {
-                  letter.attr('x', 0).attr('dy', '1.5em');
+                  letter.attr('x', 0).attr('dy', '1.5em'); 
                 }
               }
             }
