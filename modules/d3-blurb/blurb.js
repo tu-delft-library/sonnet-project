@@ -46,7 +46,6 @@ function blurb_create() {
   let self = this;
 
   return function () {
-
     let element = document.createElement("g");
     element.classList.add("animated-text");
 
@@ -80,38 +79,24 @@ function blurb_supplant(func, duration = 2500) {
 
           return (t) => {
             if (i == 0) {
-              letter.attr("y", 0);
+              letter.attr("y", 0).attr("x", 0);
             }
-
-            letter.style("opacity", 0);
-            letter.text(self._supplant_f(t, old, d, i, length));
-
-
-            if ((t > i / length) && !didit) {
+            else if ((t > i / length) && !didit) {
               didit = true;
-              if (i == 0) {
-                letter.attr('x', 0)
-                  .attr('y', 0);
-              } else {
-                if (d.wi == 0 || d3.select(n[i - 1]).text() == "\n") {
-                  letter.text("W" * d.w); //W is the widest letter in most fonts
-                  let bbox = letter.node().getBBox();
-                  if (bbox.x + bbox.width > parseFloat(self._parent.style("width")) || d3.select(n[i - 1]).text() == "\n") {
-                    letter.attr('x', 0)
-                      .attr('dy', '1.5em');
-                  } else {
-                    letter.attr("dy", "0");
-                    letter.attr("x", null);
-                  }
-                  letter.text(self._supplant_f(t, old, d, i, length));
-                } else {
-                  letter.attr("dy", "0");
-                  letter.attr("x", null);
+              letter.attr("dy", "0").attr("x", null);
+              const isNewline = d3.select(n[i - 1]).text() == "\n";
+              if (d.wi == 0 || isNewline) {
+                letter.style("opacity", 0);
+                letter.text("W" * d.w); //W is the widest letter in most fonts
+                let bbox = letter.node().getBBox();
+                if (bbox.x + bbox.width > parseFloat(self._parent.style("width")) || isNewline) {
+                  letter.attr('x', 0).attr('dy', '1.5em');
                 }
               }
             }
+            letter.text(self._supplant_f(t, old, d, i, length));
             letter.style("opacity", 1);
-          }
+          };
         }
         )
     }
