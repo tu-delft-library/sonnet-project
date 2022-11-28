@@ -1,0 +1,21 @@
+
+svg.animated-text-svg-container {
+  width: 100%;
+  height: 100%;
+}
+
+g.animated-text {
+  width: 100%;
+  height: fit-content;
+  font-size: 1em;
+  text-anchor: left;
+  dominant-baseline: hanging;
+}
+
+.animated-text-sentence {
+  width: 100%;
+  height: fit-content;
+  font-size: 1em;
+  text-anchor: left;
+  dominant-baseline: hanging;
+}
