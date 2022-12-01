@@ -61,4 +61,16 @@ body {
     --def: black;  
     --acc: rgb(249, 255, 189); 
     --inv: #fff;
+    --wrong: red;
+    --right: green;
+}
+
+.wrong {
+    fill: var(--wrong);
+    color: var(--wrong);
+}
+
+.right {
+    fill: var(--right);
+    color: var(--right);
 }
