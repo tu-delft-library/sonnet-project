@@ -1,8 +1,10 @@
 
 @import "modules/d3-blurb/blurb.css"; 
+@import "modules/pages/pages.css"; 
 
-html {
-  height: 100vh;
+html,
+body {
+  height: 100%;
 }
 
 body {
@@ -13,14 +15,12 @@ body {
   width:100%;
   height:100%;
   margin:0px;
-  padding:20px;
 }
 
 .float-child {
   width: 50%;
   height: 100%;
   float: left;
-  margin:0px;
 }  
 
 .padding-5 {
@@ -51,4 +51,10 @@ body {
 .absolute-child.center {
   right: 50%;
 }  
+
+.demo-text {
+  font-family: monospace;
+  text-align: center;
+  font-size: large;
+}
 

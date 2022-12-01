@@ -1,0 +1,75 @@
+.page-container{
+    display: flex;
+    overflow: auto;
+    outline: 1px dashed lightgray;
+    flex: none;
+}
+
+.page-container.x {
+ /* width: 100%;
+    height: 128px; */
+    flex-flow: row nowrap;
+}
+
+.page-container.y {
+    flex-flow: column nowrap;
+}
+
+
+/* scroll-snap */
+.x.mandatory-scroll-snapping {
+    scroll-snap-type: x mandatory;
+}
+
+.y.mandatory-scroll-snapping {
+    scroll-snap-type: y mandatory;
+}
+
+.x.proximity-scroll-snapping {
+    scroll-snap-type: x proximity;
+}
+
+.y.proximity-scroll-snapping {
+    scroll-snap-type: y proximity;
+}
+
+.page-container > div.page {
+    position: relative;
+    scroll-snap-align: center;
+    flex: none
+}
+
+.x.page-container > div.page {
+    width: 100vw;
+    height: auto;
+}
+.y.page-container > div.page {
+    width: auto;
+    height: 100vh;
+}
+
+/* .x.page-container > div.page::after {
+    width: 100vw;
+    height: auto;
+} */
+
+.y.page-container > div.page:after {
+    content:'';
+    position: absolute;
+    top: 90%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-image: -webkit-linear-gradient(15deg, rgba(255,255,255,.5) 15%, transparent, transparent ), linear-gradient(-15deg,rgba(255,255,255,.5) 15%, transparent, transparent );
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    background-image: -moz-linear-gradient(15deg, rgba(255,255,255,.5) 15%, transparent, transparent ), linear-gradient(-15deg,rgba(255,255,255,.5) 15%, transparent, transparent );
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    background-image: -ms-linear-gradient(15deg, rgba(255,255,255,.5) 15%, transparent, transparent ), linear-gradient(-15deg,rgba(255,255,255,.5) 15%, transparent, transparent );
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    background-image: -o-linear-gradient(15deg, rgba(255,255,255,.5) 15%, transparent, transparent ), linear-gradient(-15deg,rgba(255,255,255,.5) 15%, transparent, transparent );
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    background-image: linear-gradient(15deg, rgba(255,255,255,.5) 15%, transparent, transparent ), linear-gradient(-15deg,rgba(255,255,255,.5) 15%, transparent, transparent );
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    width: 11%;
+    height: 5%;
+}
