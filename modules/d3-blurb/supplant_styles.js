@@ -22,7 +22,7 @@ function supplant_typewriter(t, old, d, i, length) {
     }
 
     if (t < i / length) {
-        return old;
+        return '';
     } else if ((t >= i / length) && (t < (i + 1) / length)) {
         return d.c + "|";
     } else {

@@ -1,6 +1,7 @@
 
 @import "modules/d3-blurb/blurb.css"; 
 @import "modules/pages/pages.css"; 
+@import "modules/right-wrong/right-wrong.css"; 
 
 html,
 body {
@@ -10,11 +11,13 @@ body {
 
 body {
   background-color: black;
+  height: 100vh;
+  font-family: Roboto Mono;
 }
 
 .float-container {
   width:100%;
-  height:100%;
+  height:fit-content;
   margin:0px;
 }
 
