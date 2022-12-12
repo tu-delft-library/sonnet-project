@@ -1,9 +1,5 @@
 import {Blurb,blurb} from "./modules/d3-blurb/blurb.js";
-import {supplant_typewriter, supplant_default} from "./modules/d3-blurb/supplant_styles.js"
-
-let dt = 15000;
-let data = [];
-let index = -1;
+import {supplant_typewriter_replace} from "./modules/d3-blurb/supplant_styles.js"
 
 
 let svg = d3.select("#left_poem")
@@ -19,7 +15,7 @@ d3.text("data/quotes.txt")
             let b = blurb();
             svg.append(b.create());
             b.datum(texts[0],'*')
-             .supplant(supplant_default,40000);
+             .supplant(supplant_typewriter_replace,40000);
         
             //weird bug, where the svg is nor properly updated. So need to write "nothing" for the svg to be rendered
             svg.node().innerHTML += "";
@@ -31,7 +27,7 @@ d3.text("data/quotes.txt")
             let v = blurb();
             svg2.append(v.create());
             v.datum(texts[1],'*')          
-             .supplant(supplant_typewriter, 40000);
+             .supplant(supplant_typewriter_replace, 40000);
 
             //weird bug, where the svg is nor properly updated. So need to write "nothing" for the svg to be rendered
             svg2.node().innerHTML += "";

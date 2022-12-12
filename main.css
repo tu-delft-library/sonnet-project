@@ -5,6 +5,7 @@
 html,
 body {
   height: 100%;
+  font-family: Roboto Mono;
 }
 
 body {
@@ -29,6 +30,10 @@ body {
 
 .margin-5 {
   margin: 5%;
+}
+
+.margin-10 {
+  margin: 10%;
 }
 
 .border-3 {

@@ -1,7 +1,7 @@
 .page-container{
     display: flex;
-    overflow: auto;
-    outline: 1px dashed lightgray;
+    overflow: auto; 
+    /* outline: 1px dashed lightgray; */
     flex: none;
 }
 
@@ -9,10 +9,14 @@
  /* width: 100%;
     height: 128px; */
     flex-flow: row nowrap;
+    overflow-x: scroll;
+
 }
 
 .page-container.y {
     flex-flow: column nowrap;
+    overflow-y: scroll;
+
 }
 
 
@@ -40,12 +44,12 @@
 }
 
 .x.page-container > div.page {
-    width: 100vw;
+    width: 100%;
     height: auto;
 }
 .y.page-container > div.page {
     width: auto;
-    height: 100vh;
+    height: 100%;
 }
 
 /* .x.page-container > div.page::after {
