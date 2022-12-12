@@ -11,8 +11,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"> 
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script type="module" src='app.js' defer></script>
+    <script type="module" src="modules/d3-hacker_text/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="modules/d3-hacker_text/style.css">
 </head>
 <body>
+    <div id="hacktxt_container">
+        <svg id="coolsvg" width="100%" height="100%" viewBox="0 0 800 300">
+            <text id="appearing_text" y="125" width="800">
+            </text>
+            <defs>
+                <mask id="Mask">
+                    <rect id="mask_rect" />
+                    <text id="cooltext" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">Can AI generate poetic sonnets?</text>
+                </mask>
+            </defs>
+    
+            <rect id="out_rect" mask="url(#Mask)" />
+        </svg>
+    </div>
     <div id="poem_container" class="float-container">
         <div class="float-child" >
             <div class="padding-5 white margin-5 border-3" style="height:80vh;">
