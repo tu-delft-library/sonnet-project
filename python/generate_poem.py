@@ -10,7 +10,6 @@ def poemify(abstract, lang):
         language = "Dutch"
 
     openai.api_key = os.getenv('OPENAI_KEY')
-    # openai.api_key = "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"
     # response = openai.Completion.create(
     #     model="text-davinci-003",
     #     # prompt="Summarize to two sentences: {}".format(abstract),
@@ -23,10 +22,10 @@ def poemify(abstract, lang):
     # )
 
     # response_summary = response.choices[0].text.replace("\n", " ")
-    poem_list = []
+    # poem_list = []
     poem_list = []
 
-    poemformlst = ["sonnet", "free verse", "limerick", "haiku", "villanelle"]
+    poemformlst = ["14 line sonnet"] #, "free verse", "limerick", "haiku", "villanelle"]
 
     poem_dict = dict()
     for pform in poemformlst:
