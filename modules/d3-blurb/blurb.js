@@ -88,17 +88,31 @@ function blurb_supplant(func, duration = 2500) {
       return (t) => {
         if (i == 0) {
           letter.attr("y", 0).attr("x", 0);
+          letter.text(self._supplant_f(t, old_text, d, i, text_length));
         }
         else if ((t > i / text_length) && !replaced_letter) {
           replaced_letter = true;
           letter.attr("dy", "0").attr("x", null);
 
-          if (needNewLine(n, i, letter, d)) {
+          let newline = needNewLine(n, i, letter, d);
+          if (newline[0]) {
             letter.attr('x', 0).attr('dy', '1.5em');
           }
+          if (newline[1]){
+            let datum = d3.select(n[i-1]).datum();
+            datum.c = " ⮐";
+            d3.select(n[i-1]).datum(datum);
+            d3.select(n[i-1]).attr('dy', '+0.5em');
+            letter.attr('dy', '1.0em');
+            letter.datum().c = " " + letter.datum().c;
+
+          }
+          letter.text(self._supplant_f(t, old_text, d, i, text_length));
         }
-        letter.text(self._supplant_f(t, old_text, d, i, text_length));
-        letter.style("opacity", 1);
+        else if ((t > (i+1) / text_length) && replaced_letter) {
+          letter.text(self._supplant_f(t, old_text, d, i, text_length));
+        }
+
       };
     };
   }
@@ -114,18 +128,20 @@ function blurb_supplant(func, duration = 2500) {
   function needNewLine(n, i, letter, d) {
     const isNewline = d3.select(n[i - 1]).text() == "\n";
     if (isNewline) {
-      return true
+      return [true, false]
     }
     if (d.wi == 0) {
       letter.style("opacity", 0);
       letter.text("W".repeat(d.wl)); //W is the widest letter in most fonts
       let bbox = letter.node().getBBox();
-      if (bbox.x + bbox.width > parseFloat(self._parent.style("width"))) {
-        return true
+      letter.text(""); //W is the widest letter in most fonts
+      letter.style("opacity", 1);
+      if (bbox.x + bbox.width > 0.95*parseFloat(self._parent.style("width"))) {
+        return [true, true]
       }
     }
 
-    return false
+    return [false, false]
   }
 }
 
