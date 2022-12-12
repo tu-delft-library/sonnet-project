@@ -33,4 +33,4 @@ for i, row in df_excel.iterrows():
     else:
         print("No abstract available for: {}".format(row['Research title']))
 
-df_excel.to_json("Output/textData_v3.json", orient='index')
+df_excel.to_json("Output/textData_v6.json", orient='index')

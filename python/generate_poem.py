@@ -5,9 +5,9 @@ import os
 
 def poemify(abstract, lang):
     if lang == "EN":
-        language = "English"
+        language = "an English"
     elif lang == "NL":
-        language = "Dutch"
+        language = "a Dutch"
 
     openai.api_key = os.getenv('OPENAI_KEY')
     # response = openai.Completion.create(
@@ -25,14 +25,14 @@ def poemify(abstract, lang):
     # poem_list = []
     poem_list = []
 
-    poemformlst = ["14 line sonnet"] #, "free verse", "limerick", "haiku", "villanelle"]
+    poemformlst = ["Petrarchan sonnet"] #, "free verse", "limerick", "haiku", "villanelle"]
 
     poem_dict = dict()
     for pform in poemformlst:
         poem_response = openai.Completion.create(
             model="text-davinci-003",
-            prompt="Write a {} {} about the following abstract: {}".format(language, pform, abstract),
-            temperature=0.7,
+            prompt="Write {} {} limited to 14 lines about the following abstract: {}".format(language, pform, abstract),
+            temperature=0.5,
             max_tokens=500,
             top_p=0.5,
             frequency_penalty=0.5,
