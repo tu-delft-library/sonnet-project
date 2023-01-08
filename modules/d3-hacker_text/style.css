@@ -1,0 +1,30 @@
+html {
+    background-color: black;
+}
+
+#appearing_text {
+    fill: white;
+    /* position: absolute; */
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* font-size: 5px; */
+    /* fill: white; */
+}
+
+rect#mask_rect {
+    width: 800px;
+    height: 300px;
+    fill: white;
+}
+
+text#cooltext {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+rect#out_rect {
+    fill: black;
+    width: 900px;
+    height: 300px;
+}
