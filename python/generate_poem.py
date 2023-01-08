@@ -25,13 +25,18 @@ def poemify(abstract, lang):
     # poem_list = []
     poem_list = []
 
-    poemformlst = ["Petrarchan sonnet"] #, "free verse", "limerick", "haiku", "villanelle"]
+    # poemformlst = ["Petrarchan sonnet",
+    #                "Shakespearean sonnet",
+    #                "Spenserian sonnet",
+    #                "Miltonic sonnet"]  # "free verse", "limerick", "haiku", "villanelle"]
+
+    poemformlst = ["quatorzain"]
 
     poem_dict = dict()
     for pform in poemformlst:
         poem_response = openai.Completion.create(
             model="text-davinci-003",
-            prompt="Write {} {} limited to 14 lines about the following abstract: {}".format(language, pform, abstract),
+            prompt="Write {} {} about the following abstract: {}".format(language, pform, abstract),
             temperature=0.5,
             max_tokens=500,
             top_p=0.5,
