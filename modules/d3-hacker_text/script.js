@@ -18,7 +18,7 @@ function dlines() {
             // dy = d3.select(this).attr("dy").replace("px","")
             var dy = 25
 
-            if (dy > 120) {
+            if (dy > 300) {
                 var dyNew = dy*(Math.random())
                 // var dyNew = 0
                 // console.log(dy)
