@@ -71,38 +71,78 @@ function blurb_supplant(func, duration = 2500) {
       selection.transition("supplant")
         .duration(duration)
         .ease(d3.easeLinear)
-        .tween("text", (d, i, n) => {
-          let length = n.length;
-          let letter = d3.select(n[i]);
-          let old = letter.text();
-          let didit = false;
-
-          return (t) => {
-            if (i == 0) {
-              letter.attr("y", 0).attr("x", 0);
-            }
-            else if ((t > i / length) && !didit) {
-              didit = true;
-              letter.attr("dy", "0").attr("x", null);
-              const isNewline = d3.select(n[i - 1]).text() == "\n";
-              if (d.wi == 0 || isNewline) {
-                letter.style("opacity", 0);
-                letter.text("W".repeat(d.wl)); //W is the widest letter in most fonts
-                let bbox = letter.node().getBBox();
-                if (bbox.x + bbox.width > parseFloat(self._parent.style("width")) || isNewline) {
-                  letter.attr('x', 0).attr('dy', '1.5em'); 
-                }
-              }
-            }
-            letter.text(self._supplant_f(t, old, d, i, length));
-            letter.style("opacity", 1);
-          };
-        }
+        .tween("text", supplant_text()
         )
     }
   }
 
   return this;
+
+  function supplant_text() {
+    return (d, i, n) => {
+      let text_length = n.length;
+      let letter = d3.select(n[i]);
+      let old_text = letter.text();
+      let replaced_letter = false;
+
+      return (t) => {
+        if (i == 0) {
+          letter.attr("y", 0).attr("x", 0);
+          letter.text(self._supplant_f(t, old_text, d, i, text_length));
+        }
+        else if ((t > i / text_length) && !replaced_letter) {
+          replaced_letter = true;
+          letter.attr("dy", "0").attr("x", null);
+
+          let newline = needNewLine(n, i, letter, d);
+          if (newline[0]) {
+            letter.attr('x', 0).attr('dy', '1.5em');
+          }
+          if (newline[1]){
+            let datum = d3.select(n[i-1]).datum();
+            datum.c = " ⮐";
+            d3.select(n[i-1]).datum(datum);
+            d3.select(n[i-1]).attr('dy', '+0.5em');
+            letter.attr('dy', '1.0em');
+            letter.datum().c = " " + letter.datum().c;
+
+          }
+          letter.text(self._supplant_f(t, old_text, d, i, text_length));
+        }
+        else if ((t > (i+1) / text_length) && replaced_letter) {
+          letter.text(self._supplant_f(t, old_text, d, i, text_length));
+        }
+
+      };
+    };
+  }
+  /**
+   * Checks if a newline is needed in the box
+   * 
+   * @param {*} n nodes
+   * @param {*} i index 
+   * @param {*} letter letter selection
+   * @param {*} d bound data
+   * @returns 
+   */
+  function needNewLine(n, i, letter, d) {
+    const isNewline = d3.select(n[i - 1]).text() == "\n";
+    if (isNewline) {
+      return [true, false]
+    }
+    if (d.wi == 0) {
+      letter.style("opacity", 0);
+      letter.text("W".repeat(d.wl)); //W is the widest letter in most fonts
+      let bbox = letter.node().getBBox();
+      letter.text(""); //W is the widest letter in most fonts
+      letter.style("opacity", 1);
+      if (bbox.x + bbox.width > 0.95*parseFloat(self._parent.style("width"))) {
+        return [true, true]
+      }
+    }
+
+    return [false, false]
+  }
 }
 
 /**
@@ -142,7 +182,15 @@ function _blurb_next() {
     )
 
   this.letters = this.sentences.selectAll('tspan')
-    .data(d => {
+    .data(splitToLetters())
+    .join('tspan')
+    .classed("animated-text-letter", true);
+
+
+  return this;
+
+  function splitToLetters() {
+    return d => {
       console.log(d);
       let d_split = d.split('');
       return d_split.slice(1).reduce((previous, current) => {
@@ -163,12 +211,8 @@ function _blurb_next() {
         return previous;
       },
         [{ c: d_split[0], i: 0, w: 0, wi: 0, wl: 0 }]);
-    })
-    .join('tspan')
-    .classed("animated-text-letter", true);
-
-
-  return this;
+    };
+  }
 }
 
 /**
