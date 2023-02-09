@@ -26,6 +26,10 @@ body {
   width: 50%;
   height: 100%;
   float: left;
+} 
+
+.float-child > div {
+  height: 80%;
 }  
 
 .padding-5 {
@@ -44,6 +48,11 @@ body {
   border: 3px solid;
 }
 
+.fill-black {
+  fill: black;
+  background-color: black;
+}
+
 .white {
   color: white;
   border-color: white;
@@ -52,9 +61,7 @@ body {
 
 .absolute {
   position:absolute;
-  right: 0;
   padding: 20px;
-  border: 2px solid blue;
 }
 
 .absolute-child.center {
@@ -67,3 +74,10 @@ body {
   font-size: large;
 }
 
+.left_poem {
+  margin-right: 15%;
+}
+
+.right_poem {
+  margin-left: 15%;
+}
