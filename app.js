@@ -92,9 +92,12 @@ function moveRandomly(selection) {
         function animation() {
 
             let scale = Math.random() * 3;
+            let delay = Math.random()
             d3.select(self)
                 .transition()
-                .duration(4000 + Math.random() * 3000)
+                .duration(19000 - 3000 * (delay))
+                .transition()
+                .duration(1000 + delay * 3000)
                 //.ease(d3.easeBackInOut.overshoot(1.5))
                 .style('top', (Math.random() - 0.2)* 125 + '%')
                 .style('left', (Math.random() - 0.2)  * 125 + '%')
@@ -126,9 +129,10 @@ function createPoemContainer(selection) {
 
     let container = selection
         .append("div")
-        .style("width", "350px")
+        .style("width", "400px")
+        .style("height", "250px")
         .style("font-size", "5em")
-        .classed('float-container absolute', true)
+        .classed('float-container poem-container absolute', true)
         ;
     let svg = container
         .append('div')
@@ -165,4 +169,8 @@ function createPoemContainer(selection) {
     svg2
         .classed('animated-text-svg-container right_poem', true)
         ;
+
+    container
+        .append('img')
+        .attr('src', 'book-covers-big-2019101610.jpg-1300.jpg');
 }

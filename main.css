@@ -28,6 +28,16 @@ body {
   scrollbar-width: none;  /* Firefox */
 } 
 
+.poem-container {
+  width: auto;
+}
+
+.poem-container > img {
+  position: relative;
+  top: -60%;
+  width: 33%;
+}
+
 .float-container {
   width:100%;
   height:fit-content;
