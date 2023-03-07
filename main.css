@@ -7,6 +7,7 @@ html,
 body {
   height: 100%;
   font-family: Roboto Mono;
+  font-size: 100%;
   margin: 0;
 }
 
@@ -73,6 +74,10 @@ body {
 .absolute {
   position:absolute;
   padding: 20px;
+}
+
+.center {
+
 }
 
 .absolute-child.center {

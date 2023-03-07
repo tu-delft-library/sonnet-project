@@ -40,7 +40,29 @@ d3.text("data/quotes.txt")
 
 let floating_poems = d3.select("#page1").selectAll('.float-container');
 
-var data = [{ left: "left* 1§left *different", right: "right 1§right different" }, { left: "left 2", right: "right 2" }, { left: "left 3", right: "right 3" }, { left: "left 4", right: "right 4" },{ left: "left 5", right: "right 5" },{ left: "left 6", right: "right 6" },{ left: "left 6", right: "right 6" },{ left: "left 6", right: "right 6" },{ left: "left 6", right: "right 6" },{ left: "left 6", right: "right 6" },{ left: "left 6", right: "right 6" },{ left: "left 6", right: "right 6" }];
+var text = `Oh well…
+
+Drilling wells is an expensive process.
+Thus whenever we can be more clever
+we are saving money, time and effort.
+This incites economy and progress.
+
+Optimizing well trajectory
+requires input from geologists
+drill engineers and geophysicists
+their expertise and their directory.
+
+Determining the perfect minimum
+amount of wells computers pretty well
+can guess, as does this master student tell.
+
+But still, trajectories their optimum
+requires judgment – engineers to dwell
+an index finger in their mouth: ‘Oh well…’
+
+Bauke`
+
+var data = [{ left: text, right: text }, { left: text, right: text }, { left: text, right: text }, { left: text, right: text },{ left: "left 5", right: "right 5" },{ left: "left 6", right: "right 6" },{ left: "left 6", right: "right 6" },{ left: "left 6", right: "right 6" },{ left: "left 6", right: "right 6" },{ left: "left 6", right: "right 6" },{ left: "left 6", right: "right 6" },{ left: "left 6", right: "right 6" }];
 floating_poems
     .data(data)
     .enter()
@@ -61,7 +83,10 @@ function moveRandomly(selection) {
         let self = this;
 
         let original_width = parseFloat(d3.select(this).style("width"));
+
         let original_height = parseFloat(d3.select(this).style("height"));
+        let original_font_size = parseFloat(d3.select(this).style("font-size"));
+
         animation();
 
         function animation() {
@@ -75,6 +100,7 @@ function moveRandomly(selection) {
                 .style('left', (Math.random() - 0.2)  * 125 + '%')
                 .style('width', (scale+0.1) * original_width + "px")
                 .style('height',(scale+0.1) * original_height + "px")
+                .style('font-size',(scale+0.1) * original_font_size + "px")
                 .tween( 'order', function() {                    
                     // create interpolator and do not show nasty floating numbers
                     var interpolator = d3.interpolateRound( 1, 10000 );
@@ -100,7 +126,8 @@ function createPoemContainer(selection) {
 
     let container = selection
         .append("div")
-        .style("width", "300px")
+        .style("width", "350px")
+        .style("font-size", "5em")
         .classed('float-container absolute', true)
         ;
     let svg = container
@@ -117,14 +144,13 @@ function createPoemContainer(selection) {
     svg.each(function(d) {
         let v = blurb();
         d3.select(this).append(v.create());
-        v.datum(d.left, '*')
-            .supplant(supplant_typewriter_replace, 3000);
+        v.datum(d.left, "*")
+            .supplant(supplant_typewriter_replace, 15000);
 
         //weird bug, where the svg is nor properly updated. So need to write "nothing" for the svg to be rendered
         d3.select(this).node().innerHTML += "";
-        v.update()();
 
-        d3.interval(() => v.update()(), 5000);
+        d3.interval(() => v.update()(), 20000);
 
     });
 
