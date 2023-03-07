@@ -186,12 +186,11 @@ function _blurb_next() {
     .join('tspan')
     .classed("animated-text-letter", true);
 
-
   return this;
 
   function splitToLetters() {
     return d => {
-      console.log(d);
+      //console.log(d);
       let d_split = d.split('');
       return d_split.slice(1).reduce((previous, current) => {
         if (/\s/.test(previous[previous.length - 1].c)) {

@@ -42,12 +42,12 @@ function supplant_typewriter(t, old, d, i, length) {
  * @returns 
  */
  function supplant_typewriter_replace(t, old, d, i, length) {
-    if (i == 0) {
+    if (i == 0 || i == length ) {
         return d.c;
     }
 
     if (t < i / length) {
-        return "";
+        return '';
     } else if ((t >= i / length) && (t < (i + 1) / length)) {
         return d.c + "|";
     } else {

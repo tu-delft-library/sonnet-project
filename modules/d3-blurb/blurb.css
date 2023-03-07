@@ -9,6 +9,8 @@ g.animated-text {
   height: 100%;
   font-size: 1em;
   dominant-baseline: hanging;
+  color: var(--inv);
+  fill: var(--inv);
 }
 
 .animated-text-sentence {
