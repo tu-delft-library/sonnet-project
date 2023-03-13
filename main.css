@@ -34,6 +34,7 @@ body {
 
 .poem-container > img {
   position: relative;
+  text-align: center;
   top: -60%;
   width: 33%;
 }
@@ -84,10 +85,6 @@ body {
 .absolute {
   position:absolute;
   padding: 20px;
-}
-
-.center {
-
 }
 
 .absolute-child.center {

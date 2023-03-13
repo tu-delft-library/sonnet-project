@@ -112,12 +112,15 @@ function moveRandomly(selection) {
                     // this returned function will be called a couple
                     // of times to animate anything you want inside
                     // of your custom tween
+
                     return function( t ) {
                       let elem = d3.select(this);
                       let currentWidth =  parseFloat(elem.style("width"));
                         elem.style('filter', "brightness(" + ((currentWidth) / (original_width*3.1)) + ")" );
                       elem.style('z-index', interpolator((currentWidth) / (original_width*3.1) ));
                     };
+
+
                 })
                 .on("end", animation)
                 ;
@@ -126,7 +129,6 @@ function moveRandomly(selection) {
 }
 
 function createPoemContainer(selection) {
-
     let container = selection
         .append("div")
         .style("width", "400px")
@@ -145,18 +147,18 @@ function createPoemContainer(selection) {
     svg.classed('animated-text-svg-container left_poem', true)
         ;
 
-    svg.each(function(d) {
-        let v = blurb();
-        d3.select(this).append(v.create());
-        v.datum(d.left, "*")
-            .supplant(supplant_typewriter_replace, 15000);
+    // svg.each(function(d) {
+    //     let v = blurb();
+    //     d3.select(this).append(v.create());
+    //     v.datum(d.left, "*")
+    //         .supplant(supplant_typewriter_replace, 15000);
 
-        //weird bug, where the svg is nor properly updated. So need to write "nothing" for the svg to be rendered
-        d3.select(this).node().innerHTML += "";
+    //     //weird bug, where the svg is not properly updated. So need to write "nothing" for the svg to be rendered
+    //     d3.select(this).node().innerHTML += "";
 
-        d3.interval(() => v.update()(), 20000);
+    //     d3.interval(() => v.update()(), 20000);
 
-    });
+    // });
 
     let svg2 = container
         .append('div')
@@ -172,5 +174,5 @@ function createPoemContainer(selection) {
 
     container
         .append('img')
-        .attr('src', 'book-covers-big-2019101610.jpg-1300.jpg');
+        .attr("src", (d,i) => "images/"  + i+1 + ".png");
 }
