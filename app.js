@@ -107,7 +107,7 @@ function moveRandomly(selection) {
                 .tween( 'order', function() {                    
                     // create interpolator and do not show nasty floating numbers
                     var interpolator = d3.interpolateRound( 1, 10000 );
-                    var interpolator = d3.interpolateRound( 1, 10000 );
+                   // var ease = d3.cubicInOut();
 
                     // this returned function will be called a couple
                     // of times to animate anything you want inside
@@ -115,7 +115,7 @@ function moveRandomly(selection) {
                     return function( t ) {
                       let elem = d3.select(this);
                       let currentWidth =  parseFloat(elem.style("width"));
-                      elem.style('opacity', (currentWidth) / (original_width*3.1*0.8) )
+                        elem.style('filter', "brightness(" + ((currentWidth) / (original_width*3.1)) + ")" );
                       elem.style('z-index', interpolator((currentWidth) / (original_width*3.1) ));
                     };
                 })
