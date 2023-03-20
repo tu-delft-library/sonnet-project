@@ -12,29 +12,18 @@ d3.text("data/quotes.txt")
     .then(function (corpus) {
         let texts = corpus.split('§');
 
-        console.log(texts[0]);
-        let b = blurb();
-        svg1.append(b.create());
-        b.datum(texts[0], '*')
-            .supplant(supplant_typewriter_replace, 40000);
-
-        //weird bug, where the svg is nor properly updated. So need to write "nothing" for the svg to be rendered
-        svg1.node().innerHTML += "";
-        b.update()();
-
-        d3.interval(() => b.update()(), 50000);
+        d3.select("#left_poem")
+            .selectAll("p")
+            .data([texts[0].split('\n')[0]])
+            .enter()
+            .append("p")
+            .classed("animated-text-sentence anim-typewriter", true)
+            .style("animation-duration", d => `${1000 * d.length}ms, 500ms`)
+            .style("animation-timing-function", d => `steps(${d.length}), steps(${d.length})`)
+            .text(d => d);
 
 
-        let v = blurb();
-        svg2.append(v.create());
-        v.datum(texts[1], '*')
-            .supplant(supplant_typewriter_replace, 40000);
-
-        //weird bug, where the svg is nor properly updated. So need to write "nothing" for the svg to be rendered
-        svg2.node().innerHTML += "";
-        v.update()();
-
-        d3.interval(() => v.update()(), 50000);
+        //d3.interval(() => v.update()(), 50000);
     }
     );
 
