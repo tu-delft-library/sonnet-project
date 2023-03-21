@@ -1,31 +1,56 @@
-import { Blurb, blurb } from "./modules/d3-blurb/blurb.js";
-import { supplant_typewriter_replace } from "./modules/d3-blurb/supplant_styles.js"
-
-
-let svg1 = d3.select("#page4 #left_poem")
+d3.select("#page4 #left_poem")
     .attr("preserveAspectRatio", "xMinYMin meet");
 
-let svg2 = d3.select("#page4 #right_poem")
+d3.select("#page4 #right_poem")
     .attr("preserveAspectRatio", "xMinYMin meet");
 
 d3.text("data/quotes.txt")
     .then(function (corpus) {
+
+        let count = 0;
         let texts = corpus.split('§');
 
         d3.select("#left_poem")
-            .selectAll("p")
-            .data([texts[0].split('\n')[0]])
-            .enter()
-            .append("p")
-            .classed("animated-text-sentence anim-typewriter", true)
-            .style("animation-duration", d => `${1000 * d.length}ms, 500ms`)
-            .style("animation-timing-function", d => `steps(${d.length}), steps(${d.length})`)
-            .text(d => d);
+            .call(add_typewriter_text, texts[(count++) % texts.length]);
+        
+        d3.interval(() =>  d3.select("#left_poem").call(add_typewriter_text, texts[(count++) % texts.length]), 10000);
 
-
-        //d3.interval(() => v.update()(), 50000);
+        d3.select("#right_poem")
+            .call(add_typewriter_text, texts[(count++) % texts.length]);
+    
+        d3.interval(() =>  d3.select("#right_poem").call(add_typewriter_text, texts[(count++) % texts.length]), 10000);
     }
     );
+
+function add_typewriter_text(selection, text){
+
+    let data = text.split('\n')
+    
+    let delays = data.reduce(
+        (partialSumArray, a) => {
+            partialSumArray.push(a.length + partialSumArray[partialSumArray.length-1]);
+            return partialSumArray} 
+        , [0]);
+
+    selection
+    .selectAll("p")
+    .data(data)
+    .enter()
+    .append("p")
+    .attr("cursor", false)
+    .transition()
+        .duration(d => d.length*100)
+        .delay((d,i) => 100*delays[i] )
+        .attr("cursor", true)
+        .textTween( function(d){
+            const i = d3.interpolateRound(0, d.length);
+            return function(t) { return d.slice(0,i(t)); };
+        })
+    .transition()
+    .delay(0)
+    .attr("cursor", false)
+    ;
+}
 
 let floating_poems = d3.select("#page1").selectAll('.float-container');
 
@@ -83,8 +108,7 @@ function moveRandomly(selection) {
             let scale = Math.random() * 3;
             let delay = Math.random()
             d3.select(self)
-                .transition()
-                .duration(19000 - 3000 * (delay))
+
                 .transition()
                 .duration(1000 + delay * 3000)
                 //.ease(d3.easeBackInOut.overshoot(1.5))
@@ -105,12 +129,14 @@ function moveRandomly(selection) {
                     return function( t ) {
                       let elem = d3.select(this);
                       let currentWidth =  parseFloat(elem.style("width"));
-                        elem.style('filter', "brightness(" + ((currentWidth) / (original_width*3.1)) + ")" );
+                      elem.style('filter', "brightness(" + (((currentWidth) -0.5) / (original_width*3.1)) + ")" );
                       elem.style('z-index', interpolator((currentWidth) / (original_width*3.1) ));
                     };
 
 
                 })
+                .transition()
+                .duration(19000 - 3000 * (delay))
                 .on("end", animation)
                 ;
         }
@@ -125,43 +151,40 @@ function createPoemContainer(selection) {
         .style("font-size", "5em")
         .classed('float-container poem-container absolute', true)
         ;
-    let svg = container
+    let div1 = container
         .append('div')
         .attr("class", "float-child")
         .append('div')
         .attr("class", "padding-5 margin-10 border-3 fill-black")
         .style('margin-right', '15%')
-        .append('svg')
+        .append('div')
         ;
-    svg.classed('animated-text-svg-container left_poem', true)
+    div1.classed('animated-text-container left_poem', true)
         ;
 
-    // svg.each(function(d) {
-    //     let v = blurb();
-    //     d3.select(this).append(v.create());
-    //     v.datum(d.left, "*")
-    //         .supplant(supplant_typewriter_replace, 15000);
+    div1
+        .call(add_typewriter_text, text);
 
-    //     //weird bug, where the svg is not properly updated. So need to write "nothing" for the svg to be rendered
-    //     d3.select(this).node().innerHTML += "";
+    d3.interval(() =>  div1.call(add_typewriter_text, text), 10000);
 
-    //     d3.interval(() => v.update()(), 20000);
-
-    // });
-
-    let svg2 = container
+    let div2 = container
         .append('div')
         .attr("class", "float-child")
         .append('div')
         .attr("class", "padding-5 margin-10 border-3 fill-black")
         .style('margin-right', '15%')
-        .append('svg')
+        .append('div')
         ;
-    svg2
-        .classed('animated-text-svg-container right_poem', true)
+    div2
+        .classed('animated-text-container right_poem', true)
         ;
+
+    div2
+        .call(add_typewriter_text,text);
+
+    d3.interval(() =>  div2.call(add_typewriter_text,text), 10000);
 
     container
         .append('img')
-        .attr("src", (d,i) => "images/"  + i+1 + ".png");
+        .attr("src", (d,i) => "images/"  + (i+1) + ".png");
 }

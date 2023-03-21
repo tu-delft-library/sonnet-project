@@ -34,9 +34,9 @@ body {
 
 .poem-container > img {
   position: relative;
-  text-align: center;
   top: -60%;
   width: 33%;
+  left:33%
 }
 
 .float-container {
