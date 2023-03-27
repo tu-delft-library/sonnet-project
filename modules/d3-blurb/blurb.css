@@ -1,31 +1,3 @@
-
-svg.animated-text-svg-container {
-  width: 100%;
-  height: 100%;
-}
-
-g.animated-text {
-  width: 100%;
-  height: 100%;
-  font-size: 1em;
-  dominant-baseline: hanging;
-  color: var(--inv);
-  fill: var(--inv);
-}
-
-/* .animated-text-sentence {
-  width: 100%;
-  height: 100%;
-  font-size: 1em;
-  dominant-baseline: hanging;
-} */
-
-
-/* div.animated-text-container {
-  / * width: 100%;
-  height: 100%;
-} */
-
 .animated-text-sentence {
   /* width: 100%; */
   margin: 0;
@@ -58,7 +30,6 @@ div.animated-text-container  p[cursor=true]::after {
   left: -0.33em;
   animation:  blinkTextCursor 1000ms infinite normal;
 }
-
 
 /*animation*/
 @keyframes blinkTextCursor{

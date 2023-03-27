@@ -88,11 +88,6 @@ floating_poems
     ;
 
 function moveRandomly(selection) {
-    // selection
-    //     .style('top', '0%')
-    //     .style('left', '0%')
-    //     ;
-
     selection.each(function animateWrap() {
         let self = this;
 
