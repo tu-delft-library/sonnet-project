@@ -15,35 +15,46 @@ d3.dsv(";", "/data/poems.csv").then((data) => {
         d.right = d.text;
     });
 
+    // Setup the welcome page
     let floating_poems = d3.select("#page1").selectAll('.float-container');
-    floating_poems
-        .call(createPoemContainers, data, 10);
+    floating_poems.call(createPoemContainers, data, 10);
 
     floating_poems = d3.select("#page1").selectAll('.float-container');
-    floating_poems
-        .call(moveRandomly);
+    floating_poems.call(moveRandomly);
 
-    var count_left = 0;
-    var count_right = 0;
-
-    var texts_left = [];
-    var texts_right = [];
-
+    //setup the interactive poem selection
+    var count = 0;
+    var texts_human = [];
+    var texts_ai = [];
 
     data.forEach((d) => {
-        texts_left.push(d.left);
-        texts_right.push(d.right);
+        texts_human.push(d.left);
+        texts_ai.push(d.right);
     });
 
     d3.select("#left_poem")
-        .call(add_typewriter_text, texts_left[(count_left++) % texts_left.length]);
-
-    d3.interval(() => d3.select("#left_poem").call(add_typewriter_text, texts_left[(count_left++) % texts_left.length]), 30000);
-
+        .call(add_typewriter_text, texts_human[(count) % texts_human.length]);
     d3.select("#right_poem")
-        .call(add_typewriter_text, texts_right[(count_right++) % texts_right.length]);
+        .call(add_typewriter_text, texts_ai[(count) % texts_ai.length]);
 
-    d3.interval(() => d3.select("#right_poem").call(add_typewriter_text, texts_right[(count_right++) % texts_right.length]), 30000);
+    d3.interval(() => {
+        let correct_is_left = Math.floor(Math.random() * 2);
+        set_correct(correct_is_left ? "left-button" : "right-button");
+
+        count++;
+
+        console.log(correct_is_left);
+
+        if (correct_is_left) {
+            d3.select("#left_poem").call(add_typewriter_text, texts_human[(count) % texts_human.length]);
+            d3.select("#right_poem").call(add_typewriter_text, texts_ai[(count) % texts_ai.length]);
+        } else {
+            d3.select("#left_poem").call(add_typewriter_text, texts_ai[(count) % texts_ai.length]);
+            d3.select("#right_poem").call(add_typewriter_text, texts_human[(count) % texts_human.length]);
+        }
+    }
+        , 30000);
+
 });
 
 /**
@@ -73,21 +84,20 @@ function add_typewriter_text(selection, text) {
         );
 
 
-
-    function typing(selection){
+    function typing(selection) {
         selection
-        .transition()
-        .duration(d => d.length * 50)
-        .delay((d, i) => 50 * delays[i])
-        .attr("cursor", true)
-        .textTween(function (d) {
-            const i = d3.interpolateRound(0, d.length);
-            return function (t) { return d.slice(0, i(t)); };
-        })
-        .transition()
-        .delay(0)
-        .attr("cursor", false)
-        ;
+            .transition()
+            .duration(d => d.length * 50)
+            .delay((d, i) => 50 * delays[i])
+            .attr("cursor", true)
+            .textTween(function (d) {
+                const i = d3.interpolateRound(0, d.length);
+                return function (t) { return d.slice(0, i(t)); };
+            })
+            .transition()
+            .delay(0)
+            .attr("cursor", false)
+            ;
     }
 }
 
@@ -166,60 +176,35 @@ function createPoemContainers(selection, text, n_containers) {
             .classed('float-container poem-container absolute', true)
         ;
 
-    let div1 = container
-        .append('div')
-        .attr("class", "float-child")
-        .append('div')
-        .attr("class", "padding-5 margin-10 border-3 fill-black")
-        .style('margin-right', '15%')
-        .append('div')
-        ;
-    div1.classed('animated-text-container left_poem', true)
-        ;
-
-    div1
-        .data(text_left)
-        .each(function (d) {
-            d3.select(this)
-                .call(add_typewriter_text, d);
-        });
-
-    d3.interval(() => {
-        div1
-            .each(function (d) {
-                d3.select(this)
-                    .call(add_typewriter_text, d);
-            });
-    }, 30000);
-
-    let div2 = container
-        .append('div')
-        .attr("class", "float-child")
-        .append('div')
-        .attr("class", "padding-5 margin-10 border-3 fill-black")
-        .style('margin-right', '15%')
-        .append('div')
-        ;
-    div2
-        .classed('animated-text-container right_poem', true)
-        ;
-
-    div2
-        .data(text_left)
-        .each(function (d) {
-            d3.select(this)
-                .call(add_typewriter_text, d);
-        });
-
-    d3.interval(() => {
-        div2
-            .each(function (d) {
-                d3.select(this)
-                    .call(add_typewriter_text, d);
-            });
-    }, 30000);
+    add_poem("left_poem", text_left);
+    add_poem("right_poem", text_right);
 
     container
         .append('img')
         .attr("src", (d, i) => "images/" + (i + 1) + ".png");
+
+    function add_poem(poem_class, text) {
+        let poem = container
+            .append('div')
+            .attr("class", "float-child")
+            .append('div')
+            .attr("class", "padding-5 margin-10 border-3 fill-black")
+            .append('div');
+        poem.classed(`animated-text-container ${poem_class}`, true);
+
+        poem
+            .data(text)
+            .each(function (d) {
+                d3.select(this)
+                    .call(add_typewriter_text, d);
+            });
+
+        d3.interval(() => {
+            poem
+                .each(function (d) {
+                    d3.select(this)
+                        .call(add_typewriter_text, d);
+                });
+        }, 30000);
+    }
 }

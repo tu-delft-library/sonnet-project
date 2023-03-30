@@ -22,7 +22,18 @@ function addClass(event) {
 }
 
 export function set_correct(value){
+    //clear previous
+    clear_rightwrong()
+
     if (value == "left-button" || value == "right-button"){
         current_right = value;
+    }
+}
+
+function clear_rightwrong(){
+    for (var i = 0; i < buttons.length; i++) {
+        buttons[i].classList.remove("wrong");
+        buttons[i].classList.remove("right");
+        buttons[i].querySelector('span').textContent = "";
     }
 }
