@@ -24,6 +24,8 @@ d3.text("data/quotes.txt")
 
 function add_typewriter_text(selection, text){
 
+    //console.log(text);
+    
     let data = text.split('\n')
     
     let delays = data.reduce(
@@ -54,38 +56,24 @@ function add_typewriter_text(selection, text){
 
 let floating_poems = d3.select("#page1").selectAll('.float-container');
 
-var text = `Oh well…
+d3.dsv(";","/data/poems.csv").then(function(data) {
 
-Drilling wells is an expensive process.
-Thus whenever we can be more clever
-we are saving money, time and effort.
-This incites economy and progress.
+    data.forEach(function(d) {
+        d.left = d.text;
+        d.right = d.text;
+    });
 
-Optimizing well trajectory
-requires input from geologists
-drill engineers and geophysicists
-their expertise and their directory.
+    //console.log(data);
 
-Determining the perfect minimum
-amount of wells computers pretty well
-can guess, as does this master student tell.
+    floating_poems
+        .call(createPoemContainers, data, 10)
+        ;
 
-But still, trajectories their optimum
-requires judgment – engineers to dwell
-an index finger in their mouth: ‘Oh well…’
-
-Bauke`
-
-var data = [{ left: text, right: text }, { left: text, right: text }, { left: text, right: text }, { left: text, right: text },{ left: "left 5", right: "right 5" },{ left: "left 6", right: "right 6" },{ left: "left 6", right: "right 6" },{ left: "left 6", right: "right 6" },{ left: "left 6", right: "right 6" },{ left: "left 6", right: "right 6" },{ left: "left 6", right: "right 6" },{ left: "left 6", right: "right 6" }];
-floating_poems
-    .data(data)
-    .enter()
-    .call(createPoemContainer)
-
-floating_poems = d3.select("#page1").selectAll('.float-container');
-floating_poems
-    .call(moveRandomly)
-    ;
+    floating_poems = d3.select("#page1").selectAll('.float-container');
+    floating_poems
+        .call(moveRandomly)
+        ;
+});
 
 function moveRandomly(selection) {
     selection.each(function animateWrap() {
@@ -138,14 +126,29 @@ function moveRandomly(selection) {
     });
 }
 
-function createPoemContainer(selection) {
-    let container = selection
+function createPoemContainers(selection, text, n_containers) {
+    let data = text.slice(0, n_containers );
+
+    let text_left = [];
+    let text_right = [];
+
+    data.forEach(function(d) {
+        text_left.push(d.left);
+        text_right.push(d.right);
+
+    })
+
+    let container = 
+        selection
+        .data(data)
+        .enter()
         .append("div")
         .style("width", "400px")
         .style("height", "250px")
         .style("font-size", "5em")
         .classed('float-container poem-container absolute', true)
         ;
+
     let div1 = container
         .append('div')
         .attr("class", "float-child")
@@ -158,9 +161,19 @@ function createPoemContainer(selection) {
         ;
 
     div1
-        .call(add_typewriter_text, text);
+    .data(text_left)
+    .each(function(d) {
+        d3.select(this)
+            .call(add_typewriter_text, d);
+    });
 
-    d3.interval(() =>  div1.call(add_typewriter_text, text), 10000);
+    d3.interval(() =>  {
+        div1
+        .each(function(d) {
+            d3.select(this)
+                .call(add_typewriter_text, d);
+        });
+    }, 10000);
 
     let div2 = container
         .append('div')
@@ -175,9 +188,19 @@ function createPoemContainer(selection) {
         ;
 
     div2
-        .call(add_typewriter_text,text);
+    .data(text_left)
+    .each(function(d) {
+        d3.select(this)
+            .call(add_typewriter_text, d);
+    });
 
-    d3.interval(() =>  div2.call(add_typewriter_text,text), 10000);
+    d3.interval(() =>  {
+        div2
+        .each(function(d) {
+            d3.select(this)
+                .call(add_typewriter_text, d);
+        });
+    }, 10000);
 
     container
         .append('img')
