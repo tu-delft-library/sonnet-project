@@ -21,7 +21,7 @@ div.animated-text-container p {
   padding-left: 1.5em;
   text-indent:-1.5em;
   margin: 0.2em;
-  white-space: pre-wrap
+  white-space: pre-wrap;
 }
 
 div.animated-text-container  p[cursor=true]::after {

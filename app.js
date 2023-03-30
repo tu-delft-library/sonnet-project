@@ -11,8 +11,8 @@ d3.select("#page4 #right_poem")
  */
 d3.dsv(";", "/data/poems.csv").then((data) => {
     data.forEach((d) => {
-        d.left = d.text;
-        d.right = d.text;
+        d.left = d.title + "\n\n" + d.text;
+        d.right = "AI";
     });
 
     // Setup the welcome page
@@ -54,7 +54,6 @@ d3.dsv(";", "/data/poems.csv").then((data) => {
         }
     }
         , 30000);
-
 });
 
 /**
@@ -67,6 +66,7 @@ function add_typewriter_text(selection, text) {
     console.log("called");
 
     let data = text.split('\n')
+    data = data.map(elem => elem == "" ? "\n" : elem);
 
     let delays = data.reduce(
         (partialSumArray, a) => {
