@@ -106,3 +106,7 @@ body {
   margin-left: 10%;
   margin-top: 2em;
 }
+
+h1 {
+  text-align: left;
+}

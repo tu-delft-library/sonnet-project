@@ -81,11 +81,16 @@ body {
 
 .btn span{
     transition: none;
+    color: var(--inv);
     position: absolute;
-    top: -2%;
-    left: 85%;
+    top: 100%;
+    left: 0%;
     font-size: 3em;
+    /* letter-spacing: -0.3em; */
     text-align: center;
+    /* writing-mode: vertical-lr; */
+    /* text-orientation: upright; */
     transform-origin: center;
-    transform: rotate(35deg);
+    /* background-color: black; */
+    /* transform: rotate(35deg); */
 }
