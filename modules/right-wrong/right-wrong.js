@@ -21,3 +21,8 @@ function addClass(event) {
     }
 }
 
+export function set_correct(value){
+    if (value == "left-button" || value == "right-button"){
+        current_right = value;
+    }
+}
