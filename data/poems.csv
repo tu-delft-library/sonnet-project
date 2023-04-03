@@ -1,4 +1,4 @@
-﻿title;text;Researchtitle;url;Language
+﻿title;text;Researchtitle;AIPoem;url;Language
 Oh well…;"Drilling wells is an expensive process.
 Thus whenever we can be more clever
 we are saving money, time and effort.
@@ -15,7 +15,23 @@ can guess, as does this master student tell.
 
 But still, trajectories their optimum
 requires judgment – engineers to dwell
-an index finger in their mouth: ‘Oh well…’";Well trajectory optimization;https://repository.tudelft.nl/islandora/object/uuid%3A897b5abe-0713-4c4a-ad5d-6c76d33c8bd2;EN
+an index finger in their mouth: ‘Oh well…’";Well trajectory optimization;"In fields of oil and gas, a well's path
+Must be precise, or all the drilling's for naught.
+A costly process, much time and effort spent,
+Each well must be studied before it's brought
+
+To life with drills and pumps and other gear.
+A new approach is needed, one that's smart,
+A computer program that can optimize
+The well's trajectory, and do it right.
+
+It uses dummy wells to test the route,
+Repeating the process 'til the best is found.
+The curvature is kept within bounds
+
+To make the path both optimal and sound.
+A great improvement in net present value
+This method brings, though sometimes it may stall.";https://repository.tudelft.nl/islandora/object/uuid%3A897b5abe-0713-4c4a-ad5d-6c76d33c8bd2;EN
 Polyphenol;"More folks, more food. More food, more waste. But not
 just more, the waste gets more nutritious too.
 Reprocessing some new delicious brew
@@ -32,7 +48,23 @@ Thanks to a coefficient called ‘LogD’
 
 and grouping tools to model chemistry
 we now have managed to steep tea from pee.
-What a splendid new technology!";On the prediction of polyphenol properties;https://repository.tudelft.nl/islandora/object/uuid%3Aee3c2dc9-fc2f-46fd-818e-a17e61c97cf0;EN
+What a splendid new technology!";On the prediction of polyphenol properties;"The increasing population's need for food,
+With quality and quantity both increased,
+Poses a challenge to the industry of food:
+To revalue waste, its nutraceuticals released.
+
+For streams complex in chemical and physical traits,
+Ionic and hydrophobic interactions too,
+Concentrations low make regular processes moot;
+Models must be used to predict what ensues.
+
+Green tea catechins and soy isoflavones 
+Were studied with Group Contribution models found; 
+Solubility was tested, parameters were bound; 
+
+Resins chosen to separate them from caffeine's tones. 
+Adsorption isotherms measured gave insight 
+Into activity coefficients of the light.";https://repository.tudelft.nl/islandora/object/uuid%3Aee3c2dc9-fc2f-46fd-818e-a17e61c97cf0;EN
 Error;"Planetaria obey the way
 that clockworks work. Amusingly however
 clock time is quite relative. Whenever
@@ -49,7 +81,20 @@ of over two, three hundred billion metres
 
 but the good news is, it may sound strange
 that as we try to learn more of our ether
-errors oftentimes inspire change.";Interplanetary laser ranging: analysis for implementation in planetary science missions;https://repository.tudelft.nl/islandora/object/uuid%3Abd728e02-f403-4cea-9e2b-65b04b47b3f7;EN
+errors oftentimes inspire change.";Interplanetary laser ranging: analysis for implementation in planetary science missions;"A task so grand, of motion to command,
+The structure and properties of solar land;
+Accurate measurements made with care,
+Radiometric tracking systems there.
+Laser ranging for Earth-orbiting satellites,
+Sub-centimeter accuracy, it dictates.
+For interplanetary laser ranging too,
+An active space segment must ensue.
+The science return from such a mission, 
+Would be great advances in planetary geodesy's vision. 
+Though laser data should be accompanied by more, 
+To maximize the system's science store. 
+Radio systems remain preferred choice for many orbiters still, 
+And much more accurate clocks are needed to fulfill.";https://repository.tudelft.nl/islandora/object/uuid%3Abd728e02-f403-4cea-9e2b-65b04b47b3f7;EN
 Cancer profiles;"Innovations at the time of their
 inception tend to blind us with desire
 drawn to all the things we can acquire
@@ -66,7 +111,23 @@ in measuring – how hypocritical.
 
 Our data shined in small varieties.
 We tried to make them look statistical
-but cancer profiling remains Chinese.";A critical perspective on microarray breast cancer gene expression profiling;https://repository.tudelft.nl/islandora/object/uuid%3Aca47f2e0-e6af-4fc7-b4ba-36fb93182b3a;EN
+but cancer profiling remains Chinese.";A critical perspective on microarray breast cancer gene expression profiling;"At first, microarrays were seen as a new dawn,
+A tool to unlock the secrets of breast cancer.
+It was thought that soon its mysteries would be gone,
+And with it hope for those in need of an answer.
+
+But as the technique became more popularly used,
+Its complexity and challenges became clear.
+The data proved hard to analyze and peruse,
+And stability issues made results unclear.
+
+This dissertation provides protocols to evaluate 
+The influence of sources of variation and noise. 
+It shows that subtyping schemes can be quite stable, 
+But understanding them is still far from joys. 
+
+Though microarrays offer much potential power, 
+We must refine our knowledge hour by hour.";https://repository.tudelft.nl/islandora/object/uuid%3Aca47f2e0-e6af-4fc7-b4ba-36fb93182b3a;EN
 Self-healing;"Self-healing power is a trick that you’ll
 connect to Spiderman and Wolverine
 or quinoa or some New Age kind of scene.
@@ -83,7 +144,23 @@ of globally per annum eighteen zeroes
 
 maybe… What a super-duper foil
 this hybrid tetra-sulfide polymer-based
-anti-aging cream for rusty heroes.";Self-Healing Corrosion Protective Sol-Gel Coatings;https://repository.tudelft.nl/islandora/object/uuid%3Af5b66298-ed00-4abd-b47c-055c22ae488b;EN
+anti-aging cream for rusty heroes.";Self-Healing Corrosion Protective Sol-Gel Coatings;"This thesis so grand, of self-healing coatings,
+Advances in the field a wondrous sight;
+It speaks of tetrasulfide groups and more,
+To extend the life of substrate with its might.
+
+The hybrid organic-inorganic coating so wise,
+Able to heal itself with great surprise;
+Incorporating corrosion inhibitors too,
+For metal surface protection is no lie.
+
+This thesis so inspired by art and science, 
+Will lead to commercial systems that advance; 
+It's healing kinetics and mechanism known, 
+Will help protect from corrosion all at once. 
+
+The damage closure sealed tight with this thought, 
+Will bring us closer to what we sought.";https://repository.tudelft.nl/islandora/object/uuid%3Af5b66298-ed00-4abd-b47c-055c22ae488b;EN
 Spray;"Sun and wind alone won't keep us warm.
 In wintry nights we will turn to combustion
 of the fossils, up to their exhaustion.
@@ -100,7 +177,23 @@ more random is the turbulence of spray!
 
 Comparing models brings a winning one.
 This outcome doesn’t save the planet though
-let’s hope and say: for now it saves the day.";Computational modeling of turbulent spray combustion;https://repository.tudelft.nl/islandora/object/uuid%3Ac1c27066-a205-45f4-a7b4-e36016bc313a;EN
+let’s hope and say: for now it saves the day.";Computational modeling of turbulent spray combustion;"In hot-diluted environments, flames are quelled
+By liquid fuel combustion, known as spray
+To study its behavior, we've compiled
+A database of flames that flow this way
+
+We've used CFD, with turbulence and heat
+To model flamelet, steady and LES
+And found that SFM does not compete
+With TCI, for predicting lift-off feats
+
+We've advanced with TPDF and FGM too
+To simulate dilute spray with good success
+And found that adiabatic tables skew
+The temperature in droplet evaporation's stress
+
+So now we've developed non-adiabatic FGM
+To model evaporation and combustion with aplomb";https://repository.tudelft.nl/islandora/object/uuid%3Ac1c27066-a205-45f4-a7b4-e36016bc313a;EN
 Glycolysis;"Don’t underestimate the might of yeast
 with its fermenting glycolytic genes
 producing families of proteins
@@ -117,7 +210,20 @@ on what might be the secret of its flux.
 
 Despite the brains it took to disconnect
 some double genes – this should have hit the crux
-we thought! – surprise: we measured no effect…";Reducing the genetic complexity of glycolysis in Saccharomyces cerevisiae;https://repository.tudelft.nl/islandora/object/uuid%3A321bb86e-0704-436e-b095-a0f5a20c057e;EN
+we thought! – surprise: we measured no effect…";Reducing the genetic complexity of glycolysis in Saccharomyces cerevisiae;"The sweet aroma of sugar on the tongue,
+A taste that lingers and brings us delight.
+In yeast, the source of fermentation's might,
+To break down glucose and yield the night's
+Sweet drink. But more than just a simple brew,
+Glycolysis holds the key to life's power,
+A pathway that yields energy in a shower,
+And building blocks for growth in every hour.
+In Saccharomyces cerevisiae,
+This pathway is of utmost importance,
+For ethanol production, without delay,
+And other valuable compounds on the way.
+Though its mechanisms still elude our grasp,
+Glycolysis plays a crucial role at last.";https://repository.tudelft.nl/islandora/object/uuid%3A321bb86e-0704-436e-b095-a0f5a20c057e;EN
 DIY quantum physics;"Electrons can be fixed by anarchy
 in nanowire as thermometer
 for an astronomer to monitor 
@@ -134,7 +240,20 @@ modelling some α element
 
 to find the right phase fluctuation
 in a zero K environment.
-Coming soon as homemade application…";Electrodynamics of strongly disordered superconductors;https://repository.tudelft.nl/islandora/object/uuid%3Aad01901d-511f-4496-ae66-301d0db92caa;EN
+Coming soon as homemade application…";Electrodynamics of strongly disordered superconductors;"Though knowledge of the superconducting state
+Is growing, with its secrets yet to be revealed,
+We study thin films of materials that rate
+High resistance in the normal state, and yield
+A spatially inhomogeneous state due to strong disorder.
+To probe this response we use microwave resonators,
+And find a gradual evolution with disorder,
+Deviating from the Mattis-Bardeen equations.
+Our heuristic model contains an effective pair breaking parameter 
+That modifies the density of states; and when we compare 
+The assumed DoS to local tunnel spectra, we find 
+Affirmative results for the lowest disordered film. 
+But for the most disordered film there's a strong discrepancy; 
+It signals a breakdown of models based on average properties.";https://repository.tudelft.nl/islandora/object/uuid%3Aad01901d-511f-4496-ae66-301d0db92caa;EN
 Welding torch;"The modern need to weld is paramount.
 To weld or not to… not to fall apart
 or to be sort of screwed up part by part.
@@ -151,7 +270,20 @@ jumps in between two terminals – we forged
 
 a plasma flux with double power, hence,
 enabled with a T-shaped welding torch.
-Yes, like the T of TU Delft by chance.";Increased power density plasma arc welding:  the effect of an added radial gas flow around the arc root;https://repository.tudelft.nl/islandora/object/uuid%3A2fbe9916-ef82-4c4d-958c-c6102c3eb9c6;EN
+Yes, like the T of TU Delft by chance.";Increased power density plasma arc welding:  the effect of an added radial gas flow around the arc root;"My soul is stirred by welding's art,
+That promises a new way to start,
+To constrict the arc and raise the power,
+And hope that it will not cower.
+A survey of the literature found,
+Will help us build a torch profound.
+Experiments with an anode non-melting,
+Will show us if our hopes are fleeting. 
+The trials of keyhole welding then began,
+To test if our efforts were grand. 
+Additional constriction of the arc was proven true, 
+The power density increased twofold too. 
+Weld narrowing was also observed in this case, 
+Our hopes for success have been embraced!";https://repository.tudelft.nl/islandora/object/uuid%3A2fbe9916-ef82-4c4d-958c-c6102c3eb9c6;EN
 Solar radiation budget;"We know our climate changes, as we know
 the radiation of the Sun descending
 minus heat rays from the Earth ascending
@@ -168,7 +300,20 @@ it needs some calculus to rectify
 
 for clouds, terrain and angles big and small
 before a high-tech app can notify
-us when to up or down our parasol.";Observing at-surface irradiance and albedo from space: the Tibet-experiment;https://repository.tudelft.nl/islandora/object/uuid%3Ad1076d5a-ad53-4bbc-ab1e-04f55b9d2368;EN
+us when to up or down our parasol.";Observing at-surface irradiance and albedo from space: the Tibet-experiment;"O'er the Tibetan Plateau, clouds and terrain
+Do daily shape the solar radiation budget.
+To study land surface processes is then
+A prerequisite, but satellite data can't get
+It right: one square kilometer resolution's best.
+Thus, this thesis aims to solve this problem's debt.
+A case study of clouds and topography 
+Shows that cloud distribution must be considered;
+The sub-pixel topographic correction too, 
+Will help improve albedo and irradiance. 
+Geostationary satellites provide more frequency, 
+And thus a usable dataset will emerge eventually. 
+This method accounts for sub-pixel heterogeneity; 
+It's part of a major scientific initiative.";https://repository.tudelft.nl/islandora/object/uuid%3Ad1076d5a-ad53-4bbc-ab1e-04f55b9d2368;EN
 Cybersecurity;"Internet security is quite
 a nut to crack. Both technologically
 it is complex and sociologically
@@ -185,7 +330,23 @@ but balances the costs and gains at play.
 
 Walls of fire, wire and concrete
 won’t make us better off. Let’s hope and say
-that nudging makes the brutal obsolete.";Cybersecurity via Intermediaries: Analyzing Security Measurements to Understand Intermediary Incentives and Inform Public Policy;https://repository.tudelft.nl/islandora/object/uuid%3A3694edf5-d6e0-4484-b847-750da2b9d1b9;EN
+that nudging makes the brutal obsolete.";Cybersecurity via Intermediaries: Analyzing Security Measurements to Understand Intermediary Incentives and Inform Public Policy;"Oh cybersecurity, a realm so fraught
+With danger, where attackers and defenders clash,
+Where intermediaries play a vital part,
+Their incentives shaping the outcomes of this battle vast.
+
+Research in this field has shed light on how
+Incentives shape the actions of both sides,
+And intermediaries, those firms that now
+Provide the internet's infrastructure, act as guides.
+
+This dissertation examines their role in depth,
+Through incident data and network logs analyzed,
+Four studies on ISPs, botnets, and the rest,
+A literature review, two chapters summarized.
+
+Thus, we come to understand these intermediaries' sway,
+And how their actions impact cyber policy today.";https://repository.tudelft.nl/islandora/object/uuid%3A3694edf5-d6e0-4484-b847-750da2b9d1b9;EN
 Infrastructuren;"Prijs de gasverdeelstations, de kades
 trafohuizen, alles wat verzonken
 ligt te roesten in de grond. Laudatus
@@ -202,7 +363,7 @@ Zeven dagen, vierentwintig uren
 
 balanceren ze als octopussen
 vraag en aanbod, zonder haast te sturen
-en dat terwijl u doorronkt op uw kussen.";Competing public values: coping strategies in heavily regulated utility industries;https://repository.tudelft.nl/islandora/object/uuid%3A3257cd11-13ad-4636-8074-32b2dd5276e2;NL
+en dat terwijl u doorronkt op uw kussen.";Competing public values: coping strategies in heavily regulated utility industries;;https://repository.tudelft.nl/islandora/object/uuid%3A3257cd11-13ad-4636-8074-32b2dd5276e2;NL
 Draagbaar ondersteunen;"Stel. Je hebt de ziekte van Duchenne
 en iedere beweging van je armen
 produceert een toenemend erbarmen
@@ -219,7 +380,20 @@ kom je makkelijker de dagen door.
 
 Hebben we voor jou voldoende kennis?
 Nader onderzoek is nog gewenst voor
-polsstokhoogspringen en tafeltennis.";Slender spring systems: for a close-to-body arm support for people with Duchenne muscular dystrophy;https://repository.tudelft.nl/islandora/object/uuid%3A50404d39-d6aa-4fd4-bb20-04794ec01b7b;NL
+polsstokhoogspringen en tafeltennis.";Slender spring systems: for a close-to-body arm support for people with Duchenne muscular dystrophy;"Ondersteuning voor armen met dystrofie
+Is het doel van deze studie vastgelegd
+Een wearable, passieve, dynamische steun
+Die dagelijkse taken kan verhelpen
+Inconspicuïteit is een vereiste
+Zodat gebruikers zonder angst mee kunnen doen
+Ideaal gezien past het onder kleding
+Eerste stap: review van huidige technologie
+Van de 23, waren er slechts 4 wearable
+Veel gebruikten een parallellogramstructuur
+Die beweging beperkt en groot van volume
+Geen enkel apparaat paste onder kleding
+Daarom is een serieel verbindingssysteem nodig
+Met dezelfde bewegingsvrijheid als een arm";https://repository.tudelft.nl/islandora/object/uuid%3A50404d39-d6aa-4fd4-bb20-04794ec01b7b;NL
 Life cycle clothing;"Fashion and sustainability
 are worlds apart. With pride we wear a suit
 close to our heart, but know it did pollute
@@ -236,7 +410,23 @@ Well then this news will catch you unawares.
 
 Life cycle studies (LCA) have showed
 to knit or weave is more than splitting hairs
-to weave has twinty times a higher load!";Making fashion sustainable: the role of designers;https://repository.tudelft.nl/islandora/object/uuid%3A8c66ca0a-605e-4f22-a4f1-f59b7e9ac874;EN
+to weave has twinty times a higher load!";Making fashion sustainable: the role of designers;"The fashion industry is fraught with wrongs, 
+From toxic emissions to social exploitation. 
+Natascha's research seeks to make it strong, 
+By empowering designers in transformation. 
+
+Life cycle thinking and assessment can show 
+Where hotspots lie across the product's life. 
+Designers must take responsibility, though, 
+To create Life Cycle Clothing with ecodesign. 
+
+This self-empowerment process is a must, 
+For successful transition of fashion trust. 
+Analytical methods and ecodesign approaches, too, 
+Are necessary conditions for what we do.  
+
+Natascha's dissertation shows us the way; 
+Designers can be at the forefront today!";https://repository.tudelft.nl/islandora/object/uuid%3A8c66ca0a-605e-4f22-a4f1-f59b7e9ac874;EN
 Asset Management;"Once upon a time, not long ago
 a power market was utopia.
 Perhaps we suffered from myopia
@@ -253,7 +443,20 @@ saves a bill of two times ten percent
 
 an end result that calls for admiration.
 Although it may not rock the fundament
-of science – who cares? – it brings optimization.";Processing Risk In Asset Management: Exploring The Boundaries Of Risk Based Optimization Under Uncertainty For An Energy Infrastructure Asset Manager;https://repository.tudelft.nl/islandora/object/uuid%3Ae7fcf310-749f-4e4e-bbab-78eef99d0342;EN
+of science – who cares? – it brings optimization.";Processing Risk In Asset Management: Exploring The Boundaries Of Risk Based Optimization Under Uncertainty For An Energy Infrastructure Asset Manager;"Though DNOs face the regulator's cuts,
+They can still reduce their costs and risks;
+Asset management is the common response,
+Applying CBA to network's risks.
+RBO is used for upgrades and replacements,
+But whether it works on higher levels unclear;
+The subjectivity of risk decision making,
+Might threaten acceptance of outcomes seen.
+This research reveals that no barriers exist,
+To use RBO for whole system optimization;
+Accepting uncertainty and subjectivity, 
+Allows simple tools with less precision. 
+For this to work a sociotechnical process must be designed, 
+And RBO applied on all levels will lead to savings of twenty percent combined.";https://repository.tudelft.nl/islandora/object/uuid%3Ae7fcf310-749f-4e4e-bbab-78eef99d0342;EN
 Keep calm and study on;"How to study how an infrastructure
 scrambles to its feet again when it
 goes wrong, out of control, when it’s been hit
@@ -270,7 +473,7 @@ to binge-watch, yawning, labelling and counting
 
 all behaviours and their circumstance,
 until – luctor et emergo – ‘bouncing
-back’ exposes its intelligence.";Multidisciplinary emergency management: A comparative study of coordination and performance of on-scene command teams in virtual reality exercises;https://repository.tudelft.nl/islandora/object/uuid%3A72dbceb5-4617-4f52-b5e6-24ab78e53c40;EN
+back’ exposes its intelligence.";Multidisciplinary emergency management: A comparative study of coordination and performance of on-scene command teams in virtual reality exercises;;https://repository.tudelft.nl/islandora/object/uuid%3A72dbceb5-4617-4f52-b5e6-24ab78e53c40;EN
 Dancing in the dark ;"The slowest dance on Earth takes place in Earth. 
 The North Pole and the South Pole tend to sway 
 in pirouettes, plissé, a true ballet. 
@@ -287,7 +490,7 @@ with some quasi-fluid estimation
 
 you’ll see Mars steps fast and Venus slow. 
 Although there hardly is approximation 
-perhaps the twain shall meet once toe to toe.";Rotational dynamics of viscoelastic planetary bodies;https://repository.tudelft.nl/islandora/object/uuid%3A5c137348-aedb-44d3-a545-406313472a20;EN
+perhaps the twain shall meet once toe to toe.";Rotational dynamics of viscoelastic planetary bodies;;https://repository.tudelft.nl/islandora/object/uuid%3A5c137348-aedb-44d3-a545-406313472a20;EN
 Connectivity along the way ;"As the sun sets on the road ahead 
 and windy dust of ages finds no rest 
 endless roads connecting East and West 
@@ -304,7 +507,23 @@ Their growing pains demand facilitation.
 
 By design, the forces grow aligned. 
 Diversity will beat colonisation 
-with a symbiotic state of mind.";The New Silk Road: Facilitating interaction between global and local within the Belt and Road Initiative;https://repository.tudelft.nl/islandora/object/uuid%3A16152a04-581c-4f8d-9fa3-3629a1d52506;EN
+with a symbiotic state of mind.";The New Silk Road: Facilitating interaction between global and local within the Belt and Road Initiative;"The world is in a state of unrest, and China's plan
+To bring peace and prosperity through the BRI
+Can fail or succeed, depending on how it's done
+And how it interacts with its local context. 
+
+A case study at Khorgos Gateway shows how 
+Global changes can affect the local space. 
+The aim is to create a symbiosis between them, 
+Five goals set for ICBC to facilitate this dream. 
+
+An international network of ICBCs will then form, 
+Where cultures meet and knowledge is shared and reborn. 
+An evaluation framework is presented as well, 
+To help transfer the concept to other sites as well. 
+
+This work sparks interest and further research too, 
+Exploring socio-spatial frames of reference anew.";https://repository.tudelft.nl/islandora/object/uuid%3A16152a04-581c-4f8d-9fa3-3629a1d52506;EN
 Alive! ;"Studying a model in the wild 
 takes a very special set of glasses 
 to see what isn’t taught in masterclasses 
@@ -321,7 +540,20 @@ longing for variability?
 
 Why are we revolving round the sun? 
 Don’t ask Einstein, Darwin, Aristotle 
-but a random Monte Carlo run!";Uncertainty Analysis on Multi-model Ecologies: A Study on Methods to Analyse the Impact of Uncertainties in Multi-model Ecologies and their Application to the Windmaster Model;https://repository.tudelft.nl/islandora/object/uuid%3Adebfcd39-38fc-493d-8948-012bb8e02f6b;EN
+but a random Monte Carlo run!";Uncertainty Analysis on Multi-model Ecologies: A Study on Methods to Analyse the Impact of Uncertainties in Multi-model Ecologies and their Application to the Windmaster Model;"Our modern world is a complex system of systems,
+Where technical and social parts interact and blend;
+Multi-models are the tools to help us understand
+The many uncertainties that these systems portend.
+The locations of uncertainty are five in all:
+Conceptual model, computer model, input data,
+Technical implementation, output data's call;
+Plus one more for multi-models - the interface.
+Epistemic opacity and computational cost 
+Are properties that limit our knowledge of the whole; 
+Sensitivity analysis and calibration most 
+Are methods to identify and analyse this toll. 
+We've used a case study to prove our point: 
+That uncertainty analysis can be applied anoint.";https://repository.tudelft.nl/islandora/object/uuid%3Adebfcd39-38fc-493d-8948-012bb8e02f6b;EN
 Missing the buzz… ;"The thing with public transport is, performance 
 rises from a crowd of interacting 
 agents buzzing, networking, connecting 
@@ -338,7 +570,20 @@ eternally? It turns out that you matter!
 
 It’s called ‘dynamic interaction’… Thus, 
 go write and send yourself a thank-you-letter. 
-Without that buzz, we all would miss the bus.";En Route to Better Performance: Tackling the Complexities of Public Transport Governance;https://repository.tudelft.nl/islandora/object/uuid%3A431ffda5-275c-4670-bf32-43d863261ec2;EN
+Without that buzz, we all would miss the bus.";En Route to Better Performance: Tackling the Complexities of Public Transport Governance;"O\u2019er cities worldwide a pressing issue lies,
+For travelling is time-consuming, unsafe.
+The traffic congestion limits our lives,
+And threatens freedom of movement we crave.
+The emissions from vehicles in turn
+Are causing climate change to worsen fast.
+It\u2019s clear that we must find a way to learn 
+To make collective transport the new norm at last. 
+We must explore how governance can help us out, 
+Innovations such as mobility as a service. 
+This research will show what it\u2019s all about; 
+How performance and goals can be made to converge. 
+The future of our cities hangs in the balance; 
+Our task is to make sustainable travel happen!";https://repository.tudelft.nl/islandora/object/uuid%3A431ffda5-275c-4670-bf32-43d863261ec2;EN
 Hesje;"De vraag is hoe je nuttig toezicht houdt.
 Het antwoord… is iets minder relevant.
 Een antwoord heeft zelfs iets gevaarlijks, want
@@ -355,7 +600,23 @@ en op een simpel vraagje door te gaan.
  
 Het juiste antwoord is een open deur
 waardoor je heensnelt met een hesje aan
-in het kielzog van een inspecteur.";Inzicht in de praktijk van het toezicht: Een empirisch onderzoek naar het verloop van operationele inspectieprocessen in de luchtvaart en zeevaart;https://repository.tudelft.nl/islandora/object/uuid%3A62e7441c-72c7-4445-bf72-fb8ef047308e;NL
+in het kielzog van een inspecteur.";Inzicht in de praktijk van het toezicht: Een empirisch onderzoek naar het verloop van operationele inspectieprocessen in de luchtvaart en zeevaart;"Onder druk en toezicht staat het toezicht,
+Zijn operationeel niveau onder vuur,
+Inspecteurs en inspecties in nauwe band,
+Interacties onder de loep, in het licht.
+
+In luchtvaart en zeevaart is inspectie kern,
+Om te begrijpen hoe toezicht werkt van binnen,
+De \""black box\"" opent observaties leren,
+Een rijk beeld te schetsen van de interacties, een grote win.
+
+Inspecteurs wegen vele overwegingen,
+Als ze hun plicht uitvoeren, inspecties, audits ook,
+Hun observaties bieden waardevolle inzichten, vergiffenis
+Voor beleidsmakers en toezichthouders, om te gaan voort.
+
+Een schat aan observaties, toezicht's werking
+Een rijk en levendig beeld, een inzichtvolle wedstrijd.";https://repository.tudelft.nl/islandora/object/uuid%3A62e7441c-72c7-4445-bf72-fb8ef047308e;NL
 Nunchaku;"Two sticks connected by a rope or chain
 ‘danger-sticks’ they are or Nunchaku
 When sportsmen fight with them the way they do
@@ -372,7 +633,23 @@ so he can tell the truth without a crease
 
 A real Smart-Nunchaku is the device
 it should eliminate the slightest frown
-and easily settle every fight in peace.";Improving Score Arbitration in the Combat Sport Nunchaku-do ;https://repository.tudelft.nl/islandora/object/uuid%3A7447d9e5-64a9-445a-91d4-408ab799757a;EN
+and easily settle every fight in peace.";Improving Score Arbitration in the Combat Sport Nunchaku-do ;"The art of nunchucks, a weapon wielded with grace
+By Bruce Lee and others in exotic martial arts
+Is marred by referees' difficulties to keep pace
+In giving sports justice, as they lack sufficient parts
+
+To judge who struck first in matches played at great speed
+Thus, smart materials and sensors may be the key
+To bridge this gap and provide some needed relief
+And help referees make calls that they can see
+
+A pressure sensor matrix, embedded in the sticks
+May turn them into smart nunchucks, capable of telling
+The referee the strikes, grips, and blocks that mix
+And even estimate the force behind the dwelling
+
+Smart nunchaku technology
+Can help referees give fair calls with reliability.";https://repository.tudelft.nl/islandora/object/uuid%3A7447d9e5-64a9-445a-91d4-408ab799757a;EN
 Beefschild;"Heel diep onder Grunnse klei en zand
 daar haalden we wel zóveel gas vandaan
 dat aarde er van beven is gegaan
@@ -389,7 +666,23 @@ een taaie extra laag èn koolstof strips.
 
 ""Quake Shield"" is de naam om te onthouen,
 want als men toch de boel moet gaan verbouwen
-dan wil een mens natuurlijk wel iets hips.";Combining existing independent seismic reinforcing methods for clay brick masonry: Knowledge development of the behaviour of reinforced masonry by using Finite Element Modelling ;https://repository.tudelft.nl/islandora/object/uuid%3Aec1fecb6-8e3f-4207-aea8-b9f4318d0330;NL
+dan wil een mens natuurlijk wel iets hips.";Combining existing independent seismic reinforcing methods for clay brick masonry: Knowledge development of the behaviour of reinforced masonry by using Finite Element Modelling ;"De grond van Groningen beweegt,
+Een gevolg van menselijk hebzucht,
+Huizen gebouwd voor rust en vreugd,
+Nu in gevaar voor instorting, inderdaad.
+
+Oosterhof Holman en SealteQ,
+Hebben een oplossing gecreëerd,
+Quake-Shield is hun verwezenlijking, zo zie je,
+Een manier om huizen te redden van zekerheid.
+
+NSM FRP strips en EB FRP ook,
+Samengevoegd om de metselwerk te versterken,
+Stijfheid, sterkte en buigzaamheid verhogen,
+Zodat het gebouw lang stand kan houden.
+
+Een FEM model laat zien wat te doen,
+Quake-Shield beschermt tegen bewegende grond.";https://repository.tudelft.nl/islandora/object/uuid%3Aec1fecb6-8e3f-4207-aea8-b9f4318d0330;NL
 Stoeprand;"Zo willen wij dat in de lage landen:
 de zaken in de juiste banen leiden.
 Dus voetgangers en fietsers moet je scheiden
@@ -406,7 +699,23 @@ Die strenge hardheid kan dus best wat minder.
 
 Of, zoals het heet in vakjargon:
 Zo'n fietspad kan best ""vergevingsgezinder"".
-Meer zachtheid dus in baksteen en beton!";Traffic Safety of Kerbs;https://repository.tudelft.nl/islandora/object/uuid%3Aa5c5059c-21e0-47eb-87cc-47ee31852e6a;NL
+Meer zachtheid dus in baksteen en beton!";Traffic Safety of Kerbs;"Om te houden voetgangers en fietsers veilig,
+De nuttigheid van trottoirranden wordt bevraagd,
+Rechte hoeken scheiden wel,
+Maar zijn niet zo toegevend.
+
+Gestroomlijnde en geëffende randen zijn vriendelijk,
+Maar hun scheidingsvermogen is onduidelijk,
+Daarom werd een videoanalyse toegewezen,
+Om te zien of ze wat blijdschap konden brengen.
+
+Bijna 15.000 fietsers werden bekeken,
+Op 12 verschillende locaties, dat is waar,
+Het resultaat was een goed behouden type rand,
+Wat betreft het scheiden van fietsers van diegenen die lopen, ook.
+
+Gestroomlijnde en geëffende randen, aanbevolen,
+Om iedereen veilig te houden.";https://repository.tudelft.nl/islandora/object/uuid%3Aa5c5059c-21e0-47eb-87cc-47ee31852e6a;NL
 Eenoog;"Met twee ogen kun je diepte zien
 en met twee camera's gaat dat ook best
 maar nu heeft iemand hier in Delft getest,
@@ -423,7 +732,20 @@ Zo‘n tweede 'oogje’ is dus geen gemis
 
 zolang hij dan maar foutloos navigeert,
 die piepkleine cyclopenvlieg, die dan
-niet enkel maar het blindenland regeert.";Self-Supervised Monocular Distance Learning on a Lightweight Micro Air Vehicle;https://repository.tudelft.nl/islandora/object/uuid%3A55f9ab7a-2651-4a90-93a0-a8c9ddc7c6a9;NL
+niet enkel maar het blindenland regeert.";Self-Supervised Monocular Distance Learning on a Lightweight Micro Air Vehicle;"Een nieuwe manier om afstand te schatten,
+Op een fladderende vleugel micro luchtvaartuig,
+Met behulp van een enkele camera,
+Wordt in deze thesis voorgesteld.
+Dit systeem is gebaseerd op een algoritme,
+Dat zichzelf leidt en een detector gebruikt op korte afstand,
+Om afstanden op langere termijn te leren.
+Het is nuttig om te weten,
+Hoe ver obstakels zijn tijdens het vliegen,
+Om ongelukken te voorkomen en vliegongelukken te verminderen.
+Binnen vliegen kan gevaarlijk zijn,
+Zonder goede manier om afstand te bepalen,
+Maar deze nieuwe methode kan helpen,
+Om te navigeren en ongelukken te vermijden.";https://repository.tudelft.nl/islandora/object/uuid%3A55f9ab7a-2651-4a90-93a0-a8c9ddc7c6a9;NL
 Dimples;"A dimpled golfball flies a longer streak,
 we have known of this for quite a while
 and it will make most any golfer smile,
@@ -440,7 +762,20 @@ Old theories can now be cast aside!
 
 The benefits can be of megasize
 for cars, trains, planes, pipes and... oh, I don't know...
-Let all things have a skin with cellulite!";Going against the flow: An experimental investigation into the flow mechanics of dimpled surfaces in turbulent boundary layers ;https://repository.tudelft.nl/islandora/object/uuid%3A43525b03-f784-4db8-85c8-0d68918f1ac6;EN
+Let all things have a skin with cellulite!";Going against the flow: An experimental investigation into the flow mechanics of dimpled surfaces in turbulent boundary layers ;"The potential of energy savings is clear,
+With benefits to the economy and environment near;
+Industrial competitiveness will also cheer
+When drag or fluid resistance is reduced here.
+Experimental studies have proven this truth,
+That dimpled surfaces can reduce turbulent drag,
+But how it works remains a mystery still,
+And so an investigation we must bag. 
+Direct force measurements and PIV and PISFV too,
+Have shown that the reduction is quite sensitive; 
+Implications for research and applications new, 
+Are now revealed by this experimentative view. 
+The oscillation caused by dimple interaction, 
+Provides evidence of a novel drag reduction.";https://repository.tudelft.nl/islandora/object/uuid%3A43525b03-f784-4db8-85c8-0d68918f1ac6;EN
 Kluister;"Twee satellieten vliegen in formatie
 twee stipjes in het eindeloze zwart
 In beiden klopt een elektronisch hart
@@ -457,7 +792,7 @@ giechelende smiespelende zusjes:
 
 In formatie informatiedeling.
 En spoort één van die twee niet helemaal
-dan corrigeert zij met geblazen kusjes.";Design, Implementation and Verification of the Attitude Determination and Control Algorithms for the DelFFi Satellites;https://repository.tudelft.nl/islandora/object/uuid%3A4a5cacb7-b4dd-4665-b697-c53427b3bed6;NL
+dan corrigeert zij met geblazen kusjes.";Design, Implementation and Verification of the Attitude Determination and Control Algorithms for the DelFFi Satellites;;https://repository.tudelft.nl/islandora/object/uuid%3A4a5cacb7-b4dd-4665-b697-c53427b3bed6;NL
 Emoties;"Emoties, dat zijn hele rare zaken,
 voor een TU haast onbegaan gebied
 omdat een ingenieur zich liever niet
@@ -474,7 +809,20 @@ Een krachtig middel daarvoor, dat is kunst.
 
 Het is alleen heel moeilijk te hanteren:
 Een groot effect, maar niet te controleren.
-Daarin lijkt kunst best veel op kernfuseren.";Emotions matter for public engagement in the emerging biobased economy;https://repository.tudelft.nl/islandora/object/uuid%3A268baa72-59a8-4c40-9951-fc496803106b;NL
+Daarin lijkt kunst best veel op kernfuseren.";Emotions matter for public engagement in the emerging biobased economy;"Mijn thesistekst onderzoekt de rol
+van emoties in het aansporen van publiek
+om zich te engageren in de opkomende bio-gebaseerde economie.
+Ze zijn belangrijk in onze communicatie en besluitvorming,
+maar worden vaak vergeten in huidige praktijken.
+Alternatieven zoals Q-methode, kunst en diners
+kunnen helpen om emoties te uiten en te verwoorden,
+en publieke betrokkenheid te verhogen.
+Vooral bij zo'n afgelegen kwestie als de opkomende bio-gebaseerde economie
+kunnen emoties mensen aanzetten om na te denken
+over wat het allemaal betekent, en hen daardoor
+activeren om zich te engageren.
+Zij zijn de sleutel tot begrip en betrokkenheid,
+en helpen om ons te verbinden met de wereld om ons heen.";https://repository.tudelft.nl/islandora/object/uuid%3A268baa72-59a8-4c40-9951-fc496803106b;NL
 Draadloos minimaal;"Niet iedereen blijft altijd maar compleet:
 Soms missen mensen zomaar ledematen.
 En daarvoor bouwen mensen apparaten:
@@ -491,7 +839,23 @@ Heel veilig en heel zuinig moet het zijn;
 
 volkomen uitgeoptimaliseerd
 zelfstandig draadloos functionerend, want
-een gaatje in zijn hoofd vindt niemand fijn.";Multi-Domain SystemC Model of a Neural Interface;https://repository.tudelft.nl/islandora/object/uuid%3A5ee7e852-fce5-45af-8737-cf950cebd8a5;NL
+een gaatje in zijn hoofd vindt niemand fijn.";Multi-Domain SystemC Model of a Neural Interface;"De technologie die wij gebruiken,
+Is al decennia door onderzoekers bekeken.
+Met micro-elektroden en neural interfaces
+Krijgen we informatie uit neurale netwerken.
+
+Dit veld is snel vooruitgegaan, de focus ligt nu op het maken van meerdere kanalen 
+Om tegelijkertijd de activiteit van veel neuronen te monitoren. 
+Gebied en veiligheid zijn twee belangrijke factoren in het ontwerp van deze elektronica, 
+Want als we teveel ruimte innemen wordt de hersenen beschadigd door het ge\u00efmplanteerde apparaat. 
+
+Het beperkte vermogen dat hierbij komt kijken 
+Moet met zorg worden gebruikt om een ontwerp met lage ruis en hoge data rate te cre\u00ebren. 
+Een effici\u00ebnt ontwerp stelt ons in staat om meerdere kanalen binnen dit budget te implementeren. 
+Dit thesis stelt gedrag modellen voor om de elektroden en neural interface front-end te testen. 
+
+Deze modellen worden geverifieerd en samen met een vermogensestimatiemodel 
+Wordt er een systeemstudie uitgevoerd om de trade-offs tussen neural interface design parameters te bestuderen.";https://repository.tudelft.nl/islandora/object/uuid%3A5ee7e852-fce5-45af-8737-cf950cebd8a5;NL
 Goud uit stro;"Wie koolwaterstof tot brandstof maakt
 krijgt vocht en het beruchte CO2
 Dat laatste nu, daar zit de mensheid mee;
@@ -508,7 +872,20 @@ men vangt dan koolzuur uit de atmosfeer èn
 
 kan wind- en zonnestroom accumuleren.
 't Is niet genoeg, dat wil niemand beweren
-Maar't biedt een sprankje hoop voor natte beren.";Electrochemical production of hydrocarbons from carbon dioxide and water;https://repository.tudelft.nl/islandora/object/uuid%3A7baee23c-bd31-4002-b5fc-2d627c766130;NL
+Maar't biedt een sprankje hoop voor natte beren.";Electrochemical production of hydrocarbons from carbon dioxide and water;"Elektrocatalytische reductie van CO2
+Is een manier om 't probleem van opslag op te lossen
+En om de hoeveelheid CO2 te verminderen.
+Koper is 't enige metaal dat tot nu toe
+Hydrocarbons produceert bij elektrochemische reductie
+Op normale druk en temperatuur.
+De parameters, katalysator-morfologie
+En zuiverheid van koper, en nieuwe elektroden
+Zijn onderzocht. De hoogste efficiëntie voor hydrocarbons
+Werd behaald bij een vaste potentiaal van -2,5 V,
+Elektrolyt met 0,1 M KHCO3 is het best,
+Methaan is 't hoofdproduct, ethyleen piekt bij -2,25 V.
+Boven 40 graden zijn er bijna geen hydrocarbons,
+Tot die temperatuur neemt 't aandeel ethyleen toe.";https://repository.tudelft.nl/islandora/object/uuid%3A7baee23c-bd31-4002-b5fc-2d627c766130;NL
 City without heart?;"The world's a stage and each must play his part
 But where to find a proper place to play
 with all the perfect assets that it may
@@ -525,7 +902,7 @@ reverberating unexpected sites!
 
 A city once by war severely scarred
 should have symphonic days and songful nights
-right in its new and lively throbbing heart!";"Music in the City; a redesign for the Binnenrotte";https://repository.tudelft.nl/islandora/object/uuid%3A67b073c9-9535-4cf0-ad97-311d67c9949d;EN
+right in its new and lively throbbing heart!";"Music in the City; a redesign for the Binnenrotte";;https://repository.tudelft.nl/islandora/object/uuid%3A67b073c9-9535-4cf0-ad97-311d67c9949d;EN
 The Ganges and the Bramaputra;"Being both river people, it so seems
 the Dutch would share a lot with Bangladeshians
 but while our rivers flow in tepid fashions
@@ -542,7 +919,20 @@ Mere facts quickly grow obsolete, that's why
  
 computer simulations must help out.
 So now potential lack we can foresee
-because of 2-D depth in Delft3D.";Closure of offtakes in Bangladesh: Causes and assessment of remedial measures;https://repository.tudelft.nl/islandora/object/uuid%3A691dbc0b-a713-4f29-9354-202c713cc4bc;EN
+because of 2-D depth in Delft3D.";Closure of offtakes in Bangladesh: Causes and assessment of remedial measures;"Amidst Bangladesh's wild and winding rivers,
+Where Ganges and Brahmaputra meet their ends,
+The challenge of engineering is severe;
+Flows change rapidly, morphological trends.
+Distributaries bring fresh water to the land,
+But in dry season they can be cut off;
+Data for a detailed study is hard to find,
+Morphology changes too quickly for proof.
+This thesis takes a physics-based approach: 
+A model based on key characteristics. 
+It shows dredging upstream helps prevent closure, 
+Though it must be done with regular persistence. 
+Other measures are tested but prove ineffective; 
+This model offers an innovative perspective.";https://repository.tudelft.nl/islandora/object/uuid%3A691dbc0b-a713-4f29-9354-202c713cc4bc;EN
 Windgedreven Peristaltische Pomp;"Kijk, 'peristaltiek' en 'windgedreven'
 dat roept natuurlijk associaties op:
 Het meest banale dringt ons in de kop.
@@ -559,7 +949,20 @@ dat hij de mensen nu zoiets mag geven.
 
 Waar hij doorgaans gehaat door vlaktes raast
 voelt hij zich gewaardeerd nu en verheven
-als hij het leven in de aarde blaast. ";A sturdy wind-powered rotary displacement pump suitable to Developing Regions (field case Palestina);https://repository.tudelft.nl/islandora/object/uuid%3A7f6c70ab-54fa-4506-8368-14f659c9e4bb;NL
+als hij het leven in de aarde blaast. ";A sturdy wind-powered rotary displacement pump suitable to Developing Regions (field case Palestina);"De peristaltische pomp belooft veel voor ontwikkelingslanden:
+Gemakkelijk te maken en een perfecte match
+Voor een windmotor, die op zich akkers kan bevloeien
+En waterbassins kan vullen.
+Gebruikers kunnen een sifon nemen in plaats van een emmer,
+Zodat water de hele dag toegankelijk is, dichtbij huizen
+En zonder veel moeite. Een prototype werd gemaakt en getest.
+Het pompte 4,2 liter per minuut bij 100 RPM,
+Met een hoofd van tien meter en een koppel van 2,2 Nm.
+Helaas was het prototype nog niet stabiel:
+De slang werd meegesleurd door de rollers,
+Wat tot een schokkerig gedrag leidde.
+Maar met dikkere slangen en verbindingen
+Kunnen we dit probleem oplossen, flow-rate verhogen.";https://repository.tudelft.nl/islandora/object/uuid%3A7f6c70ab-54fa-4506-8368-14f659c9e4bb;NL
 Waar wachten we nog op? ;"De bruggen die zo fraai het kruis markeren
 van wegen met kanaal of vaart of gracht
 kunnen tegenwoordig functioneren
@@ -576,7 +979,20 @@ We gaan een nieuw soort brugwachters creëren!
 
 Die maken van zo‘n hok zò’n hippe stek
 dat menigeen zelfs zal solliciteren
-naar enkel maar een brugwachtwachtlijstplek!""";New Bridge Keepers;https://repository.tudelft.nl/islandora/object/uuid%3A9a5b9a89-d591-435a-b004-3b043166267b;NL
+naar enkel maar een brugwachtwachtlijstplek!""";New Bridge Keepers;"Een project met minimale ruimtelijke ontwerpen
+Verbindt de watersystemen in Zuid-Holland met wegen
+Door sociale gebruik. Het watersysteem in Holland
+Is belangrijk om onze voeten droog te houden
+En als transportmiddel en recreatielaag.
+Maar door ontwikkelingen van de afgelopen eeuw
+Is het voornamelijk overgenomen door treinen en auto's.
+Daardoor zijn leegstand en watersystemen verbonden.
+De verweving van het Nederlandse watersysteem
+Met zijn context maakt de kruising van water en wegen
+Hoe kunnen leegstaande gebieden
+Waardevolle middelen worden voor dit probleem?
+Deze thesis geeft een oplossing
+Die verbinding herstelt en integreert.";https://repository.tudelft.nl/islandora/object/uuid%3A9a5b9a89-d591-435a-b004-3b043166267b;NL
 Stoel;"Soms komt een goed idee zó bovendrijven
 onder de douche – een droomscenario.
 Maar meestal zit je achter een bureau
@@ -593,7 +1009,20 @@ en de perfecte zithoek voor de leuning.
 
 Nu liggen er adviezen voor ontwerp:
 voornaamst is dat je alles kunt verstellen.
-Maar wie durft dat aan Rietveld te vertellen?";Seat design in the context of knowledge work;https://repository.tudelft.nl/islandora/object/uuid%3A19060a11-6d6c-46dd-9f47-8583d1610b94;NL
+Maar wie durft dat aan Rietveld te vertellen?";Seat design in the context of knowledge work;"Vergeefs zoeken naar een verlichting
+van de pijn die zit in je nek en schouder,
+omdat je veel moet zitten bij kenniswerk.
+Geen beweging, weinig fysieke inspanning,
+maar toch een last die leidt tot gezondheidsproblemen.
+Het is moeilijk om te presteren als je lijdt.
+ 
+Deze PhD-studie onderzoekt verschillende stoelvarianten,
+die samengaan met houding en beweging tijdens taken.
+In kantoor of trein wordt het comfort onderzocht.
+Ook een prototype loungechair werd getest, 
+waarbij de monitor centraal stond in het experiment. 
+De resultaten dragen bij aan discussies over optimale stoelondersteuning, 
+maar ook aan praktische toepassingen voor functioneel stoelontwerp en evaluatie.";https://repository.tudelft.nl/islandora/object/uuid%3A19060a11-6d6c-46dd-9f47-8583d1610b94;NL
 Doorbraak;"De mens bevecht het water. Ongelijk
 is deze strijd. Wij dammen in, maar zie:
 een dam kan veilig zijn in theorie;
@@ -610,7 +1039,23 @@ maar cruciaal is dat iemand ons wijst
 
 wanneer een breuk begint zich te ontvouwen.
 Daar is nog – steek de handen uit je mouwen! –
-een doorbraak in het onderzoek vereist.";Dam Safety Concepts;https://repository.tudelft.nl/islandora/object/uuid%3A9568dc21-9c84-441f-88a5-c132a6f2a437;NL
+een doorbraak in het onderzoek vereist.";Dam Safety Concepts;"Toen de bouw van dammen begon, was het doel
+Om een sterk en betrouwbaar bouwwerk te maken,
+Een prestatie die keer op keer lijkt te vloeien
+Maar toch bleven de mislukkingen komen, oud en nieuw.
+
+Want onverwachte factoren komen vaak voor om te plagen
+De werken van de mens, en dammen zijn niet immuun.
+Hoewel we technologieën en technieken hebben om te wagen
+Een oorlog tegen de krachten die zouden consumeren,
+
+Zijn er maar beperkingen aan wat we kunnen beheersen,
+En zelfs met het beste gereedschap en macht,
+Kan de woede van de natuur nog steeds zijn tol eisen,
+Laat ons achter met het trieste lot van een dam.
+
+Maar toch gaan we door, en leren van onze fouten,
+In de hoop dat de volgende niet zal worden verlaten.";https://repository.tudelft.nl/islandora/object/uuid%3A9568dc21-9c84-441f-88a5-c132a6f2a437;NL
 Stadswaterwerken;"Een stad heeft meestal baat bij waterstromen.
 Voor handel of gewoon voor praal en pracht.
 Want wat zou Amsterdam zijn zonder grachten?
@@ -627,7 +1072,23 @@ En is dat dan een dosis die ons schaadt?
 
 Delfts onderzoek vergaart die informatie.
 Let dus goed op, als straks uw ijsje smelt
-terwijl u op een stadsstrand pootjebaadt.";Health Impact Assessment of New Urban Water Concepts ;https://repository.tudelft.nl/islandora/object/uuid%3A0e41d07b-9f44-4220-aaac-e22c73c5074a;NL
+terwijl u op een stadsstrand pootjebaadt.";Health Impact Assessment of New Urban Water Concepts ;"Verheven is de stad, de vijvers als een meer,
+Een bron van schoonheid en plezier voor ieder hier.
+Maar water heeft ook risico's die ons bekend zijn:
+Virussen, bacteri\u00ebn die kunnen leiden tot pijn.
+
+Gezondheidsrisico's worden ge\u00ebvalueerd door QMRA-tools,
+De gevolgen van verontreiniging zijn voor iedereen duidelijk.
+Campylobacter en Cryptosporidium, adenovirus en norovirus,
+Legionella pneumophila en Coxiella burnetii zijn allemaal hier.
+
+Faecale indicatoren en Microbial Source Tracking Tools helpen ons verder,
+De risico's op gastro-intestinale ziektes worden groter als er mensenfeces is in het water. 
+Hogere temperaturen in de toekomst brengen nog meer gevaren met zich mee, 
+Dus moet er maatregel genomen worden om deze te voorkomen met een extra barri\u00e8re of twee. 
+
+Verheven is de stad met haar vele waterpartijen, 
+Maar we moeten alert blijven op wat het water ons kan bieden.";https://repository.tudelft.nl/islandora/object/uuid%3A0e41d07b-9f44-4220-aaac-e22c73c5074a;NL
 Verjongingskuur;"Wij rijden op zeer open asfaltbeton.
 Die open structuur is voor auto's een zegen
 omdat, als dit land wordt geteisterd door regen,
@@ -644,7 +1105,23 @@ Helaas komt dat niet door vernieuwing van cellen.
 
 De mortelbrug dijt weliswaar ietwat uit,
 het asfalt krijgt echter géén jongere huid.
-Dat hadden die vrouwen je kunnen voorspellen.";Extending the Lifespan of Porous Asphalt Concrete;https://repository.tudelft.nl/islandora/object/uuid%3Af9860e45-e28b-477b-8df9-a094b00fd703;NL
+Dat hadden die vrouwen je kunnen voorspellen.";Extending the Lifespan of Porous Asphalt Concrete;"Het leven van een weg van asfaltporiezen
+Is beperkt, want het ravelt gemakkelijk weg.
+Daarom zoeken wij naar manieren om dit te vermijden
+En geven we de weg een nieuwe, jonge leeftijd.
+
+Met behulp van producten die we op de weg spuiten
+Kunnen we de harde bitumen mengen en verzachten.
+Ze heten rejuvenators, en geven de weg
+Een nieuwe kracht, zodat het langer meegaat.
+
+Maar is hun werking wel bewezen? Daarom noemen we ze
+Ook Surface Treatment Products, want we weten het nog niet.
+We onderzoeken hun effect op de microstructuur
+En de prestaties van de weg, om te zien wat het brengt.
+
+We hopen met behulp van tests en modellen te achterhalen
+Hoe we de levensduur van onze wegen kunnen verlengen.";https://repository.tudelft.nl/islandora/object/uuid%3Af9860e45-e28b-477b-8df9-a094b00fd703;NL
 Noodhulp;"De mens is bij rampen een nietig figuur.
 Maar, siddert de aarde dan stopt elk gekijf.
 Gebroederlijk helpen we dan: 555,
@@ -661,7 +1138,23 @@ en daarvoor is systems design je-van-het.
 
 Ontwerp met dit doel: ieder apparaat moet
 in noodsituaties ook veilig en goed
-te bedienen zijn. Dan is de noodhulp gered.";Mind the gap: Designing Sustainable Healthcare In Humanitarian Aid;https://repository.tudelft.nl/islandora/object/uuid%3Afcda7795-fc49-4d04-b4ee-829d3b7fe975;NL
+te bedienen zijn. Dan is de noodhulp gered.";Mind the gap: Designing Sustainable Healthcare In Humanitarian Aid;"In tijden van ramp en nood, wanneer de mensen vluchten
+En alles wat ze kennen, achter moeten laten,
+Dan zijn er organisaties die ons helpen
+Door medische hulp te bieden, met al hun krachten.
+
+Ze sturen medische hulpmiddelen naar de plaatsen
+Waar mensen lijden, en proberen de zorg te versterken.
+Maar soms is de omgeving zo arm en moeilijk,
+Dat het moeilijk is om deze hulpmiddelen te gebruiken.
+
+Toch blijven deze organisaties doorgaan,
+Want het is hun plicht om te helpen, dag en nacht.
+Ze zoeken naar manieren om de hulp te verbeteren,
+Zodat ze de mensen beter kunnen verzorgen.
+
+En alhoewel het soms moeilijk is, en soms zelfs onmogelijk,
+Blijven ze doorgaan, met al hun wilskracht.";https://repository.tudelft.nl/islandora/object/uuid%3Afcda7795-fc49-4d04-b4ee-829d3b7fe975;NL
 Appeltaart;"Hoe bak je nou een goeie appeltaart?
 Je kunt daarvoor een kookboek openslaan
 maar ook op internet te rade gaan
@@ -678,7 +1171,22 @@ Dus ga je zoekmachines programmeren
 
 dan moet je die intenties integreren.
 Mocht dan je taartbakzoektocht nóg niet slagen
-dan kun je altijd nog je moeder vragen.";User Intent in Online Video Search;https://repository.tudelft.nl/islandora/object/uuid%3A79f06a17-f563-467e-ac49-aa55d33d8b0d;NL
+dan kun je altijd nog je moeder vragen.";User Intent in Online Video Search;"Een verlangen naar meer, een stijgende vraag
+Naar video zoekmachines met veel meer kracht.
+Gebruikers verwachten dat deze hun noden raakt,
+Communicatie, onderwijs en oplossingen slaagt.
+
+Informatiebehoefte is wat ze willen hebben:
+De 'wat' dimensie waarop geschikte resultaten komen.
+Maar ook de 'waarom' dimensie die hun intenties verhelpen,
+Is van groot belang om hun informatienoden te bevredigen. 
+
+Video zoekmachines zijn relatief succesvol in het teruggeven van resultaten die relevant zijn voor de gebruiker. 
+Maar om de informatienoden volledig te bevredigen moet er rekening gehouden worden met de intenties van de gebruiker. 
+De doelstelling van dit proefschrift is om een focusverschuiving te maken in het ontwerp en realiseren van video zoekmachines, 
+zodat ze gebruikersinformatienoden volledig kunnen bevredigen. 
+Dit is echter een uitdaging die invloed heeft op alle delen van de video zoekmachine: indexering, queryverwerking en rangschikken van resultaten. 
+Maar als we hierin slagen kan dit enorm bijdragen aan de bruikbaarheid en economische waarde van online video content.";https://repository.tudelft.nl/islandora/object/uuid%3A79f06a17-f563-467e-ac49-aa55d33d8b0d;NL
 Eigensensor;"Van te veel warmte raak je overstuur.
 Een chip die te verhit raakt, expireert.
 Silicium, zo blijkt nu, assisteert
@@ -695,7 +1203,23 @@ als er silicium wordt ingebouwd.
 
 Ook taal meet zélf haar eigen krachtenveld:
 het kan dat u voor deze woorden smelt
-maar evengoed laat dit sonnet u koud.";Integrated Temperature Sensors based on Heat Diffusion;https://repository.tudelft.nl/islandora/object/uuid%3Abd907442-60d2-4f76-a463-048db5d69d6a;NL
+maar evengoed laat dit sonnet u koud.";Integrated Temperature Sensors based on Heat Diffusion;"Wij maken nieuwe sensoren voor de temperatuur,
+Gebaseerd op de warmte die door silicium gaat.
+We meten de tijd die het kost om te diffunderen
+En zo weten we hoe warm het op een bepaalde plaats.
+
+Deze sensoren heten Electrothermal Filters,
+En ze zijn gemaakt met CMOS-technologie.
+Ze kunnen klein, snel en nauwkeurig zijn,
+En volgen de wet van Moore, die zegt dat ze steeds beter zullen zijn.
+
+Ze worden voornamelijk gebruikt om microprocessoren te koelen,
+Want die hebben veel kleine, snelle en nauwkeurige sensoren nodig.
+Maar er zijn nog veel meer toepassingen,
+En wij onderzoeken hoe we deze sensoren kunnen verbeteren.
+
+Met behulp van PDMs kunnen we de temperatuur omzetten naar een digitale waarde,
+En zo kunnen we de ETFs beter begrijpen.";https://repository.tudelft.nl/islandora/object/uuid%3Abd907442-60d2-4f76-a463-048db5d69d6a;NL
 Efficiëntie;"Een zonnecel is niet echt efficiënt.
 Je kunt een hoger rendement behalen
 met betere conversiematerialen.
@@ -712,7 +1236,23 @@ dan kun je die conversie integreren
 
 met hoe de zonnecellen opereren.
 Het rendement verbeter je dan iets;
-dat scheelt weer geld – de zon gaat op voor niets.";Deposition of luminescent thin films for solar energy applications ;https://repository.tudelft.nl/islandora/object/uuid%3A49043973-cc06-4f6c-9d5f-50e7905517c6;NL
+dat scheelt weer geld – de zon gaat op voor niets.";Deposition of luminescent thin films for solar energy applications ;"De zon is een bron van duurzame energie,
+Maar helaas gebruiken we haar kracht nog niet zo veel.
+Met behulp van fotovoltaïsche apparaten
+Kunnen we haar licht omzetten in elektriciteit,
+
+Maar het rendement is nog niet optimaal.
+Daarom zoeken we naar manieren om het te verhogen.
+Met behulp van dunne films die het licht omzetten
+Kunnen we de efficiency van zonnecellen verhogen.
+
+Daarnaast willen we deze cellen beter integreren
+In het gebouwde milieu, zodat we ze beter kunnen gebruiken.
+Met behulp van luminescente zonnestraling
+Kunnen we deze cellen beter in de gebouwen plaatsen.
+
+We maken dunne films met magnetron sputtering
+En hopen zo de zon beter te kunnen gebruiken.";https://repository.tudelft.nl/islandora/object/uuid%3A49043973-cc06-4f6c-9d5f-50e7905517c6;NL
 Vermoeiingsfysica;"Een boot moet, bij een reddingsoperatie,
 vaak pijlsnel naar de plek des onheils toe.
 Een zware, stalen romp is dus taboe;
@@ -729,7 +1269,20 @@ Je kunt voorspellen hoe het zal gebeuren.
 
 Met hulp van de vermoeiingsfysica
 gaan fysici dus onvermoeibaar na
-hoe lang de speedboot nog kan blijven scheuren.";Fatigue resistance of welded joints in aluminium high-speed craft: A total stress concept;https://repository.tudelft.nl/islandora/object/uuid%3A370b3d44-f4a6-403e-9629-d36174c3aca4;NL
+hoe lang de speedboot nog kan blijven scheuren.";Fatigue resistance of welded joints in aluminium high-speed craft: A total stress concept;"Voor taken zoals het overbrengen van bemanningen,
+Surveillance, beveiliging, redding en interventie op zee,
+Zijn snelle schepen vaak vereist. Aluminium wordt vaak gebruikt
+Als bouwmateriaal voor de romp, om het gewicht te verminderen.
+Maar de sterkte in tijden van vermoeidheid kan een zorg zijn,
+Vanwege de lagere Young's modulus.
+Omgeslagen golven zijn een voorname vorm van herhaaldelijke belasting,
+Wat betekent dat vermoeidheid de beperkende factor is in het ontwerp van aluminium snelle schepen.
+Besondere aandacht gaat daarbij naar de gelaste verbindingen
+Die de onderdelen van de rompstructuur verbinden,
+Want de lassen geometrie introduceert knikken,
+Kwetsbare punten waar vermoeidheid snel optreedt.
+Daarom een multi-scale aanpak vereisen
+Om vermoeidheid te modelleren.";https://repository.tudelft.nl/islandora/object/uuid%3A370b3d44-f4a6-403e-9629-d36174c3aca4;NL
 Hoe groeit een stad?;"Hoe groeit een stad? Door simpel uit te breiden
 totdat een wijdvertakt conglomeraat
 zowat het ganse ommeland beslaat?
@@ -746,7 +1299,23 @@ wat schoonheid is, dat zal de tijd ons leren.
 
 Wie weet gaat ooit de grachtengordel plat
 en zie je straks, ver van de binnenstad,
-Japanners Bijlmerflats fotograferen.";Wenken voor een veranderbare stad: Een studie naar veranderingspatronen van Amsterdamse buurten en bouwblokken;https://repository.tudelft.nl/islandora/object/uuid%3A392741c8-784e-4ad1-82fd-d2cb3d67f4b8;NL
+Japanners Bijlmerflats fotograferen.";Wenken voor een veranderbare stad: Een studie naar veranderingspatronen van Amsterdamse buurten en bouwblokken;"Verand'rend is de stad, zoals het leven gaat,
+Met bouwsels die veranderen in hun baan.
+De stedenbouwkunde zal dit proces aangaan,
+Om openheid te cre\u00ebren in de straat.
+
+De stad is als een proces dat nooit stilstaat,
+Een kunst om met verandering om te gaan.
+Richard Sennett lanceert de open stad als plan:
+Een visie waarmee we onze toekomst vatten. 
+
+Het schaalniveau waarop verandering plaatsvindt, 
+Is van groot belang voor onderzoek en plan. 
+Van eigendom tot architectuur en band, 
+Alleen zo wordt de stad voortdurend levend. 
+
+De stad is voortdurend onderhevig aan verandering; 
+In ontwerp en analyse ligt haar bestemming!";https://repository.tudelft.nl/islandora/object/uuid%3A392741c8-784e-4ad1-82fd-d2cb3d67f4b8;NL
 Daar zit muziek in!;"Niets is zo veelzijdig als muziek.
 Bijna eindeloos zijn de facetten
 waar de musici op kunnen letten:
@@ -763,7 +1332,24 @@ zodat vergelijken daarvan gaat?
 
 Ja, bewijst dit proefschrift! Lees dus nu die
 resultaten in een kloeke studie –
-uiteraard mét notenapparaat.";Multifaceted Approaches to Music Information Retrieval;https://repository.tudelft.nl/islandora/object/uuid%3Ae8a04372-4c55-4b5f-9bc3-aaab73fe649d;NL
+uiteraard mét notenapparaat.";Multifaceted Approaches to Music Information Retrieval;"Muziek, zo multifaceted,
+Met zoveel modaliteiten,
+Verbeeldt ons in tall'lijke contexten
+En laat ons interpreteren,
+
+Met Music Information Retrieval
+En digital research,
+Ontdekken we de diepten
+Van opgenomen muziekprestaties,
+Orkestopnamen en meer.
+
+Muziek is een bron van verkenning,
+Een weg naar kennis en begrip,
+Een pad naar emoties diep en sterk,
+Een universum van geluid en klank.
+
+Laten we luisteren en leren,
+Van al die muziek die ons omringt.";https://repository.tudelft.nl/islandora/object/uuid%3Ae8a04372-4c55-4b5f-9bc3-aaab73fe649d;NL
 Kedeng Kedeng;"Het spoor is onderhevig aan slijtage.
 En ook al rijdt een trein horizontaal;
 belasting van het spoor is verticaal:
@@ -780,7 +1366,22 @@ aftakelen – niet goed voor het comfort.
 
 Het baanvak heeft van treinen flink te lijden.
 Dus als die krengen weer een keer niet rijden
-bedenk dan: dat is wél goed voor het spoor.";Vertical railway track dynamics: From measurements to numerical modelling;https://repository.tudelft.nl/islandora/object/uuid%3A0997d21a-bc6e-43bc-8a0c-55341c65e3ce;NL
+bedenk dan: dat is wél goed voor het spoor.";Vertical railway track dynamics: From measurements to numerical modelling;"Mijn dagelijks leven draait om sporen en wagons
+Het treinvervoer is mijn passie en mijn plicht
+Maar helaas, de sporen vertonen tekenen van verval
+De trams en metros zijn ook niet altijd zonder fout
+
+Ik doe mijn best om alles in goede staat te houden
+Maar soms is het onderhoud niet voldoende
+De trillingen op het spoor zijn een grote bron van zorg
+Want als we niet oppassen, kan het leiden tot een ongeluk
+
+We transporteren zowel passagiers als vracht
+Maar het is belangrijk dat we het spoor goed onderhouden
+Want alleen dan kunnen we veilig reizen en vervoeren
+Het is een uitdaging, maar ik ben ervan overtuigd
+Dat we, door middel van goede track designs en maintenance measures,
+Altijd op het juiste spoor zullen blijven.";https://repository.tudelft.nl/islandora/object/uuid%3A0997d21a-bc6e-43bc-8a0c-55341c65e3ce;NL
 Wij leven van de wind;"Wij leven van de wind, leert een gezang
 dat deel is van het liedboek voor de kerken.
 Dat lied laat zich niet tot geloof beperken,
@@ -797,4 +1398,20 @@ Met lineaire bladhoekregeling
 
 gaat windwinning nog beter dan het ging.
 Zo wint dat kerklied over wind aan strekking
-en spreken wij van energie-opwekking.";Control Design for Two-Bladed Wind Turbines;https://repository.tudelft.nl/islandora/object/uuid%3Aabb59ca8-877a-4599-8ea9-6f23c46d39b9;NL
+en spreken wij van energie-opwekking.";Control Design for Two-Bladed Wind Turbines;"De wind draait altijd mee in onze tijd
+Want energie uit de lucht is nu een must
+Onshore turbines zijn inmiddels concurrerend
+Met andere, fossiele energiebronnen
+
+Maar soms wordt de plaatsing ervan belemmerd
+Door sociale weerstand of gebrek aan ruimte
+Daarom kijken we ook naar de zee
+Waar nog oneindig veel mogelijkheden zijn
+
+Helaas is offshore wind nog steeds duur
+Daarom zoeken we naar andere oplossingen
+Misschien kunnen tweeblads turbines helpen
+Ze bieden veel voordelen ten opzichte van de traditionele
+
+Er is nog veel te leren over tweeblad turbines
+Daarom stellen we controllers voor, om belasting te verminderen.";https://repository.tudelft.nl/islandora/object/uuid%3Aabb59ca8-877a-4599-8ea9-6f23c46d39b9;NL

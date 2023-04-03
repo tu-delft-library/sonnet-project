@@ -12,7 +12,7 @@ d3.select("#page4 #right_poem")
 d3.dsv(";", "/data/poems.csv").then((data) => {
     data.forEach((d) => {
         d.left = d.title + "\n\n" + d.text;
-        d.right = "AI";
+        d.right = d.title + "\n\n" + d.AIPoem;
     });
 
     // Setup the welcome page
@@ -43,8 +43,6 @@ d3.dsv(";", "/data/poems.csv").then((data) => {
 
         count++;
 
-        console.log(correct_is_left);
-
         if (correct_is_left) {
             d3.select("#left_poem").call(add_typewriter_text, texts_human[(count) % texts_human.length]);
             d3.select("#right_poem").call(add_typewriter_text, texts_ai[(count) % texts_ai.length]);
@@ -53,7 +51,7 @@ d3.dsv(";", "/data/poems.csv").then((data) => {
             d3.select("#right_poem").call(add_typewriter_text, texts_human[(count) % texts_human.length]);
         }
     }
-        , 30000);
+        , 45000);
 
     var state = 0;
     d3.interval(() => {
@@ -126,7 +124,6 @@ d3.dsv(";", "/data/poems.csv").then((data) => {
         }
 
         setTimeout(function(){  
-            console.log(state);
             switch (state) {
 
                 case 0:
@@ -177,8 +174,6 @@ d3.dsv(";", "/data/poems.csv").then((data) => {
  */
 function add_typewriter_text(selection, text) {
 
-    console.log("called");
-
     let data = text.split('\n')
     data = data.map(elem => elem == "" ? "\n" : elem);
 
@@ -194,7 +189,8 @@ function add_typewriter_text(selection, text) {
         .data(data)
         .join(
             enter => enter.append("p").attr("cursor", false).call(typing),
-            update => update.text("").call(typing)
+            update => update.text("").call(typing),
+            exit => exit.remove()
         );
 
 

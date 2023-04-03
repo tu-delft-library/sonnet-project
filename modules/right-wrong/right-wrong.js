@@ -22,20 +22,21 @@ function addClass(event) {
         event.currentTarget.querySelector('span').textContent = "CORRECT"
         if(!clicked_once){
             stats_right++;
+            d3.select("#stats").text("You were able to distinguish AI from human! Just like " + stats_right / (stats_right + stats_wrong) * 100 + "% of participants!");
+
         }
 
     } else {
         event.currentTarget.querySelector('span').textContent = "WRONG"
         if(!clicked_once){
             stats_wrong++;
+            d3.select("#stats").text("You were unable to distinguish AI from human! Just like " + stats_wrong/ (stats_right + stats_wrong) * 100 + "% of participants!");
         }
     }
 
-    
 
     clicked_once = true;
 
-    console.log(stats_right / (stats_right + stats_wrong));
 }
 
 export function set_correct(value){
@@ -54,4 +55,6 @@ function clear_rightwrong(){
         buttons[i].classList.remove("right");
         buttons[i].querySelector('span').textContent = "";
     }
+
+    d3.select("#stats").text("");
 }
