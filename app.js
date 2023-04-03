@@ -54,6 +54,120 @@ d3.dsv(";", "/data/poems.csv").then((data) => {
         }
     }
         , 30000);
+
+    var state = 0;
+    d3.interval(() => {
+        
+        state = (state + 1) % 4;
+
+        let floating_poems = d3.select("#page1").selectAll('.float-container');
+
+        let floating_children = floating_poems.selectAll('.float-child');
+        let human_poems = floating_poems.select('.float-child' );
+
+
+
+        d3.select("#page1").select("h1")
+            .transition()
+            .duration(3000)
+            .style("opacity", 0)
+            .transition()
+            .duration(1000)
+            .style("opacity", 1);
+
+
+        switch (state) {
+            case 0:
+                floating_poems.transition()
+                .duration(5000)
+                .style("opacity", 1);
+
+                floating_children.transition()
+                .duration(5000)
+                .style("opacity", 1);
+
+                floating_poems.selectAll("img")
+                .transition()
+                .duration(5000)
+                .style("opacity", 1);
+
+                break;
+        
+            case 1:
+                floating_children.transition()
+                .duration(5000)
+                .style("opacity", 0);
+                break;
+
+            case 2:
+
+                floating_children.transition()
+                .duration(5000)
+                .style("opacity", 0);
+
+                floating_poems.selectAll("img")
+                    .transition()
+                    .duration(5000)
+                    .style("opacity", 0);
+
+                human_poems.transition()
+                .duration(5000)
+                .style("opacity", 1);
+                break;
+
+            case 3:
+
+                floating_poems.transition()
+                .duration(5000)
+                .style("opacity", 0);
+                break;
+            default:
+                break;
+        }
+
+        setTimeout(function(){  
+            console.log(state);
+            switch (state) {
+
+                case 0:
+                    d3.select("#page1").select("h1")
+                    .text("Engineering")
+                    .append('span')
+                    .style('display', 'block')
+                    .text("\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Sonnets");  
+                    break;
+
+                case 1:
+                    d3.select("#page1").select("h1")
+                    .text("Based on")
+                    .append('span')
+                    .style('display', 'block')
+                    .text("TUDelft theses");  
+                    break;
+
+                case 2:
+                    d3.select("#page1").select("h1")
+                    .text("Sonnets written by")
+                    .append('span')
+                    .style('display', 'block')
+                    .text("Jeroen & Bauke");  
+                    break;
+
+                case 3:
+                    d3.select("#page1").select("h1")
+                    .text("Can AI generate")
+                    .append('span')
+                    .style('display', 'block')
+                    .text("Scientific Sonnets?");  
+                    break;
+
+                default:
+                    break;
+            }
+        }, 3000);
+        
+
+    }, 10000)
 });
 
 /**
@@ -121,7 +235,6 @@ function moveRandomly(selection) {
             let scale = Math.random() * 3;
             let delay = Math.random()
             d3.select(self)
-
                 .transition()
                 .duration(1000 + delay * 3000)
                 .style('top', (Math.random() - 0.2) * 125 + '%')
