@@ -64,6 +64,7 @@ d3.dsv(";", "/data/poems.csv").then((data) => {
         let human_poems = floating_poems.select('.float-child' );
 
 
+        state = (state + 1) % 4;
 
         d3.select("#page1").select("h1")
             .transition()
@@ -95,7 +96,6 @@ d3.dsv(";", "/data/poems.csv").then((data) => {
                 floating_children.transition()
                 .duration(5000)
                 .style("opacity", 0);
-                break;
 
             case 2:
 
@@ -193,7 +193,6 @@ function add_typewriter_text(selection, text) {
             exit => exit.remove()
         );
 
-
     function typing(selection) {
         selection
             .transition()
@@ -220,7 +219,6 @@ function moveRandomly(selection) {
         let self = this;
 
         let original_width = parseFloat(d3.select(this).style("width"));
-
         let original_height = parseFloat(d3.select(this).style("height"));
         let original_font_size = parseFloat(d3.select(this).style("font-size"));
 
@@ -239,7 +237,6 @@ function moveRandomly(selection) {
                 .style('height', (scale + 0.1) * original_height + "px")
                 .style('font-size', (scale + 0.1) * original_font_size + "px")
                 .tween('order', function () {
-                    // create interpolator and do not show nasty floating numbers
                     var interpolator = d3.interpolateRound(1, 10000);
                     // this returned function will be called a couple
                     // of times to animate anything you want inside
@@ -251,7 +248,6 @@ function moveRandomly(selection) {
                         elem.style('filter', "brightness(" + (((currentWidth) - 0.5) / (original_width * 3.1)) + ")");
                         elem.style('z-index', interpolator((currentWidth) / (original_width * 3.1)));
                     };
-
 
                 })
                 .transition()
@@ -271,8 +267,7 @@ function createPoemContainers(selection, text, n_containers) {
     data.forEach(function (d) {
         text_left.push(d.left);
         text_right.push(d.right);
-
-    })
+    });
 
     let container =
         selection
@@ -282,15 +277,14 @@ function createPoemContainers(selection, text, n_containers) {
             .style("width", "400px")
             .style("height", "250px")
             .style("font-size", "5em")
-            .classed('float-container poem-container absolute', true)
-        ;
+            .classed('float-container poem-container absolute', true);
 
     add_poem("left_poem", text_left);
     add_poem("right_poem", text_right);
 
     container
         .append('img')
-        .attr("src", (d, i) => "images/" + (i + 1) + ".png");
+        .attr("src", (d, i) => "images/" + (i) + ".jpg");
 
     function add_poem(poem_class, text) {
         let poem = container
