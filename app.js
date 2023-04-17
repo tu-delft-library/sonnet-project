@@ -48,7 +48,6 @@ d3.dsv("\t", "/data/poems.txt").then((data) => {
             .duration(1000)
             .style("opacity", 1);
 
-
         change_state(state);
     }, 10000)
 
@@ -66,7 +65,7 @@ function add_poem_selector(texts_abstracts, texts_human, texts_ai) {
         .each(function (d, i) {
             index.set(this, i); // Store index in local variable.
         })
-        .attr("id", (d,i) => `poem-select-${i}`)
+        .attr("id", (d, i) => `poem-select-${i}`)
         .on("click", function () {
 
             let i = index.get(this); // Get index from local variable.
@@ -84,21 +83,20 @@ function add_poem_selector(texts_abstracts, texts_human, texts_ai) {
                 d3.select("#right_poem").call(add_typewriter_text, texts_human[(i) % texts_human.length]);
             }
 
-            setTimeout(function(){  
-                if (d3.select("#poem-selector").style("visibility") == "visible"){
+            setTimeout(function () {
+                if (d3.select("#poem-selector").style("visibility") == "visible") {
                     d3.select("#poem-selector").style("visibility", "visible");
                     d3.select("#poem-comparison").style("visibility", "hidden");
                 }
             }, 40000);
         });
-    //.style("object-fit", "contain");
-    choice_selection.append("div")
+
+        choice_selection.append("div")
         .classed("float-child", true)
         .append("img")
         .attr("src", (d, i) => "/images/" + i + ".jpg")
         .style("max-height", "100%")
         .style("max-width", "100%");
-
 
     choice_selection.append("div")
         .classed("float-child", true)
@@ -112,15 +110,19 @@ function add_poem_selector(texts_abstracts, texts_human, texts_ai) {
         }
         );
 
-        d3.select("#poem-selector").select("#down").on("click", () => {
-            selected = Math.min(++selected, 46);
-            document.getElementById(`poem-select-${selected}`).scrollIntoView();
-        } );
-        d3.select("#poem-selector").select("#up").on("click", () =>   {
-            selected = Math.max(--selected, 0);
-            document.getElementById(`poem-select-${selected}`).scrollIntoView();
-        });
+    d3.select("#poem-selector").select("#down").on("click", () => {
+        selected = Math.min(++selected, 46);
+        document.getElementById(`poem-select-${selected}`).scrollIntoView();
+    });
+    d3.select("#poem-selector").select("#up").on("click", () => {
+        selected = Math.max(--selected, 0);
+        document.getElementById(`poem-select-${selected}`).scrollIntoView();
+    });
 
+    d3.select("#back-button").on("click", () => {
+        d3.select("#poem-selector").style("visibility", "visible");
+        d3.select("#poem-comparison").style("visibility", "hidden");
+    });
 }
 
 function change_state(state) {
@@ -155,6 +157,7 @@ function change_state(state) {
                     .style('display', 'block')
                     .text("\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Sonnets");
             }, 3000);
+
             break;
 
         case 1: // Based on abstracts from TUDelft theses
@@ -197,7 +200,6 @@ function change_state(state) {
                     .text("Jeroen & Bauke");
             }, 3000);
 
-
             break;
 
         case 3: // Can Ai generate scientific Sonnets
@@ -219,7 +221,6 @@ function change_state(state) {
                 d3.select("#page1").select("h1")
                     .text("");
             }, 3000);
-
 
             break;
         default:
