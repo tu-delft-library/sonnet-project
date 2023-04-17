@@ -57,7 +57,8 @@ d3.dsv("\t", "/data/poems.txt").then((data) => {
 
 function add_poem_selector(texts_abstracts, texts_human, texts_ai) {
     const index = d3.local();
-    let choice_selection = d3.select("#poem-selector").selectAll("div")
+    let selected = 0;
+    let choice_selection = d3.select("#poem-selector").selectAll("div .page")
         .data(texts_abstracts)
         .enter()
         .append("div")
@@ -65,6 +66,7 @@ function add_poem_selector(texts_abstracts, texts_human, texts_ai) {
         .each(function (d, i) {
             index.set(this, i); // Store index in local variable.
         })
+        .attr("id", (d,i) => `poem-select-${i}`)
         .on("click", function () {
 
             let i = index.get(this); // Get index from local variable.
@@ -83,8 +85,10 @@ function add_poem_selector(texts_abstracts, texts_human, texts_ai) {
             }
 
             setTimeout(function(){  
-                d3.select("#poem-selector").style("visibility", "visible");
-                d3.select("#poem-comparison").style("visibility", "hidden");
+                if (d3.select("#poem-selector").style("visibility") == "visible"){
+                    d3.select("#poem-selector").style("visibility", "visible");
+                    d3.select("#poem-comparison").style("visibility", "hidden");
+                }
             }, 40000);
         });
     //.style("object-fit", "contain");
@@ -107,6 +111,16 @@ function add_poem_selector(texts_abstracts, texts_human, texts_ai) {
             return new_string.slice(0, new_string.length - 1).flat() + " ...";
         }
         );
+
+        d3.select("#poem-selector").select("#down").on("click", () => {
+            selected = Math.min(++selected, 46);
+            document.getElementById(`poem-select-${selected}`).scrollIntoView();
+        } );
+        d3.select("#poem-selector").select("#up").on("click", () =>   {
+            selected = Math.max(--selected, 0);
+            document.getElementById(`poem-select-${selected}`).scrollIntoView();
+        });
+
 }
 
 function change_state(state) {
@@ -150,7 +164,10 @@ function change_state(state) {
 
             setTimeout(function () {
                 d3.select("#page1").select("h1")
-                    .text("Based on Abstracts from")
+                    .text("Based on")
+                    .append('span')
+                    .style('display', 'block')
+                    .text(" Abstracts from")
                     .append('span')
                     .style('display', 'block')
                     .text("TUDelft theses");
@@ -248,8 +265,7 @@ function add_typewriter_text(selection, text) {
             })
             .transition()
             .delay(0)
-            .attr("cursor", false)
-            ;
+            .attr("cursor", false);
     }
 }
 
