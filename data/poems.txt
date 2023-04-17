@@ -1,0 +1,1445 @@
+title	text	Researchtitle	AIPoem	url	Language	abstract
+Oh well�	"Drilling wells is an expensive process.
+Thus whenever we can be more clever
+we are saving money, time and effort.
+This incites economy and progress.
+
+Optimizing well trajectory
+requires input from geologists
+drill engineers and geophysicists
+their expertise and their directory.
+
+Determining the perfect minimum
+amount of wells computers pretty well
+can guess, as does this master student tell.
+
+But still, trajectories their optimum
+requires judgment � engineers to dwell
+an index finger in their mouth: �Oh well��"	Well trajectory optimization	"In fields of oil and gas, a well's path
+Must be precise, or all the drilling's for naught.
+A costly process, much time and effort spent,
+Each well must be studied before it's brought
+
+To life with drills and pumps and other gear.
+A new approach is needed, one that's smart,
+A computer program that can optimize
+The well's trajectory, and do it right.
+
+It uses dummy wells to test the route,
+Repeating the process 'til the best is found.
+The curvature is kept within bounds
+
+To make the path both optimal and sound.
+A great improvement in net present value
+This method brings, though sometimes it may stall."	https://repository.tudelft.nl/islandora/object/uuid%3A897b5abe-0713-4c4a-ad5d-6c76d33c8bd2	EN	"Delineating the well placement and trajectory of production or injection wells is an important step of any field development program. Drilling a well is an expensive process in terms of money, time and effort invested. Being an expensive item, wells must be carefully studied before being drilled. In order to make this process more efficient, this dissertation presents a computer-assisted approach of determining the optimal well trajectory using adjoint-based optimization technique. The algorithm is based on surrounding the injection or production wells with dummy wells; a technique proposed in earlier studies. These dummy wells have a minimal rate of injection or production so as to minimalize their influence on the simulated output. The sum of the gradients of the objective function with respect to the flowrate in each dummy well over the life-time of the reservoir is used to define an improved well trajectory. The whole process is repeated until the maximum net present value is achieved. In order to ensure that the newly optimized well trajectory is drillable, the algorithm restricts the curvature of the trajectory. The optimization algorithm was applied to synthetically generated homogeneous and heterogeneous reservoirs to improve a single well trajectory. The algorithm was also successfully tested to improve multiple well trajectories in the �Egg Model�, a three-dimensional heterogeneous channelized reservoir model. In addition to well trajectory optimization, the dissertation also presents an approach to optimize well numbers. This algorithm is based on drilling a dense quasi-well configuration to get an initial knowledge of the reservoir and utilizing this knowledge along with �dummy well� gradients to reduce the well count. Depending on the reservoir, fluid and economic parameters, both the algorithms display the adeptness to predict optimized type, trajectory and number of wells. Although the optimization results showed a considerable improvement in the net present value of the project, the algorithm can get stuck in local optimum."
+Polyphenol	"More folks, more food. More food, more waste. But not
+just more, the waste gets more nutritious too.
+Reprocessing some new delicious brew
+nevertheless appears a Gordian knot
+
+Nnt only to cut through but also to
+re-tie its hydrophobic, multi-phased
+ionic interactions, to be praised
+by uninformed na�ve consumers who
+
+are sipping from their fresh made jasmine tea
+unconscious of its juicy history.
+Thanks to a coefficient called �LogD�
+
+and grouping tools to model chemistry
+we now have managed to steep tea from pee.
+What a splendid new technology!"	On the prediction of polyphenol properties	"The increasing population's need for food,
+With quality and quantity both increased,
+Poses a challenge to the industry of food:
+To revalue waste, its nutraceuticals released.
+
+For streams complex in chemical and physical traits,
+Ionic and hydrophobic interactions too,
+Concentrations low make regular processes moot;
+Models must be used to predict what ensues.
+
+Green tea catechins and soy isoflavones 
+Were studied with Group Contribution models found; 
+Solubility was tested, parameters were bound; 
+
+Resins chosen to separate them from caffeine's tones. 
+Adsorption isotherms measured gave insight 
+Into activity coefficients of the light."	https://repository.tudelft.nl/islandora/object/uuid%3Aee3c2dc9-fc2f-46fd-818e-a17e61c97cf0	EN	The increasing population demands increasing food supply with the consequent increase in food waste. Moreover, not only the quantity of the demanded food increases but so does the quality. This situation poses an interesting challenge to the food industry that is moving towards the revalorisation of the food waste and, as a part of it, towards the recovery of nutritional compounds that provide health benefits (nutraceuticals) still present in those streams. However, those streams possess very complex chemical and physical characteristics, namely multiple phases, ionic and hydrophobic interactions, etc. Moreover, the concentration of these nutraceuticals tends to be low, making regular processes costly and inefficient if applied to these cases. Therefore, it is extremely important to have models that describe the behaviour of the different components of the system to be able to design and develop a feasible process to recover these molecules. The objective of this research, therefore, was to apply or develop and validate models that could predict important properties for the design of a downstream process in each of the cases. The main focus of the work was on green tea catechins and soy isoflavones. From the beginning, their molecular similarities made clear that Group Contribution (GC) models were the obvious way to reduce complexity. Therefore solubility experiments of the four main catechins (Chapter 2) were performed in order to validate a well know GC activity coefficient model such as Mod. UNIFAC (amongst other models). The validation proved unsuccessful since Mod. UNIFAC did not give good predictions for the interaction between the molecules and water. Activity coefficients are a key property in design since they account for the non-idealities in the system which made the development of a suitable activity coefficient an important part of the research. An extensive bibliographic work was done and solubility values of flavonoids (a class of polyphenols) were gathered in a database that was used for the regression of new interaction parameters for the Mod-UNIFAC model with a new definition of groups more applied to polyphenols. Those parameters were regressed and validated in what is called Modified PolyPhenols-UNIFAC or MPP-UNIFAC (Chapter 3). After having a good understanding of the behaviour of the polyphenols in solution, the next logical step was to model their behaviour in equilibrium with a resin since Solid-Liquid Extraction is one of the most used unit operations. A set of food-grade resins was tested for their suitability to separate catechins from caffeine using green tea as a starting material (Chapter 4). A model-based Design of Experiments was used in order to perform the needed experiments to minimize the uncertainty of the regressed parameters which were further used as criteria for a resin selection. A similar approach was used for the okara. However since okara is a solid matrix, a pretreatment was needed in order to bring the polyphenols to solution. This pretreatment consisted of a solvent extraction with different ratios of ethanol and water. After testing the behaviour of the different extracts with the resin, it was decided to further study the water extract since it maximized the overall yield. Adsorption isotherms were measured (Chapter 5) showing an almost linear behaviour, typical of small concentrations. In some cases it was observed a non-linearity that was hypothesized as a bilayer adsorption of polyphenols onto adsorbed proteins. This hypothesis was then proved for the interaction of medium-hydrophobic isoflavones and highly hydrophobic resins. Moreover, a linear relation was discovered between the logarithm of the slope of the isotherm and the logD value of the compound, pointing into possible predictability of the isotherms for isoflavones. This relationship was further studied for higher concentrations in which the isotherms do not behave linearly. A lattice model was developed to calculate the molar fraction of the compounds in the adsorbed phase in contact with the resin (Chapter 6). This allowed for the experimental calculations of activity coefficients in the adsorbed phase that were modelled with a simple activity coefficient model (Margules). As in previous chapter, a linear relation was discovered between the logarithm of the equilibrium constant and the logD value. Moreover, the regressed interaction parameters showed as well a linear correlation with the logD values of the compounds in equilibrium. This way a �toolbox� of models is established and validated for the prediction of soy and tea polyphenol properties. These models can be readily used for the design of a separation process or to gain insight and develop an integrated process. Moreover, because of the nature of the models, either group contribution or mechanistic, this toolbox is easily applicable to different polyphenols from different sources.
+Error	"Planetaria obey the way
+that clockworks work. Amusingly however
+clock time is quite relative. Whenever
+Russia, for example, casts a ray
+
+to laser information from, let's say
+a Phobos lander on a Martian moon
+to earth, let's say, meticulously at noon,
+the bad news is that Einstein's thesis may
+
+then be why lasers by some millimetres
+miss their target at a decent range
+of over two, three hundred billion metres
+
+but the good news is, it may sound strange
+that as we try to learn more of our ether
+errors oftentimes inspire change."	Interplanetary laser ranging: analysis for implementation in planetary science missions	"A task so grand, of motion to command,
+The structure and properties of solar land;
+Accurate measurements made with care,
+Radiometric tracking systems there.
+Laser ranging for Earth-orbiting satellites,
+Sub-centimeter accuracy, it dictates.
+For interplanetary laser ranging too,
+An active space segment must ensue.
+The science return from such a mission, 
+Would be great advances in planetary geodesy's vision. 
+Though laser data should be accompanied by more, 
+To maximize the system's science store. 
+Radio systems remain preferred choice for many orbiters still, 
+And much more accurate clocks are needed to fulfill."	https://repository.tudelft.nl/islandora/object/uuid%3Abd728e02-f403-4cea-9e2b-65b04b47b3f7	EN	Measurements of the motion of natural (and artificial) bodies in the solar system provide key input on their interior structre and properties. Currently, the most accurate measurements of solar system dynamics are performed using radiometric tracking systems on planetary missions, providing range measurement with an accuracy in the order of 1 m. Laser ranging to Earth-orbiting satellites equipped with laser retroreflectors provides range data with (sub-)cm accuracy. Extending this technology to planetary missions, however, requires the use of an active space segment equipped with a laser detector and transmitter (for a two-way system). The feasibility of such measurements have been demonstrated at planetary distances, and used operationally (with a one-way system) for the Lunar Reconaissance Orbiter (LRO) mission. The topic of this dissertation is the analysis of the application of interplanetary laser ranging (ILR) to improve the science return from next-generation space missions, with a focus on planetary science objectives. We have simulated laser ranging data for a variety of mission and system architectures, analyzing the influence of both model and measurement uncertainties. Our simulations show that the single-shot measurement precision is relatively inconsequential compared to the systematic range errors, providing a strong rationale for the consistent use of single-photon signal-intensity operation. We find that great advances in planetary geodesy (tidal, rotational characteristics, etc.) could be achieved by ILR. However, the laser data should be accompanied by commensurate improvements in other measurements and data analysis models to maximize the system's science return. The science return from laser ranging data will be especially strong for planetary landers, with a radio system remaining the preferred choice for many orbiter missions. Furthermore, we conclude that the science case for a one-way laser ranging is relatively weak compared to next-generation radiometric tracking systems, requiring the development of much more accurate space-based clocks.
+Cancer profiles	"Innovations at the time of their
+inception tend to blind us with desire
+drawn to all the things we can acquire
+dissonance dissolves into thin air.
+
+We thought we caught the cancer DNA
+with Watson�s project, previous century
+by pairing bases complementary
+connecting C with G and T with A.
+
+Yet while this trick made us plain lyrical
+we clean forgot its instabilities
+in measuring � how hypocritical.
+
+Our data shined in small varieties.
+We tried to make them look statistical
+but cancer profiling remains Chinese."	A critical perspective on microarray breast cancer gene expression profiling	"At first, microarrays were seen as a new dawn,
+A tool to unlock the secrets of breast cancer.
+It was thought that soon its mysteries would be gone,
+And with it hope for those in need of an answer.
+
+But as the technique became more popularly used,
+Its complexity and challenges became clear.
+The data proved hard to analyze and peruse,
+And stability issues made results unclear.
+
+This dissertation provides protocols to evaluate 
+The influence of sources of variation and noise. 
+It shows that subtyping schemes can be quite stable, 
+But understanding them is still far from joys. 
+
+Though microarrays offer much potential power, 
+We must refine our knowledge hour by hour."	https://repository.tudelft.nl/islandora/object/uuid%3Aca47f2e0-e6af-4fc7-b4ba-36fb93182b3a	EN	Microarrays offer biologists an exciting tool that allows the simultaneous assessment of gene expression levels for thousands of genes at once. At the time of their inception, microarrays were hailed as the new dawn in cancer biology and oncology practice with the hope that within a decade diseases like breast cancer would be solved. Various high-profile publications showed the immense potential of this technique in breast cancer event prediction and breast cancer subtyping. From these studies it became clear that breast cancer at the molecular level is not a single disease, but comprises a heterogeneous set of subtypes associated with clear differences in gene expression patterns and clinical outcomes. However, as microarrays became more popular, it became apparent that the accurate analysis and interpretation of microarray data provided a plethora of unique challenges. From a biological, as well as a technical perspective microarray data is complex, while the high feature-to-sample ratio associated with microarray studies rendered many classic statistical procedures useless. To make matters worse, various publications emerged that showed severe stability problems in the model fits of early pilot studies and showed that these studies were often overly optimistic. As a result the reliability of microarray based experiments in general was openly questioned. Given the multitude of different factors which may or may not influence results it is clear that a proper evaluation of microarray breast cancer profiling is both crucial and challenging. This dissertation provides a number of carefully devised protocols, by which the influence of important sources of variation can be isolated, controlled and/or explicitly quantified, even in the absence of a gold standard. Instead of applying these protocols to data from small spike-in or dilution studies, they were applied to a large collection of real life breast cancer datasets of considerable size. Furthermore, we extensively studied breast cancer subtyping and the evaluation of subtype-specific predictors constructed on these, from both a practical and a theoretical perspective. This work shows that the evaluation of subtype-specific event prediction, based on divide and conquer schemes brings various new statistical challenges. For a variety of frequently encountered performance measures from machine learning several decompositions of the overall performance into subtype-specific performances are provided which show that the relation between subtype-specific and overall performance can be highly complex and counterintuitive. Furthermore, the experiments in this dissertation show that with modern processing techniques and a standardized approach it is possible to construct extremely stable subtyping schemes. However, the selected approach has a strong impact on the obtained results, suggesting that a stringent standardization of the methodologies used for subtyping is not sufficient for the consistent assignment of subtypes to individual patient samples. From these findings we conclude that the molecular subtypes of breast cancer are not sufficiently well understood and need further refinements.
+Self-healing	"Self-healing power is a trick that you�ll
+connect to Spiderman and Wolverine
+or quinoa or some New Age kind of scene.
+However, molecule by molecule
+
+we optimized some drooly stuff as cool
+no guru, Hulk or Bond has ever seen.
+It�s called a sol-gel coating and it�s lean
+it�s thermo-sensitive and like a jewel
+
+combines with almost any metal subsoil.
+Moneywise such film prevents a waste
+of globally per annum eighteen zeroes
+
+maybe� What a super-duper foil
+this hybrid tetra-sulfide polymer-based
+anti-aging cream for rusty heroes."	Self-Healing Corrosion Protective Sol-Gel Coatings	"This thesis so grand, of self-healing coatings,
+Advances in the field a wondrous sight;
+It speaks of tetrasulfide groups and more,
+To extend the life of substrate with its might.
+
+The hybrid organic-inorganic coating so wise,
+Able to heal itself with great surprise;
+Incorporating corrosion inhibitors too,
+For metal surface protection is no lie.
+
+This thesis so inspired by art and science, 
+Will lead to commercial systems that advance; 
+It's healing kinetics and mechanism known, 
+Will help protect from corrosion all at once. 
+
+The damage closure sealed tight with this thought, 
+Will bring us closer to what we sought."	https://repository.tudelft.nl/islandora/object/uuid%3Af5b66298-ed00-4abd-b47c-055c22ae488b	EN	Inspired by the state of the art and the recent advances in the field of self-healing corrosion protective coatings, the thesis entitled �Self-healing corrosion protective sol-gel coatings� addresses novel routes to self-healing corrosion protective sol-gel coatings via extrinsic and intrinsic healing approaches. The employed approaches aim at extending the service life of the coating and the underlying substrate by multiple damage closure/sealing and metal surface protection through incorporation of reversible tetrasulfide groups and inhibitor loaded containers respectively. Intrinsically healable hybrid organic-inorganic coatings containing reversible tetrasulfide groups were successfully developed and investigated using a combination of characterization techniques to address their healing kinetics and mechanism. Extrinsic healing concept was studied by encapsulation of corrosion inhibitors in smart micro- / nano-containers capable of on-demand leach out of the inhibitors to the damage site. Both routes explored have the potential to lead to future commercial self-healing coating systems.
+Spray	"Sun and wind alone won't keep us warm.
+In wintry nights we will turn to combustion
+of the fossils, up to their exhaustion.
+Climate change, yet, urges to inform
+
+us whether burning them in flameless form
+through heated fuel and spray-wise oxidation
+can be fully grasped by simulation,
+different tests and modeling, conform
+
+the standards of today. Can this be done?
+As oft, the answer is both yes and no�
+more random is the turbulence of spray!
+
+Comparing models brings a winning one.
+This outcome doesn�t save the planet though
+let�s hope and say: for now it saves the day."	Computational modeling of turbulent spray combustion	"In hot-diluted environments, flames are quelled
+By liquid fuel combustion, known as spray
+To study its behavior, we've compiled
+A database of flames that flow this way
+
+We've used CFD, with turbulence and heat
+To model flamelet, steady and LES
+And found that SFM does not compete
+With TCI, for predicting lift-off feats
+
+We've advanced with TPDF and FGM too
+To simulate dilute spray with good success
+And found that adiabatic tables skew
+The temperature in droplet evaporation's stress
+
+So now we've developed non-adiabatic FGM
+To model evaporation and combustion with aplomb"	https://repository.tudelft.nl/islandora/object/uuid%3Ac1c27066-a205-45f4-a7b4-e36016bc313a	EN	"The objective of the research presented in this thesis is development and validation of predictive models or modeling approaches of liquid fuel combustion (spray combustion) in hot-diluted environments, known as flameless combustion or MILD combustion. The goal is to combine good physical insight, appropriate numerical methods and good software development in the context of the general framework of Computational Fluid Dynamics (CFD). For model validation to be possible, availability of relevant, accurate and complete experimental datasets is important. For this study the database of Delft Spray-in-Hot-Coflow(DSHC) flames has been employed. Using different combinations of model components and approaches, the modeling has been developed and tested at three levels of complexity and accuracy. Depending on the chosen combination of turbulence and combustion models, the modeling methods used in this thesis are the following: 1) Reynolds Averaged Navier-Stokes (RANS) approach for turbulence modeling with Steady Flamelet Model (SFM) approach for combustion; 2) Transported Probability Density Function (TPDF) approach for turbulence modeling with Flamelet Generated Manifolds (FGM) for combustion; 3) Largy Eddy Simulation (LES) for turbulence with FGM for combustion. The CFD codes that are used for these methods are respectively the commercial software ANSYS Fluent (version 15.0), the in-house code �PDFD� and the open source software OpenFOAM. The first stage of the research aimed at exploring the characteristics of the target flames, and gaining understanding of the relevance of each model component in order to clarify the directions of further model improvements. Existing standard models (RANS/SFM) within the commercial software were employed for this purpose. The main outcome of this stage of the study is that the SFM fails in predicting the lifted-off phenomena of the DSHC flames, and it is concluded that a more sophisticated Turbulence-Chemistry Interaction (TCI) model is required. In the second stage of the study, advancements on both turbulence and combustion models have been made, respectively with TPDF and FGM. TPDF was used because it offers a more detailed description of statistical properties and FGM because it offers the possibility to include finite rate chemical effects in the frame of TPDF at affordable cost. In this stage of the study the focus was on simulations of the dilute spray region. Ignoring the dense region close to the atomizer, the simulation starts from a certain distance downstream, preferably a region where experimental data are available or good insight in local conditions is available by other means. Because of the careful specification of the boundary conditions of spray as well as gas phase, the flow and combustion development downstream were correctly reproduced by this approach, including the lift-off height. Next, based on this platform, parametric studies on many important aspects have been carried out, for example, the influence of the droplet initial temperature, a comparison between different model variants on evaporation etc. Good agreement with experimental data was achieved and useful information on model performance was obtained. However, also limitations of the modeling approach were identified. The most important one is that the use of an adiabatic approach disregarding the energy consumed in the evaporation of liquid (adiabatic FGM table) over-predicts the gas phase temperature in the region of intense droplets evaporation. In the third stage of this study we used Large Eddy Simulation of turbulence in combination with non-adiabatic FGM for evaporation and combustion. The subgrid scale fluctuations of the FGM scalars were modeled using assumed-shape PDFs. The CFD platform for doing so is the open source CFD package � OpenFOAM. Since the desired FGM model is not available in the public released version of OpenFOAM, the first step in this third stage was development and validation of a new implementation of FGM. A well-documented gaseous lifted flame in hot-diluted coflow was used as test case. In this study, it was found that the auto-ignition process is highly sensitive to the model constants that are used to evaluate the variances of mixture fraction and progress variable. Dynamic procedures have been developed for the determination of these constants in the context of LES. Using the developed dynamic models significant improvement of the prediction of the flame lift-off height has been achieved. The second step of LES/FGM method development was the extension of the implemented FGM method to spray combustion. Two major model developments were completed in this step � the Condition Droplet Injection Model (CDIM) and the non-adiabatic FGM method. The CDIM was proposed to take into account the influence of flash-boiling atomization of the DSHC flames. The comparison of CIDM with a conventional droplet injection model showed superior performance of the CDIM in modeling of the DSHC flames. Furthermore, with the addition of enthalpy deficit as an extra dimension of the FGM table, the prediction of the gas phase temperature was significantly improved. The third step of modeling stage three was to apply the developed LES/FGM method to a wide range of test cases including the hot and cold coflow cases to test the range of applicability of models, and to some virtual (i.e. not yet studied experimentally) cases in order to gain deeper insight on the involved phenomena. The simulations showed that the developed LES/FGM method is able to correctly capture major features of spray flames under different coflow conditions, for example the flame width and flame lift-off height. Independent parameter study of the coflow temperature and oxygen concentration clarified the effects of these two important factors, and suggested better operation conditions to achieve a strict MILD spray combustion condition. Simulation and comparison of the hot coflow (Hii) and cold coflow (Aii) cases revealed very interesting mechanisms that determine different flame structures and their transition in spray combustion. The �single� and �double� flame structures of these two cases have been successfully reproduced. Detailed analysis showed that the actual flame topologies have been over-simplified by their conventional names (single/double flame) used in literature, which are mainly based on the experimental observation. It was found that the appearance of multi-flame or multiple reaction regions in spray combustion are resulting from the disparity of time scales of the processes involved. And it was further demonstrated that by matching important time scales, similar flame structure can be achieved under considerably different operating conditions. In summary, three different levels of modeling approaches for spray combustion have been developed and tested. These approaches can be employed in different applications based on the consideration of the required accuracy and computational affordability. The RANS/SFM is the cheapest one in terms of computation cost, but the interpretation of the results should take into account that a number of important aspects such as lift-off height are not well predicted. The LES/FGM method provides most accurate results compared to other two, but is also most computationally demanding. The method using the last approach offers the most promises for a better understanding of the MILD spray combustion and design of clean and efficient combustion technology."
+Glycolysis	"Don�t underestimate the might of yeast
+with its fermenting glycolytic genes
+producing families of proteins
+quite as complex as those of man at least.
+
+The story goes, some 100 million years
+ago, this organism duplicated
+its genome. An act that implicated
+so we guessed, why many engineers
+
+are so obsessed and given many bucks
+to date to crack the code and to reflect
+on what might be the secret of its flux.
+
+Despite the brains it took to disconnect
+some double genes � this should have hit the crux
+we thought! � surprise: we measured no effect�"	Reducing the genetic complexity of glycolysis in Saccharomyces cerevisiae	"The sweet aroma of sugar on the tongue,
+A taste that lingers and brings us delight.
+In yeast, the source of fermentation's might,
+To break down glucose and yield the night's
+Sweet drink. But more than just a simple brew,
+Glycolysis holds the key to life's power,
+A pathway that yields energy in a shower,
+And building blocks for growth in every hour.
+In Saccharomyces cerevisiae,
+This pathway is of utmost importance,
+For ethanol production, without delay,
+And other valuable compounds on the way.
+Though its mechanisms still elude our grasp,
+Glycolysis plays a crucial role at last."	https://repository.tudelft.nl/islandora/object/uuid%3A321bb86e-0704-436e-b095-a0f5a20c057e	EN	Glycolysis, a biochemical pathway that oxidizes glucose to pyruvate, is at the core of sugar metabolism in Saccharomyces cerevisiae (bakers� yeast). Glycolysis is not only a catabolic route involved in energy conservation, but also provides building blocks for anabolism. From an applied perspective, several glycolytic intermediates are key precursors for the production of a wide range of highly valuable compounds. The most obvious case is the production of ethanol from pyruvate. Its ability to rapidly ferment sugars to ethanol has made S. cerevisiae the major microbial player in large scale biofuel production. Because of its importance in cellular processes and in the biotechnology industry, glycolysis in S. cerevisiae has been studied in detail. However, despite the large amount of information generated about all the components in glycolysis, the limited understanding on how these components interact and are co-ordinately regulated to ensure a robust and balanced pathway, has to date defied all metabolic engineering attempts to significantly accelerate glycolytic flux. So far, the mechanisms that govern the glycolytic flux are not fully known. A particularly poorly understood factor in glycolysis is its high genetic redundancy. This phenomenon is observed in many organisms, but is highly pronounced in S. cerevisiae which, for most glycolytic reactions, harbours multiple isoenzymes and corresponding paralogous genes. The contribution of the glycolytic paralogs to the glycolytic flux is unknown and the simultaneous presence of different isoenzymes � with potentially different kinetic and regulatory properties - complicates the mathematical modelling that is required for a deeper understanding of the regulation of this industrially relevant pathway. Saccharomyces cerevisiae�s glycolytic pathway consist of ten biochemical reactions. In this Crabtree positive yeast, glycolysis is under most growth conditions linked to ethanol formation. Without considering the very complex transport of glucose from the extracellular environment to the intracellular compartment, glycolysis and ethanol fermentation together encompass 12 biochemical reactions. These biochemical reactions are catalysed by enzymes encoded in 27 glycolytic genes, separated in eight paralog families and four unique structural genes. S. cerevisiae evolved from an ancestor that, approximately 100 million years ago, underwent a whole genome duplication (WGD). Many of its hallmark phenotypic characteristics have been proposed to be the result of this duplication event and the subsequent genome rearrangement, gene loss and gains through evolution. In S. cerevisiae, no fewer than eight of the ten enzyme reactions in glycolysis are represented by multiple paralogs genes. This incidence of paralogous combinations represents a significant overrepresentation relative to the ca. 26 % of the yeast genome that consists of paralogous combinations. The WGD event and resulting duplication of glycolytic genes has been proposed to have contributed to the strong tendency of this yeast to produce ethanol under aerobic conditions (Crabtree effect) and to its high glycolytic capacity. However, the impact of reducing the number of glycolytic paralogs on these and other physiological characteristics of S. cerevisiae has not been systematically explored. All glycolytic reactions are equally essential for yeast growth on glucose. However, for all paralogs gene sets in yeast glycolysis, with the notable exception of phosphofructokinase, gene expression and gene deletion studies support the definition of a single, major paralog and one to four minor paralogs. Additionally, except for the pseudogenes GPM2 and GPM3, all paralogs have retained their original catalytic function, although their context-dependent expression profiles differ. Furthermore, deletion of minor paralogs for individual glycolytic enzymes has minor effects on enzyme activities in cell extracts and on specific growth rate under standard laboratory conditions. Reduction of the genetic complexity in S. cerevisiae�s glycolysis could deliver a more predictable and malleable glycolytic pathway. These characteristics could greatly benefit the biotechnology industry and our understanding about glycolysis. Thus, the main goal of this thesis was the construction and analysis of a strain with a minimal set of glycolytic enzymes. Despite the astonishing genetic accessibility of S. cerevisiae and its broad genetic toolbox, large-scale deletion strategies, like the deletion of 13 genes undertaken in the present thesis, were a challenging endeavour at the outset of this project, that only few previous studies had tackled. Despite the large collection of selectable marker genes for genetic modification available for S. cerevisiae, marker availability still presented a hurdle when dozens of genetic deletions were required. Additionally, the presence of the selectable markers in the host genome can influence the fitness or performance of the strain, thus, different methods for marker removal were required. Deletion of the hexose transporter genes (HXT�s) in S. cerevisiae has, for over a decade, represented the paradigm for elimination of complexity in a large, redundant paralog family. This yeast harbours a large group of tightly controlled transporters with different characteristics for glucose uptake. This family is composed of genes with similar function but that are expressed under different conditions, thereby allowing yeast to grow and cope with large and dynamic changes in glucose concentration. Interestingly, deletion of single or several HXT�s does not abolish growth on glucose. In 1999, Eckhard Boles and his team took on the enormous endeavour of removing all transporters capable to import glucose in S. cerevisiae, resulting in the strain EBY.VW4000. Ever since its construction, EBY.VW4000 has become a widely used platform for the discovery and characterization of transporters from a wide range of organisms and as a platform strain for metabolic engineering approaches. Additionally, EBY.VW4000, with its reduced genetic redundancy in glucose transport, could serve as an splendid platform for the construction of a minimal glycolytic pathway. Despite the extensive usage of this strain, the genome of EBY.VW4000 had hitherto not been characterized in detail. Chapter 2 addresses this information gap and presents the whole-genome sequence of EBY.VW4000. To abolish glucose uptake in this strain, 21 genes (including all HXT�s) had been knocked-out across 16 successive deletion rounds with the LoxP/Cre system. Based on a combination of whole-genome sequencing, karyotyping and molecular confirmation, we demonstrated that the construction of EBY.VW4000 resulted in gene losses and chromosomal rearrangements guided by LoxP/Cre. In contrast, only 13 single nucleotide variations (SNV�s) were identified. Recombinations between LoxP scars led to the assembly of four neo-chromosomes, truncation of two chromosomes and the loss of two telomeric regions. By karyotyping the EBY.VW4000 lineage, it became clear that its current chromosomal architecture has resulted from four translocations events that occurred between the 6th and the 12th rounds of deletion/marker recycling. Additionally, sporulation and spore germination were found to be severely impaired in EBY.VW4000. This work also demonstrated that, due to the massive LoxP/Cre-induced genome modifications observed, neither EBY.VW4000 nor LoxP/Cre were suitable for the construction of a minimal glycolysis strain. Therefore, a combination of classical genetic deletion and novel tools and methodologies were developed and implemented. In Chapter 3 the new recyclable dominant marker cassette amdSYM, formed by the Ashbya gossypii TEF2 promoter and terminator and a codon-optimized acetamidase gene (Aspergillus nidulans amdS) is presented. This module confers laboratory, wild and industrial Saccharomyces strains the ability to use acetamide as sole nitrogen source. Direct repeats flanking the marker cassette allow for its efficient recombinative excision. This cassette loss can be rapidly selected for by growth in the presence of fluoroacetamide. The amdSYM cassette can be used in different genetic backgrounds and represents the first counterselectable dominant marker gene cassette for use in Saccharomyces strains. Furthermore, using astute cassette design, amdSYM excision could be performed without leaving a scar or heterologous sequences in the targeted genome. The amdSYM cassette is available for the scientific community via the Euroscarf collection. Including the amdSYM marker cassette, only four counter-selectable markers for S. cerevisiae are available. Extensive strain engineering is severely hampered by this limited marker availability and by the reduced genome stability that occurs upon repeated use of heterologous recombinase-based marker removal methods such as LoxP/Cre system. Chapter 4 introduces an efficient method to recycle multiple markers in S. cerevisiae simultaneously, thereby circumventing shortcomings of existing techniques and substantially accelerating the process of selection-excision. This method relies on artificial generation of double strand breaks around the selection marker cassette by the meganuclease I-SceI and the subsequent repair of these breaks by the yeast homologous recombination machinery, guided by direct repeats. Simultaneous removal of up to three marker cassettes was achieved with high efficiencies (up to 56%). This locus- and marker-independent method can be used for both dominant and auxotrophy-complementing marker genes. Chapter 5 describes the experimental exploration of genetic redundancy in yeast glycolysis by cumulative deletion of minor paralogs and presents a new experimental platform for fundamental yeast research by constructing a yeast strain with a functional minimal glycolysis. The construction of this strain was performed with a combination of classical genetics tools and the newly developed methodologies presented in this thesis. It encompassed the deletion of 13 glycolytic paralogs considered to have a minor contribution to flux. After thorough experimental analysis, using quantitative and systems approaches, under growth conditions leading to a high glycolytic flux and after semi-quantitative analysis under a wide range of growth conditions, the most remarkable feature of the minimal glycolysis strain was the lack of visible phenotypic response to the deletion of 13 genes. The high glycolytic rates in anaerobic cultures of the minimal glycolysis strain and the small effect on the transcriptome argue against gene dosage or back-up effects as means for fixing minor glycolytic paralogs in the yeast genome. The near-wild type growth kinetics of the minimal glycolysis strain in aerobic and anaerobic cultures are difficult to reconcile with the hypothesis that duplication of glycolytic genes during the WGD event played a major role in increasing its glycolytic capacity or in causing the Crabtree effect. This reduction of genetic complexity contributed to the understanding of yeast glycolysis by, for the first time, studying the synergetic effects of multiple deletions of glycolytic genes. Moreover, it eliminated intrinsic uncertainties caused by the simultaneous, context-dependent expression of different isoenzymes, facilitating the formulation and validation of mathematical models that describe the kinetics of this key metabolic pathway. Analysis of the physiology and fitness of the minimal glycolysis strain under dynamic man-made and natural conditions may contribute to the daunting but exciting task of resolving the origin, fate, evolution and role of glycolytic paralogs. Additionally, it will serve as a basis for a more extreme genetic and pathway engineering strategy, in which different glycolytic pathways can be redesigned and interchanged in two simple steps.
+DIY quantum physics	"Electrons can be fixed by anarchy
+in nanowire as thermometer
+for an astronomer to monitor 
+each photon flying through the galaxy.
+
+This is a quantum thing � so much is true
+creating super sensitivity
+by means of endless resistivity
+but how it really worked, we had no clue.
+
+Therefore we started our experiment
+with quasiparticles in excitation
+modelling some ? element
+
+to find the right phase fluctuation
+in a zero K environment.
+Coming soon as homemade application�"	Electrodynamics of strongly disordered superconductors	"Though knowledge of the superconducting state
+Is growing, with its secrets yet to be revealed,
+We study thin films of materials that rate
+High resistance in the normal state, and yield
+A spatially inhomogeneous state due to strong disorder.
+To probe this response we use microwave resonators,
+And find a gradual evolution with disorder,
+Deviating from the Mattis-Bardeen equations.
+Our heuristic model contains an effective pair breaking parameter 
+That modifies the density of states; and when we compare 
+The assumed DoS to local tunnel spectra, we find 
+Affirmative results for the lowest disordered film. 
+But for the most disordered film there's a strong discrepancy; 
+It signals a breakdown of models based on average properties."	https://repository.tudelft.nl/islandora/object/uuid%3Aad01901d-511f-4496-ae66-301d0db92caa	EN	Thin films of superconducting materials with a high resistance in the normal state, such as TiN, NbTiN, NbN and InO, are intensively studied from both an application and a fundamental point of view. A spatially inhomogeneous superconducting state can arise in these materials as a result of the strong disorder. This Thesis provides an experimental study of the evolution of the electromagnetic response with increasing disorder of superconducting thin films. We primarily investigate a series of disordered TiN films. The films are grown by means of plasma-enhanced atomic-layer deposition. We probe the electromagnetic response using superconducting microwave resonators. We find a gradual evolution of the electromagnetic response with disorder, deviating from the Mattis-Bardeen equations. This result might be attributed to changes in the quasiparticle density of states (DoS) induced by the disorder. We can describe the measured microwave response with a heuristic model which contains a disorder-dependent effective pair breaking parameter that modifies the DoS. Further, we compare the assumed DoS�used to describe the electrodynamics�to local tunnel spectra obtained using scanning tunneling spectroscopy. We find affirmative results for the lowest disordered film. However, we find a strong discrepancy for the most disordered film. Moreover, this film displays large variations in the local tunnel spectra. This result signals the breakdown of a model that is based on average properties, due to the emergence of a spatial inhomogeneous superconducting state.
+Welding torch	"The modern need to weld is paramount.
+To weld or not to� not to fall apart
+or to be sort of screwed up part by part.
+World�s progress on this process we did found!
+
+Yet, energy is lost by radiation
+despite the famous law of conservation.
+Therefore we tried by experimentation
+to feed what�s lost back in the main equation.
+
+By narrowing the �arc� � no, not a porch,
+but there where electricity at glance
+jumps in between two terminals � we forged
+
+a plasma flux with double power, hence,
+enabled with a T-shaped welding torch.
+Yes, like the T of TU Delft by chance."	Increased power density plasma arc welding: �the effect of an added radial gas flow around the arc root	"My soul is stirred by welding's art,
+That promises a new way to start,
+To constrict the arc and raise the power,
+And hope that it will not cower.
+A survey of the literature found,
+Will help us build a torch profound.
+Experiments with an anode non-melting,
+Will show us if our hopes are fleeting. 
+The trials of keyhole welding then began,
+To test if our efforts were grand. 
+Additional constriction of the arc was proven true, 
+The power density increased twofold too. 
+Weld narrowing was also observed in this case, 
+Our hopes for success have been embraced!"	https://repository.tudelft.nl/islandora/object/uuid%3A2fbe9916-ef82-4c4d-958c-c6102c3eb9c6	EN	Additional constriction of the arc in plasma arc welding has been investigated. By additionally constricting the arc, the power density at the work piece can be increased. If successful, it is hoped that this increase will approach values achieved in laser beam welding at a fraction of the costs of the latter. A survey of the available literature on plasma arc welding was made. An experimental torch incorporating facilities for additional constriction was custom-designed and built. Experiments with an arc on a non-melting anode were carried out to assess the functioning of the experimental torch, explore the possibility of additional arc constriction and assess some of the changes to the arc as a result. Subsequently, preliminary keyhole welding trials were executed to determine the performance of the experimental torch under welding conditions and to obtain a first indication of the effect of additional arc constriction on a keyhole weld. Additional constriction of the arc in plasma arc welding has been proven to be possible. The power density was increased by a factor of two. Weld narrowing due to additional arc constriction was observed.
+Solar radiation budget	"We know our climate changes, as we know
+the radiation of the Sun descending
+minus heat rays from the Earth ascending
+makes our climate�s total status quo.
+
+Whereas: what do we know of here and now?
+A rain gauge marks the local load of rain.
+Who has a �sun-o-meter� to maintain
+at home? The word does not exist somehow.
+
+Of course, on satellites we can rely.
+Yet, though they oversee it all in all
+it needs some calculus to rectify
+
+for clouds, terrain and angles big and small
+before a high-tech app can notify
+us when to up or down our parasol."	Observing at-surface irradiance and albedo from space: the Tibet-experiment	"O'er the Tibetan Plateau, clouds and terrain
+Do daily shape the solar radiation budget.
+To study land surface processes is then
+A prerequisite, but satellite data can't get
+It right: one square kilometer resolution's best.
+Thus, this thesis aims to solve this problem's debt.
+A case study of clouds and topography 
+Shows that cloud distribution must be considered;
+The sub-pixel topographic correction too, 
+Will help improve albedo and irradiance. 
+Geostationary satellites provide more frequency, 
+And thus a usable dataset will emerge eventually. 
+This method accounts for sub-pixel heterogeneity; 
+It's part of a major scientific initiative."	https://repository.tudelft.nl/islandora/object/uuid%3Ad1076d5a-ad53-4bbc-ab1e-04f55b9d2368	EN	Monitoring the solar radiation budget on a daily basis is a prerequisite to study land surface processes, especially in climatology and hydrology, and in derived applications like drought early warning. Current space-born radiometers can provide daily observations to derive surface radiative fluxes at a spatial resolution of one square kilometer at best, which is not enough to properly take into account surface heterogeneity in many regions of the globe. As part of a major scientific initiative to study the hydrology of the Tibetan Plateau -especially known for its rough topography- this thesis focuses on developing a method to adequately estimate at-surface daily solar radiation budget over this particular area. Following a first effort to produce a time series of the radiative budget from existing satellite data products, it appeared that it is necessary to consider terrain and clouds spatial variability at the sub-pixel level when working over heterogeneous areas such as the Tibetan Plateau. Thus, the impact of spatial and temporal variability of clouds on solar radiation was investigated through a case study conducted on the field whose results demonstrate that the surface irradiance estimation would benefit from using cloud distribution instead of cloud fraction to account for the cloud cover. Furthermore, a high temporal resolution cloud cover leads to a better temporal average of the radiative fluxes. Regarding the effects of the terrain, a new sub-pixel topographic correction method is proposed and applied. It demonstrates that the integration of the sub-pixel topographic effects using high resolution DEM improves the irradiance as well as the albedo retrieval. The temporal resolution of the latter is also to consider and the use of geostationary satellite allows to increase the retrieval frequency. Based on multi-source and multi-resolution remote sensing data, the developed method provides a usable solar radiation budget dataset. Combined with the outcomes of the in-depth researches on clouds and topography, it paves the way for a new operational methodology which adequately accounts for sub-pixel heterogeneity when producing large area time series of solar radiation budget at the surface.
+Cybersecurity	"Internet security is quite
+a nut to crack. Both technologically
+it is complex and sociologically
+just even more, when looked at in the light
+
+of why attackers do attack, despite
+defenders do what psychologically
+may feel ok, but economically
+is ridicule. The trick is to incite
+
+attackers and defeneders in a way
+that surely doesn�t kill the cyber cheat
+but balances the costs and gains at play.
+
+Walls of fire, wire and concrete
+won�t make us better off. Let�s hope and say
+that nudging makes the brutal obsolete."	Cybersecurity via Intermediaries: Analyzing Security Measurements to Understand Intermediary Incentives and Inform Public Policy	"Oh cybersecurity, a realm so fraught
+With danger, where attackers and defenders clash,
+Where intermediaries play a vital part,
+Their incentives shaping the outcomes of this battle vast.
+
+Research in this field has shed light on how
+Incentives shape the actions of both sides,
+And intermediaries, those firms that now
+Provide the internet's infrastructure, act as guides.
+
+This dissertation examines their role in depth,
+Through incident data and network logs analyzed,
+Four studies on ISPs, botnets, and the rest,
+A literature review, two chapters summarized.
+
+Thus, we come to understand these intermediaries' sway,
+And how their actions impact cyber policy today."	https://repository.tudelft.nl/islandora/object/uuid%3A3694edf5-d6e0-4484-b847-750da2b9d1b9	EN	Research in the field of information security economics has clarified how attacker and defender incentives affect cybersecurity. It has also highlighted the role of intermediaries in strengthening cybersecurity. Intermediaries are organizations and firms that provide the Internet�s infrastructure and platforms. This dissertation looks at how intermediary behavior and incentives can be understood from measurements�such as incident data and network logs. The question is answered through a literature review, four empirical studies, and two reflection chapters. The studies researched the role of ISPs in mitigating botnets, the success of anti-botnet initiatives in Conficker cleanup, vulnerabilities in the certificate authority ecosystem, and ISP incentives to deploy deep packet inspection, all using cross-country and longitudinal measurements. The dissertation concludes by reflecting on both the methodology and the broader implications for cybersecurity policy.
+Infrastructuren	"Prijs de gasverdeelstations, de kades
+trafohuizen, alles wat verzonken
+ligt te roesten in de grond. Laudatus
+est wat in de polder vastgeklonken
+
+te verzakken ligt, hun blinde muren
+vol bespoten met wat overwegend 
+goor geklonken had: infrastructuren�
+onderschat ze niet, want ze bewegen
+
+in gefragmenteerde machtsstructuren
+vele waarden dienend ondertussen.
+Zeven dagen, vierentwintig uren
+
+balanceren ze als octopussen
+vraag en aanbod, zonder haast te sturen
+en dat terwijl u doorronkt op uw kussen."	Competing public values: coping strategies in heavily regulated utility industries		https://repository.tudelft.nl/islandora/object/uuid%3A3257cd11-13ad-4636-8074-32b2dd5276e2	NL	"Competing public values
+2
+lead to the right result, oversight bodies are triggered to extend their
+interference and organize for extra checks-and-balances in the form of
+investigations, deliberations, interventions, new norms, warnings or direct
+penalties. Dutch electricity companies, for example, were recently fined
+millions for having delayed compensation payments to customers who had
+experienced service disruptions.
+Obscure, however, are the actual effects of the current oversight system,
+given its many interventions to enforce the realization of a whole range of
+mutually exclusive public values within the industries. To assess these effects,
+the industries� performance figures are the ultimate criteria, but they may rise
+thanks to oversight and just as well apart from it, or even despite the constraints
+and transaction costs to parry oversight interventions. Moreover, now that more
+and more separate oversight bodies participate in the oversight regime, they
+increasingly run the risk of working at cross-purposes with one another,
+pushing their own objectives through at the expense of others. In that case, the
+common practice of oversight bodies to add more checks-and-balances,
+whenever they see a reason for it, may even trigger its own vicious circle
+independent of the industries� performance.
+The question, thus, is how the currently fragmented oversight
+environment in utility sectors functions as a whole. The way oversight bodies
+contribute to utility provision is rather obscure, particularly in light of the
+industries� complex task to comply with many different oversight objectives
+that may inherently compete. This study examines the effects of oversight by
+verifying how trade-offs between public values take place within the industries."
+Draagbaar ondersteunen	"Stel. Je hebt de ziekte van Duchenne
+en iedere beweging van je armen
+produceert een toenemend erbarmen
+wegens ��n verstoring in een gen.
+
+Dan zoek je goede ondersteuning �n
+scharnieren die je vrienden niet verlammen
+naast jouw stangen-parallellogrammen
+in de kroeg te staan. Geen Superman
+
+hoef je te zijn, en ook geen stukadoor
+maar hopelijk maakt je ziekte minder stennis
+kom je makkelijker de dagen door.
+
+Hebben we voor jou voldoende kennis?
+Nader onderzoek is nog gewenst voor
+polsstokhoogspringen en tafeltennis."	Slender spring systems: for a close-to-body arm support for people with Duchenne muscular dystrophy	"Ondersteuning voor armen met dystrofie
+Is het doel van deze studie vastgelegd
+Een wearable, passieve, dynamische steun
+Die dagelijkse taken kan verhelpen
+Inconspicu�teit is een vereiste
+Zodat gebruikers zonder angst mee kunnen doen
+Ideaal gezien past het onder kleding
+Eerste stap: review van huidige technologie
+Van de 23, waren er slechts 4 wearable
+Veel gebruikten een parallellogramstructuur
+Die beweging beperkt en groot van volume
+Geen enkel apparaat paste onder kleding
+Daarom is een serieel verbindingssysteem nodig
+Met dezelfde bewegingsvrijheid als een arm"	https://repository.tudelft.nl/islandora/object/uuid%3A50404d39-d6aa-4fd4-bb20-04794ec01b7b	NL	The goal of this dissertation is to develop a wearable, passive, dynamic arm support that provides users with Duchenne muscular dystrophy (DMD) with support to perform activities of daily living. The arm support needs to be inconspicuous and not stigmatizing, to encourage the users to participate in social activities. Ideally, the device fits underneath clothing. The first sub-goal is to review the state-of-the-art in dynamic arm supports in detail. At the date of publication of the review (June 2013), 23 dynamic passive and active arm supports were found, from which only 4 were wearable. Most of the devices that were found use a parallelogram linkage structure. This structure limits the range of motion of the arm and has a large volume. None of the devices were inconspicuous and fitted underneath clothing. The detailed review to these devices concludes that a serial linkage from the trunk to the arm is required to make the device inconspicuous and underneath clothing. This linkage should have the same degrees of freedom (DoF) as the human arm (3 DoF at the shoulder, 1 DoF at the elbow). In addition, the use of a passive support implies smaller actuators in case an active support is needed. The knowledge from the review is taken into account when defining concepts for a close-to-body arm support (second sub-goal). The focus of the concept elaboration was on compliant structures and on a linkage system with rubber springs. The compliant structure concept was elaborated with two designs. One design uses bending beams as spring elements to support the upper arm. With only two very slender bending beams the upper arm was balanced in a single plane. A proof-of-principle prototype showed that the device gives enough support, is very slender (4 times smaller than current arm supports), and is comfortable. A second design and proof-of-principle prototype showed support of the forearm with a compliant joint consisting of 4 bi-stable leaf springs. The compliant elbow joint has self-aligning capabilities and can be worn underneath clothing. Nevertheless, the forearm is only supported, against gravity, in a single plane. Next to the compliant structure concept, a linkage system with rubber springs is elaborated as a concept for a close-to-body arm support. The focus is on slender and close-to-body spring configurations. Analysis and re-definition of the theory of designing spring configurations resulted in the ability to create designs with multiple serial links. The main accomplishment of re-defining the theory is that the locations of the attachment points of the springs could be calculated very intuitive. Next to that, the behavior of the spring configuration for varying the parameters in the configuration (locations of the attachment points or the spring stiffness) becomes more understandable. In the process, different spring configurations were designed. One spring configuration uses 2 bi-articular springs from the trunk to the forearm, parallel to the upper arm. Some locations of the attachment points of the springs can be chosen freely, others are related to these chosen locations. Another design balances the complete arm with 3 springs. In this configuration, each location of the spring attachment can be chosen freely and close to the body. The required balancing quality can be obtained by adjusting the spring stiffnesses. The balancing quality can be adjusted very easily to the preference of the user during the day. A comparison of the balancing quality and tuning capabilities of different spring configurations showed that the 3-springs configuration is excellent to apply in a close-to-body arm support. This is mainly due to its easiness of achieving and tuning the required balancing quality, and due to the opportunity to locate the spring attachments close to the body. The third sub-goal was to apply the developed spring configurations into prototypes that could be evaluated on patients with DMD. The first prototype was based on a parallelogram structure, parallel to the body, running from the upper legs and hip to the forearm of the user. This prototype shows the advantage of trunk motion capability. The range of motion of the user increases by 10%, compared to the use of a currently available arm support that is attached to the wheelchair. For reaching anteriorly the increase in range of motion is even 50%. The surface electromyography (sEMG) activity is similar. This trunk motion capability was considered as very important by the patients. Therefore, it was included in all the future prototypes as well. Nevertheless, the prototype also showed that the parallelogram structure next to the arm limited the range of motion of the arm. This is because the DoF of the prototype were not similar as the DoF of the human arm. For this reason, in the second prototype this structure was redesigned such that it follows the body contours of the user. This resulted in a kinematic structure with 3 DoF at the shoulder joint and 1 DoF at the elbow joint. The structure was combined with a 2-springs configuration (based on an existing theoretical model). Rubber bands were used as spring elements. The prototype was evaluated with DMD patients and shows good results on comfort, balancing quality (less than 6% error with respect to the required balancing force) and range of motion. The user is able to perform most of the important activities of daily living again (e.q., eating, drinking, table-top activities, reaching the face, scratch the head, reaching for high objects). A downside of this device was that the spring configuration is not inconspicuous. Due to limitations of the spring configuration it is not possible to position the device closer to the body. Therefore, the third prototype is developed with the focus to position the spring configuration closer to the body. The 3-springs configuration was applied in the prototype. The rubber springs were split into hollow spring structures that fit around the body. In combination with covers on specific places to provide safety, extra structures for sideways stabilization and anatomically shaped body interfaces for more comfort, the third version of the prototype fits within 30mm from the body. This design allows for further optimization to bring the device even closer to the body. With this result, a wearable passive dynamic arm support is developed that supports the user during activities of daily living and is not stigmatizing.
+Life cycle clothing	"Fashion and sustainability
+are worlds apart. With pride we wear a suit
+close to our heart, but know it did pollute
+the earth and did exploit humanity.
+
+Fashion, stand for your identity!
+So, change, in order for the world to stay
+as lovely and enchanting as it may.
+Designers, bear responsibility!
+
+If you�re sceptic still and think: who cares
+if clothes are knit or weaved and glued or sewed?
+Well then this news will catch you unawares.
+
+Life cycle studies (LCA) have showed
+to knit or weave is more than splitting hairs
+to weave has twinty times a higher load!"	Making fashion sustainable: the role of designers	"The fashion industry is fraught with wrongs, 
+From toxic emissions to social exploitation. 
+Natascha's research seeks to make it strong, 
+By empowering designers in transformation. 
+
+Life cycle thinking and assessment can show 
+Where hotspots lie across the product's life. 
+Designers must take responsibility, though, 
+To create Life Cycle Clothing with ecodesign. 
+
+This self-empowerment process is a must, 
+For successful transition of fashion trust. 
+Analytical methods and ecodesign approaches, too, 
+Are necessary conditions for what we do.  
+
+Natascha's dissertation shows us the way; 
+Designers can be at the forefront today!"	https://repository.tudelft.nl/islandora/object/uuid%3A8c66ca0a-605e-4f22-a4f1-f59b7e9ac874	EN	"The dissertation �Making Fashion Sustainable � The Role of Designers� describes the PhD research of Natascha M. van der Velden on the envisioned role designers could take responsibility for in the transition towards a more sustainable fashion industry.
+The current worldwide textile and apparel system is unsustainable � from both an environmental as well as a social point of view. The clothing industry is associated with (un-)sustainability problems ranging from materials depletion and toxic emissions to social exploitation.
+This thesis argues that knowledge about life cycle thinking and life cycle assessment (LCA, as a method to calculate �eco- and socio-burden�) could accelerate the transformation towards a more sustainable fashion production system. Therefore, designers are encouraged to include findings that result from the application of the LCA method, in the fashion design process, with the aim to gain insights into the sustainability hotspots over the clothing products lifecycle. This knowledge can help designers to apply ecodesign and create �Life Cycle Clothing�, and is intended to enhance the self-empowerment based learning and probing process of the designers, the makers and the wearers of fashion. It is envisaged, within the wider context of the national and international governance of the fashion branch sustainable development future, that (i) the analytical methods and ecodesign approaches from this study, together with (ii) the self-empowerment process, will be essential elements (even necessary conditions) for a successful transition.
+The conclusions of the research suggest practical guidelines for designers who are willing to adopt a different role than many of their predecessors, and � possibly with help from the tranS-LCA-tor � become a frontrunner of sustainable fashion by adding quantitative sustainability assessment to their �portfolio of skills�."
+Asset Management	"Once upon a time, not long ago
+a power market was utopia.
+Perhaps we suffered from myopia
+but anyhow, despite we didn't know
+
+how this would work within a DNO
+a Distribution Network Operator
+markets proved to be a renovator
+of the money eating status quo.
+
+This thesis shows that Asset Management
+through costs and benefits consideration
+saves a bill of two times ten percent
+
+an end result that calls for admiration.
+Although it may not rock the fundament
+of science � who cares? � it brings optimization."	Processing Risk In Asset Management: Exploring The Boundaries Of Risk Based Optimization Under Uncertainty For An Energy Infrastructure Asset Manager	"Though DNOs face the regulator's cuts,
+They can still reduce their costs and risks;
+Asset management is the common response,
+Applying CBA to network's risks.
+RBO is used for upgrades and replacements,
+But whether it works on higher levels unclear;
+The subjectivity of risk decision making,
+Might threaten acceptance of outcomes seen.
+This research reveals that no barriers exist,
+To use RBO for whole system optimization;
+Accepting uncertainty and subjectivity, 
+Allows simple tools with less precision. 
+For this to work a sociotechnical process must be designed, 
+And RBO applied on all levels will lead to savings of twenty percent combined."	https://repository.tudelft.nl/islandora/object/uuid%3Ae7fcf310-749f-4e4e-bbab-78eef99d0342	EN	In the liberalized energy market Distribution Network Operators (DNOs) are confronted with income reductions by the regulator. The common response to this challenge is the implementation of asset management, which can be regarded as systematically applying Cost Benefit Analysis (CBA) to the risks in the networks. In short, this is Risk Based Optimization (RBO). However, application of RBO is mostly limited to interventions on individual assets like upgrades, replacements and maintenance. Whether RBO is feasible for higher levels of aggregation like the portfolio of interventions or even the whole system was not clear. The unavoidable subjectivity and uncertainty associated with risk decision making could threaten the acceptance of decision outcomes. The experiments conducted in this research reveal that there are no fundamental barriers to risk based optimization of the whole system. Embracing uncertainty and subjectivity allows for relatively simple tools, as the tools do not need to be more accurate than our knowledge of the future. The condition for this to work is that the rational RBO decisions are embedded in a well-designed sociotechnical process. A systematic implementation of RBO on all levels (individual assets, portfolios of interventions and the whole system) results in a reduction of the total costs of the system (expenditure plus residual risk) of about 20%.
+Keep calm and study on	"How to study how an infrastructure
+scrambles to its feet again when it
+goes wrong, out of control, when it�s been hit
+by chaos, catastrophe or sheer disrupture?
+
+Make a game about an incident.
+This allows to shoot the human factor
+with a camera for every actor.
+Film how systems are resilient.
+
+Behold! You'll get a data sea to drown in,
+nine full working weeks of evidence
+to binge-watch, yawning, labelling and counting
+
+all behaviours and their circumstance,
+until � luctor et emergo � �bouncing
+back� exposes its intelligence."	Multidisciplinary emergency management: A comparative study of coordination and performance of on-scene command teams in virtual reality exercises		https://repository.tudelft.nl/islandora/object/uuid%3A72dbceb5-4617-4f52-b5e6-24ab78e53c40	EN	
+Dancing in the dark 	"The slowest dance on Earth takes place in Earth. 
+The North Pole and the South Pole tend to sway 
+in pirouettes, pliss�, a true ballet. 
+At least, that�s what they say, for what it�s worth. 
+
+Scientists have tried to lift the dark 
+of planets� viscoelasticity. 
+How do poles in synchronicity 
+make their magnetism tango spark? 
+
+If you blend a linear calculation 
+paired to a non-linear as you go 
+with some quasi-fluid estimation 
+
+you�ll see Mars steps fast and Venus slow. 
+Although there hardly is approximation 
+perhaps the twain shall meet once toe to toe."	Rotational dynamics of viscoelastic planetary bodies		https://repository.tudelft.nl/islandora/object/uuid%3A5c137348-aedb-44d3-a545-406313472a20	EN	
+Connectivity along the way 	"As the sun sets on the road ahead 
+and windy dust of ages finds no rest 
+endless roads connecting East and West 
+conceal in asphalt one long silky thread. 
+
+Next to goods like rubies, pearls and china 
+people and their stories also travel. 
+DNA-connections shall unravel
+ how we met along the way to China.
+
+Prosperity will bring urbanisation 
+in places that you wouldn�t know to find. 
+Their growing pains demand facilitation. 
+
+By design, the forces grow aligned. 
+Diversity will beat colonisation 
+with a symbiotic state of mind."	The New Silk Road: Facilitating interaction between global and local within the Belt and Road Initiative	"The world is in a state of unrest, and China's plan
+To bring peace and prosperity through the BRI
+Can fail or succeed, depending on how it's done
+And how it interacts with its local context. 
+
+A case study at Khorgos Gateway shows how 
+Global changes can affect the local space. 
+The aim is to create a symbiosis between them, 
+Five goals set for ICBC to facilitate this dream. 
+
+An international network of ICBCs will then form, 
+Where cultures meet and knowledge is shared and reborn. 
+An evaluation framework is presented as well, 
+To help transfer the concept to other sites as well. 
+
+This work sparks interest and further research too, 
+Exploring socio-spatial frames of reference anew."	https://repository.tudelft.nl/islandora/object/uuid%3A16152a04-581c-4f8d-9fa3-3629a1d52506	EN	
+Alive! 	"Studying a model in the wild 
+takes a very special set of glasses 
+to see what isn�t taught in masterclasses 
+but what is obvious to any child. 
+
+They are alive! There are ecologies 
+of models, data sets that co-evolve 
+with one another, someday to dissolve 
+the mother of all mother�s mysteries. 
+
+What is life� but an uncertainty 
+longing to be modelled by a model 
+longing for variability? 
+
+Why are we revolving round the sun? 
+Don�t ask Einstein, Darwin, Aristotle 
+but a random Monte Carlo run!"	Uncertainty Analysis on Multi-model Ecologies: A Study on Methods to Analyse the Impact of Uncertainties in Multi-model Ecologies and their Application to the Windmaster Model	"Our modern world is a complex system of systems,
+Where technical and social parts interact and blend;
+Multi-models are the tools to help us understand
+The many uncertainties that these systems portend.
+The locations of uncertainty are five in all:
+Conceptual model, computer model, input data,
+Technical implementation, output data's call;
+Plus one more for multi-models - the interface.
+Epistemic opacity and computational cost 
+Are properties that limit our knowledge of the whole; 
+Sensitivity analysis and calibration most 
+Are methods to identify and analyse this toll. 
+We've used a case study to prove our point: 
+That uncertainty analysis can be applied anoint."	https://repository.tudelft.nl/islandora/object/uuid%3Adebfcd39-38fc-493d-8948-012bb8e02f6b	EN	
+Missing the buzz� 	"The thing with public transport is, performance 
+rises from a crowd of interacting 
+agents buzzing, networking, connecting 
+chaos, also known as governance. 
+
+To study this is quite a tricky dance 
+a wicked mix of opposites attracting 
+and those being affected are affecting 
+just like there�s no thing as one-way romance. 
+
+Are you an agent that does not know better 
+than to talk, to yak, to squabble and discuss 
+eternally? It turns out that you matter! 
+
+It�s called �dynamic interaction�� Thus, 
+go write and send yourself a thank-you-letter. 
+Without that buzz, we all would miss the bus."	En Route to Better Performance: Tackling the Complexities of Public Transport Governance	"O\u2019er cities worldwide a pressing issue lies,
+For travelling is time-consuming, unsafe.
+The traffic congestion limits our lives,
+And threatens freedom of movement we crave.
+The emissions from vehicles in turn
+Are causing climate change to worsen fast.
+It\u2019s clear that we must find a way to learn 
+To make collective transport the new norm at last. 
+We must explore how governance can help us out, 
+Innovations such as mobility as a service. 
+This research will show what it\u2019s all about; 
+How performance and goals can be made to converge. 
+The future of our cities hangs in the balance; 
+Our task is to make sustainable travel happen!"	https://repository.tudelft.nl/islandora/object/uuid%3A431ffda5-275c-4670-bf32-43d863261ec2	EN	
+Hesje	"De vraag is hoe je nuttig toezicht houdt.
+Het antwoord� is iets minder relevant.
+Een antwoord heeft zelfs iets gevaarlijks, want
+hoe blijf je dan nog leren, welbeschouwd?
+ 
+Een onderzoeker is een kosmonaut
+die in een pitch black box is aanbeland
+tastend naar verschil en het verband
+tussen dat wat goed is en wat fout,
+ 
+maar nuttiger dan reizen naar de maan
+is soms het drinken van een bakkie pleur
+en op een simpel vraagje door te gaan.
+ 
+Het juiste antwoord is een open deur
+waardoor je heensnelt met een hesje aan
+in het kielzog van een inspecteur."	Inzicht in de praktijk van het toezicht: Een empirisch onderzoek naar het verloop van operationele inspectieprocessen in de luchtvaart en zeevaart	"Onder druk en toezicht staat het toezicht,
+Zijn operationeel niveau onder vuur,
+Inspecteurs en inspecties in nauwe band,
+Interacties onder de loep, in het licht.
+
+In luchtvaart en zeevaart is inspectie kern,
+Om te begrijpen hoe toezicht werkt van binnen,
+De \""black box\"" opent observaties leren,
+Een rijk beeld te schetsen van de interacties, een grote win.
+
+Inspecteurs wegen vele overwegingen,
+Als ze hun plicht uitvoeren, inspecties, audits ook,
+Hun observaties bieden waardevolle inzichten, vergiffenis
+Voor beleidsmakers en toezichthouders, om te gaan voort.
+
+Een schat aan observaties, toezicht's werking
+Een rijk en levendig beeld, een inzichtvolle wedstrijd."	https://repository.tudelft.nl/islandora/object/uuid%3A62e7441c-72c7-4445-bf72-fb8ef047308e	NL	
+Nunchaku	"Two sticks connected by a rope or chain
+�danger-sticks� they are or Nunchaku
+When sportsmen fight with them the way they do
+the referees are driven quite insane
+
+Because, you see, it all just goes so quick
+that actually one does not see at all
+It's very hard for refs to make the call
+of who did what to whom and with what stick
+
+Some technical assistance would be nice
+to show the arbiter what just went down
+so he can tell the truth without a crease
+
+A real Smart-Nunchaku is the device
+it should eliminate the slightest frown
+and easily settle every fight in peace."	Improving Score Arbitration in the Combat Sport Nunchaku-do 	"The art of nunchucks, a weapon wielded with grace
+By Bruce Lee and others in exotic martial arts
+Is marred by referees' difficulties to keep pace
+In giving sports justice, as they lack sufficient parts
+
+To judge who struck first in matches played at great speed
+Thus, smart materials and sensors may be the key
+To bridge this gap and provide some needed relief
+And help referees make calls that they can see
+
+A pressure sensor matrix, embedded in the sticks
+May turn them into smart nunchucks, capable of telling
+The referee the strikes, grips, and blocks that mix
+And even estimate the force behind the dwelling
+
+Smart nunchaku technology
+Can help referees give fair calls with reliability."	https://repository.tudelft.nl/islandora/object/uuid%3A7447d9e5-64a9-445a-91d4-408ab799757a	EN	
+Beefschild	"Heel diep onder Grunnse klei en zand
+daar haalden we wel z�veel gas vandaan
+dat aarde er van beven is gegaan
+En nu is er iets lastigs aan de hand:
+
+Kijk, vroeger bleef zo'n stenen huis wel staan
+in weer en wind, daar bij het Hooge Land,
+maar baksteen is er niet tegen bestand
+als Richters naald dramatisch uit gaat slaan.
+
+Gelukkig kun je muren best versterken
+met twee systemen die goed samenwerken:
+een taaie extra laag �n koolstof strips.
+
+""Quake Shield"" is de naam om te onthouen,
+want als men toch de boel moet gaan verbouwen
+dan wil een mens natuurlijk wel iets hips."	Combining existing independent seismic reinforcing methods for clay brick masonry: Knowledge development of the behaviour of reinforced masonry by using Finite Element Modelling 	"De grond van Groningen beweegt,
+Een gevolg van menselijk hebzucht,
+Huizen gebouwd voor rust en vreugd,
+Nu in gevaar voor instorting, inderdaad.
+
+Oosterhof Holman en SealteQ,
+Hebben een oplossing gecre�erd,
+Quake-Shield is hun verwezenlijking, zo zie je,
+Een manier om huizen te redden van zekerheid.
+
+NSM FRP strips en EB FRP ook,
+Samengevoegd om de metselwerk te versterken,
+Stijfheid, sterkte en buigzaamheid verhogen,
+Zodat het gebouw lang stand kan houden.
+
+Een FEM model laat zien wat te doen,
+Quake-Shield beschermt tegen bewegende grond."	https://repository.tudelft.nl/islandora/object/uuid%3Aec1fecb6-8e3f-4207-aea8-b9f4318d0330	NL	
+Stoeprand	"Zo willen wij dat in de lage landen:
+de zaken in de juiste banen leiden.
+Dus voetgangers en fietsers moet je scheiden
+desnoods met keiharde betonnen randen.
+
+Maar nu blijkt een tamelijk groot bezwaar:
+Die stenen balken leveren juist gevaar op!
+Want fietsers botsen veel frequenter daarop
+dan op ander verkeer of op elkaar.
+
+Terwijl; g��n rand geeft eigenlijk nauwelijks hinder:
+Fietsers blijven bij hun peloton.
+Die strenge hardheid kan dus best wat minder.
+
+Of, zoals het heet in vakjargon:
+Zo'n fietspad kan best ""vergevingsgezinder"".
+Meer zachtheid dus in baksteen en beton!"	Traffic Safety of Kerbs	"Om te houden voetgangers en fietsers veilig,
+De nuttigheid van trottoirranden wordt bevraagd,
+Rechte hoeken scheiden wel,
+Maar zijn niet zo toegevend.
+
+Gestroomlijnde en ge�ffende randen zijn vriendelijk,
+Maar hun scheidingsvermogen is onduidelijk,
+Daarom werd een videoanalyse toegewezen,
+Om te zien of ze wat blijdschap konden brengen.
+
+Bijna 15.000 fietsers werden bekeken,
+Op 12 verschillende locaties, dat is waar,
+Het resultaat was een goed behouden type rand,
+Wat betreft het scheiden van fietsers van diegenen die lopen, ook.
+
+Gestroomlijnde en ge�ffende randen, aanbevolen,
+Om iedereen veilig te houden."	https://repository.tudelft.nl/islandora/object/uuid%3Aa5c5059c-21e0-47eb-87cc-47ee31852e6a	NL	
+Eenoog	"Met twee ogen kun je diepte zien
+en met twee camera's gaat dat ook best
+maar nu heeft iemand hier in Delft getest,
+of ��n camera ook voldoet misschien,
+
+vast op een vliegmachine, superklein,
+die zelf uit de beweging deduceert
+-en dan al doende van zijn fouten leert-
+waar de objecten in de ruimte zijn.
+
+Omdat de vlucht hier binnenskamers is
+moet al zo klein en licht zijn als maar kan;
+Zo�n tweede 'oogje� is dus geen gemis
+
+zolang hij dan maar foutloos navigeert,
+die piepkleine cyclopenvlieg, die dan
+niet enkel maar het blindenland regeert."	Self-Supervised Monocular Distance Learning on a Lightweight Micro Air Vehicle	"Een nieuwe manier om afstand te schatten,
+Op een fladderende vleugel micro luchtvaartuig,
+Met behulp van een enkele camera,
+Wordt in deze thesis voorgesteld.
+Dit systeem is gebaseerd op een algoritme,
+Dat zichzelf leidt en een detector gebruikt op korte afstand,
+Om afstanden op langere termijn te leren.
+Het is nuttig om te weten,
+Hoe ver obstakels zijn tijdens het vliegen,
+Om ongelukken te voorkomen en vliegongelukken te verminderen.
+Binnen vliegen kan gevaarlijk zijn,
+Zonder goede manier om afstand te bepalen,
+Maar deze nieuwe methode kan helpen,
+Om te navigeren en ongelukken te vermijden."	https://repository.tudelft.nl/islandora/object/uuid%3A55f9ab7a-2651-4a90-93a0-a8c9ddc7c6a9	NL	
+Dimples	"A dimpled golfball flies a longer streak,
+we have known of this for quite a while
+and it will make most any golfer smile,
+whillst aerodynamic theorists turn bleak.
+
+We know it does, but why we don't yet see:
+The way it works is covered in mystique.
+But now, to grasp some more of the technique
+there's PIV �nd PISFV!
+
+Two ways that show to us very precise
+just in what ways all those small flows do flow;
+Old theories can now be cast aside!
+
+The benefits can be of megasize
+for cars, trains, planes, pipes and... oh, I don't know...
+Let all things have a skin with cellulite!"	Going against the flow: An experimental investigation into the flow mechanics of dimpled surfaces in turbulent boundary layers 	"The potential of energy savings is clear,
+With benefits to the economy and environment near;
+Industrial competitiveness will also cheer
+When drag or fluid resistance is reduced here.
+Experimental studies have proven this truth,
+That dimpled surfaces can reduce turbulent drag,
+But how it works remains a mystery still,
+And so an investigation we must bag. 
+Direct force measurements and PIV and PISFV too,
+Have shown that the reduction is quite sensitive; 
+Implications for research and applications new, 
+Are now revealed by this experimentative view. 
+The oscillation caused by dimple interaction, 
+Provides evidence of a novel drag reduction."	https://repository.tudelft.nl/islandora/object/uuid%3A43525b03-f784-4db8-85c8-0d68918f1ac6	EN	
+Kluister	"Twee satellieten vliegen in formatie
+twee stipjes in het eindeloze zwart
+In beiden klopt een elektronisch hart
+dat leeft van zonnekracht en informatie
+
+Net als twee zwemsters in't olympisch bad
+proberen zij perfect synchroon te blijven
+niet te tuimelen of af te drijven
+maar goed te weten waar en hoe en wat.
+
+Twee zwemsters in het stille zwart, een tweeling,
+die fluistert in elkaars geheime taal
+giechelende smiespelende zusjes:
+
+In formatie informatiedeling.
+En spoort ��n van die twee niet helemaal
+dan corrigeert zij met geblazen kusjes."	Design, Implementation and Verification of the Attitude Determination and Control Algorithms for the DelFFi Satellites		https://repository.tudelft.nl/islandora/object/uuid%3A4a5cacb7-b4dd-4665-b697-c53427b3bed6	NL	
+Emoties	"Emoties, dat zijn hele rare zaken,
+voor een TU haast onbegaan gebied
+omdat een ingenieur zich liever niet
+voor halve zachte dromer uit laat maken.
+
+Maar als je grootse dingen wilt bereiken
+(om aardolie bijvoorbeeld uit te bannen)
+dan zul je voor de uitvoer van die plannen
+naar menselijke emoties moeten kijken.
+
+Je komt graag bij de mensen in de gunst...
+Je wilt de mensen heel graag engageren...
+Een krachtig middel daarvoor, dat is kunst.
+
+Het is alleen heel moeilijk te hanteren:
+Een groot effect, maar niet te controleren.
+Daarin lijkt kunst best veel op kernfuseren."	Emotions matter for public engagement in the emerging biobased economy	"Mijn thesistekst onderzoekt de rol
+van emoties in het aansporen van publiek
+om zich te engageren in de opkomende bio-gebaseerde economie.
+Ze zijn belangrijk in onze communicatie en besluitvorming,
+maar worden vaak vergeten in huidige praktijken.
+Alternatieven zoals Q-methode, kunst en diners
+kunnen helpen om emoties te uiten en te verwoorden,
+en publieke betrokkenheid te verhogen.
+Vooral bij zo'n afgelegen kwestie als de opkomende bio-gebaseerde economie
+kunnen emoties mensen aanzetten om na te denken
+over wat het allemaal betekent, en hen daardoor
+activeren om zich te engageren.
+Zij zijn de sleutel tot begrip en betrokkenheid,
+en helpen om ons te verbinden met de wereld om ons heen."	https://repository.tudelft.nl/islandora/object/uuid%3A268baa72-59a8-4c40-9951-fc496803106b	NL	
+Draadloos minimaal	"Niet iedereen blijft altijd maar compleet:
+Soms missen mensen zomaar ledematen.
+En daarvoor bouwen mensen apparaten:
+Die matigen de mate van het leed.
+
+Zo'n ding moet dan met mensenhersens praten,
+zodat het wat de mens wil dan ook weet,
+met weinig ruis en hoge data-rate,
+maar klein genoeg om in het hoofd te laten.
+
+Een interface dus, die op stroomkracht teert
+wordt ergens in de hersenen geplant.
+Heel veilig en heel zuinig moet het zijn;
+
+volkomen uitgeoptimaliseerd
+zelfstandig draadloos functionerend, want
+een gaatje in zijn hoofd vindt niemand fijn."	Multi-Domain SystemC Model of a Neural Interface	"De technologie die wij gebruiken,
+Is al decennia door onderzoekers bekeken.
+Met micro-elektroden en neural interfaces
+Krijgen we informatie uit neurale netwerken.
+
+Dit veld is snel vooruitgegaan, de focus ligt nu op het maken van meerdere kanalen 
+Om tegelijkertijd de activiteit van veel neuronen te monitoren. 
+Gebied en veiligheid zijn twee belangrijke factoren in het ontwerp van deze elektronica, 
+Want als we teveel ruimte innemen wordt de hersenen beschadigd door het ge\u00efmplanteerde apparaat. 
+
+Het beperkte vermogen dat hierbij komt kijken 
+Moet met zorg worden gebruikt om een ontwerp met lage ruis en hoge data rate te cre\u00ebren. 
+Een effici\u00ebnt ontwerp stelt ons in staat om meerdere kanalen binnen dit budget te implementeren. 
+Dit thesis stelt gedrag modellen voor om de elektroden en neural interface front-end te testen. 
+
+Deze modellen worden geverifieerd en samen met een vermogensestimatiemodel 
+Wordt er een systeemstudie uitgevoerd om de trade-offs tussen neural interface design parameters te bestuderen."	https://repository.tudelft.nl/islandora/object/uuid%3A5ee7e852-fce5-45af-8737-cf950cebd8a5	NL	
+Goud uit stro	"Wie koolwaterstof tot brandstof maakt
+krijgt vocht en het beruchte CO2
+Dat laatste nu, daar zit de mensheid mee;
+een wereldwijde superrampspoed naakt.
+
+Je denkt: ""dat lossen we wel op"" maar nee
+regering op regering heeft verzaakt
+er wordt gepraat, maar geen beleid gemaakt
+en ijsbeerijs smelt langzaam weg in zee.
+
+Maar door slim te electrolyseren
+Lukt het de reactie �m te keren
+men vangt dan koolzuur uit de atmosfeer �n
+
+kan wind- en zonnestroom accumuleren.
+'t Is niet genoeg, dat wil niemand beweren
+Maar't biedt een sprankje hoop voor natte beren."	Electrochemical production of hydrocarbons from carbon dioxide and water	"Elektrocatalytische reductie van CO2
+Is een manier om 't probleem van opslag op te lossen
+En om de hoeveelheid CO2 te verminderen.
+Koper is 't enige metaal dat tot nu toe
+Hydrocarbons produceert bij elektrochemische reductie
+Op normale druk en temperatuur.
+De parameters, katalysator-morfologie
+En zuiverheid van koper, en nieuwe elektroden
+Zijn onderzocht. De hoogste effici�ntie voor hydrocarbons
+Werd behaald bij een vaste potentiaal van -2,5 V,
+Elektrolyt met 0,1 M KHCO3 is het best,
+Methaan is 't hoofdproduct, ethyleen piekt bij -2,25 V.
+Boven 40 graden zijn er bijna geen hydrocarbons,
+Tot die temperatuur neemt 't aandeel ethyleen toe."	https://repository.tudelft.nl/islandora/object/uuid%3A7baee23c-bd31-4002-b5fc-2d627c766130	NL	
+City without heart?	"The world's a stage and each must play his part
+But where to find a proper place to play
+with all the perfect assets that it may
+endorse and lift the splendour of your art?
+
+Street musicians need a proper place
+to make their music heard and seen and felt
+acoustics that ensure that it won't melt
+away in all the sounds of everydays
+
+Make Rotterdam a center that provides
+us stages that facilitate for art
+reverberating unexpected sites!
+
+A city once by war severely scarred
+should have symphonic days and songful nights
+right in its new and lively throbbing heart!"	"Music in the City; a redesign for the Binnenrotte"		https://repository.tudelft.nl/islandora/object/uuid%3A67b073c9-9535-4cf0-ad97-311d67c9949d	EN	
+The Ganges and the Bramaputra	"Being both river people, it so seems
+the Dutch would share a lot with Bangladeshians
+but while our rivers flow in tepid fashions
+they have much wilder, untamed, fickle streams.
+ 
+The Ganges and the Bramaputra flow
+in ways that vary very, very much.
+Compared to what we're used to see, as Dutch
+it is hard to understand and timely know
+ 
+just when and where an offtake may fall dry
+and how to halt a likely lethal drought.
+Mere facts quickly grow obsolete, that's why
+ 
+computer simulations must help out.
+So now potential lack we can foresee
+because of 2-D depth in Delft3D."	Closure of offtakes in Bangladesh: Causes and assessment of remedial measures	"Amidst Bangladesh's wild and winding rivers,
+Where Ganges and Brahmaputra meet their ends,
+The challenge of engineering is severe;
+Flows change rapidly, morphological trends.
+Distributaries bring fresh water to the land,
+But in dry season they can be cut off;
+Data for a detailed study is hard to find,
+Morphology changes too quickly for proof.
+This thesis takes a physics-based approach: 
+A model based on key characteristics. 
+It shows dredging upstream helps prevent closure, 
+Though it must be done with regular persistence. 
+Other measures are tested but prove ineffective; 
+This model offers an innovative perspective."	https://repository.tudelft.nl/islandora/object/uuid%3A691dbc0b-a713-4f29-9354-202c713cc4bc	EN	
+Windgedreven Peristaltische Pomp	"Kijk, 'peristaltiek' en 'windgedreven'
+dat roept natuurlijk associaties op:
+Het meest banale dringt ons in de kop.
+Maar lieve mensen wacht nou toch eens even! 
+
+Het gaat hier niet om gas en ingewanden,
+maar om een apparaat van groot belang
+dat simpel met een rotor en een slang
+schoon water pompt in barre, dorre landen. 
+
+Dat water is de bron van zoveel leven!
+En de wind is enkel maar verbaasd
+dat hij de mensen nu zoiets mag geven. 
+
+Waar hij doorgaans gehaat door vlaktes raast
+voelt hij zich gewaardeerd nu en verheven
+als hij het leven in de aarde blaast. "	A sturdy wind-powered rotary displacement pump suitable to Developing Regions (field case Palestina)	"De peristaltische pomp belooft veel voor ontwikkelingslanden:
+Gemakkelijk te maken en een perfecte match
+Voor een windmotor, die op zich akkers kan bevloeien
+En waterbassins kan vullen.
+Gebruikers kunnen een sifon nemen in plaats van een emmer,
+Zodat water de hele dag toegankelijk is, dichtbij huizen
+En zonder veel moeite. Een prototype werd gemaakt en getest.
+Het pompte 4,2 liter per minuut bij 100 RPM,
+Met een hoofd van tien meter en een koppel van 2,2 Nm.
+Helaas was het prototype nog niet stabiel:
+De slang werd meegesleurd door de rollers,
+Wat tot een schokkerig gedrag leidde.
+Maar met dikkere slangen en verbindingen
+Kunnen we dit probleem oplossen, flow-rate verhogen."	https://repository.tudelft.nl/islandora/object/uuid%3A7f6c70ab-54fa-4506-8368-14f659c9e4bb	NL	
+Waar wachten we nog op? 	"De bruggen die zo fraai het kruis markeren
+van wegen met kanaal of vaart of gracht
+kunnen tegenwoordig functioneren
+zonder dat er iemand nog bij wacht:
+
+Een camera slaat op passanten acht.
+Overbodig zijn ze dus, die heren
+die in hun glazen hokjes vegeteren.
+Maar nu heeft iemand z� iets leuks bedacht:
+
+""Ik laat me door die ruimtes inspireren;
+die lege glazen huisjes zijn te gek!
+We gaan een nieuw soort brugwachters cre�ren!
+
+Die maken van zo�n hok z�n hippe stek
+dat menigeen zelfs zal solliciteren
+naar enkel maar een brugwachtwachtlijstplek!"""	New Bridge Keepers	"Een project met minimale ruimtelijke ontwerpen
+Verbindt de watersystemen in Zuid-Holland met wegen
+Door sociale gebruik. Het watersysteem in Holland
+Is belangrijk om onze voeten droog te houden
+En als transportmiddel en recreatielaag.
+Maar door ontwikkelingen van de afgelopen eeuw
+Is het voornamelijk overgenomen door treinen en auto's.
+Daardoor zijn leegstand en watersystemen verbonden.
+De verweving van het Nederlandse watersysteem
+Met zijn context maakt de kruising van water en wegen
+Hoe kunnen leegstaande gebieden
+Waardevolle middelen worden voor dit probleem?
+Deze thesis geeft een oplossing
+Die verbinding herstelt en integreert."	https://repository.tudelft.nl/islandora/object/uuid%3A9a5b9a89-d591-435a-b004-3b043166267b	NL	
+Stoel	"Soms komt een goed idee z� bovendrijven
+onder de douche � een droomscenario.
+Maar meestal zit je achter een bureau
+om urenlang te denken en te schrijven.
+
+Je ondervindt dan zittend aan den lijve
+de waarde van een stoel. Het risico
+op klachten is vrij groot. Je animo
+vermindert als je alles voelt verstijven.
+
+Een goede stoel houdt kenniswerkers scherp.
+Dynamisch moet hij zijn, met ondersteuning
+en de perfecte zithoek voor de leuning.
+
+Nu liggen er adviezen voor ontwerp:
+voornaamst is dat je alles kunt verstellen.
+Maar wie durft dat aan Rietveld te vertellen?"	Seat design in the context of knowledge work	"Vergeefs zoeken naar een verlichting
+van de pijn die zit in je nek en schouder,
+omdat je veel moet zitten bij kenniswerk.
+Geen beweging, weinig fysieke inspanning,
+maar toch een last die leidt tot gezondheidsproblemen.
+Het is moeilijk om te presteren als je lijdt.
+ 
+Deze PhD-studie onderzoekt verschillende stoelvarianten,
+die samengaan met houding en beweging tijdens taken.
+In kantoor of trein wordt het comfort onderzocht.
+Ook een prototype loungechair werd getest, 
+waarbij de monitor centraal stond in het experiment. 
+De resultaten dragen bij aan discussies over optimale stoelondersteuning, 
+maar ook aan praktische toepassingen voor functioneel stoelontwerp en evaluatie."	https://repository.tudelft.nl/islandora/object/uuid%3A19060a11-6d6c-46dd-9f47-8583d1610b94	NL	
+Doorbraak	"De mens bevecht het water. Ongelijk
+is deze strijd. Wij dammen in, maar zie:
+een dam kan veilig zijn in theorie;
+hij barst in de weerbarstige praktijk.
+
+Wanneer het water eenmaal door een dijk
+of dam breekt, kennen Delftse technici
+precies de natte choreografie
+van water, aarde, zand, beton en slijk.
+
+Hoe is zo�n vloed van invloed op gebouwen?
+Dat kunnen we in een model beschouwen,
+maar cruciaal is dat iemand ons wijst
+
+wanneer een breuk begint zich te ontvouwen.
+Daar is nog � steek de handen uit je mouwen! �
+een doorbraak in het onderzoek vereist."	Dam Safety Concepts	"Toen de bouw van dammen begon, was het doel
+Om een sterk en betrouwbaar bouwwerk te maken,
+Een prestatie die keer op keer lijkt te vloeien
+Maar toch bleven de mislukkingen komen, oud en nieuw.
+
+Want onverwachte factoren komen vaak voor om te plagen
+De werken van de mens, en dammen zijn niet immuun.
+Hoewel we technologie�n en technieken hebben om te wagen
+Een oorlog tegen de krachten die zouden consumeren,
+
+Zijn er maar beperkingen aan wat we kunnen beheersen,
+En zelfs met het beste gereedschap en macht,
+Kan de woede van de natuur nog steeds zijn tol eisen,
+Laat ons achter met het trieste lot van een dam.
+
+Maar toch gaan we door, en leren van onze fouten,
+In de hoop dat de volgende niet zal worden verlaten."	https://repository.tudelft.nl/islandora/object/uuid%3A9568dc21-9c84-441f-88a5-c132a6f2a437	NL	
+Stadswaterwerken	"Een stad heeft meestal baat bij waterstromen.
+Voor handel of gewoon voor praal en pracht.
+Want wat zou Amsterdam zijn zonder grachten?
+Wie kwam zonder Tiber nog naar Rome?
+
+Maar in dat water kunnen karrenvrachten
+micro-organismen samenkomen,
+vaak als klimaatveranderingssymptomen,
+dus wees wel op de risico�s verdacht.
+
+Van groot belang is inventarisatie:
+aan hoeveel wordt een stadsmens blootgesteld?
+En is dat dan een dosis die ons schaadt?
+
+Delfts onderzoek vergaart die informatie.
+Let dus goed op, als straks uw ijsje smelt
+terwijl u op een stadsstrand pootjebaadt."	Health Impact Assessment of New Urban Water Concepts 	"Verheven is de stad, de vijvers als een meer,
+Een bron van schoonheid en plezier voor ieder hier.
+Maar water heeft ook risico's die ons bekend zijn:
+Virussen, bacteri\u00ebn die kunnen leiden tot pijn.
+
+Gezondheidsrisico's worden ge\u00ebvalueerd door QMRA-tools,
+De gevolgen van verontreiniging zijn voor iedereen duidelijk.
+Campylobacter en Cryptosporidium, adenovirus en norovirus,
+Legionella pneumophila en Coxiella burnetii zijn allemaal hier.
+
+Faecale indicatoren en Microbial Source Tracking Tools helpen ons verder,
+De risico's op gastro-intestinale ziektes worden groter als er mensenfeces is in het water. 
+Hogere temperaturen in de toekomst brengen nog meer gevaren met zich mee, 
+Dus moet er maatregel genomen worden om deze te voorkomen met een extra barri\u00e8re of twee. 
+
+Verheven is de stad met haar vele waterpartijen, 
+Maar we moeten alert blijven op wat het water ons kan bieden."	https://repository.tudelft.nl/islandora/object/uuid%3A0e41d07b-9f44-4220-aaac-e22c73c5074a	NL	
+Verjongingskuur	"Wij rijden op zeer open asfaltbeton.
+Die open structuur is voor auto's een zegen
+omdat, als dit land wordt geteisterd door regen,
+het water snel wegvloeit � zelfs bij een moesson.
+
+E�n nadeel: zo'n zeer open weg brokkelt on-
+herroepelijk af. Die erosie van wegen
+gaat men nu met een soort verjongingskuur tegen �
+zoals bij een vrouw in een schoonheidssalon.
+
+Wat blijkt nu? De kuur heeft een heilzaam effect!
+Het leven van ZOAB wordt meetbaar gerekt.
+Helaas komt dat niet door vernieuwing van cellen.
+
+De mortelbrug dijt weliswaar ietwat uit,
+het asfalt krijgt echter g��n jongere huid.
+Dat hadden die vrouwen je kunnen voorspellen."	Extending the Lifespan of Porous Asphalt Concrete	"Het leven van een weg van asfaltporiezen
+Is beperkt, want het ravelt gemakkelijk weg.
+Daarom zoeken wij naar manieren om dit te vermijden
+En geven we de weg een nieuwe, jonge leeftijd.
+
+Met behulp van producten die we op de weg spuiten
+Kunnen we de harde bitumen mengen en verzachten.
+Ze heten rejuvenators, en geven de weg
+Een nieuwe kracht, zodat het langer meegaat.
+
+Maar is hun werking wel bewezen? Daarom noemen we ze
+Ook Surface Treatment Products, want we weten het nog niet.
+We onderzoeken hun effect op de microstructuur
+En de prestaties van de weg, om te zien wat het brengt.
+
+We hopen met behulp van tests en modellen te achterhalen
+Hoe we de levensduur van onze wegen kunnen verlengen."	https://repository.tudelft.nl/islandora/object/uuid%3Af9860e45-e28b-477b-8df9-a094b00fd703	NL	
+Noodhulp	"De mens is bij rampen een nietig figuur.
+Maar, siddert de aarde dan stopt elk gekijf.
+Gebroederlijk helpen we dan: 555,
+en hulptroepen, voedsel � geen raad is te duur.
+
+Echter, de medische apparatuur
+die wij daarheen sturen redt hier menig lijf
+maar blijft op een rampplek vaak buiten bedrijf.
+Het is niet gebouwd voor de gammele schuur
+
+of tent die daar dienst doet als noodhospitaal.
+Een betere overdracht is cruciaal
+en daarvoor is systems design je-van-het.
+
+Ontwerp met dit doel: ieder apparaat moet
+in noodsituaties ook veilig en goed
+te bedienen zijn. Dan is de noodhulp gered."	Mind the gap: Designing Sustainable Healthcare In Humanitarian Aid	"In tijden van ramp en nood, wanneer de mensen vluchten
+En alles wat ze kennen, achter moeten laten,
+Dan zijn er organisaties die ons helpen
+Door medische hulp te bieden, met al hun krachten.
+
+Ze sturen medische hulpmiddelen naar de plaatsen
+Waar mensen lijden, en proberen de zorg te versterken.
+Maar soms is de omgeving zo arm en moeilijk,
+Dat het moeilijk is om deze hulpmiddelen te gebruiken.
+
+Toch blijven deze organisaties doorgaan,
+Want het is hun plicht om te helpen, dag en nacht.
+Ze zoeken naar manieren om de hulp te verbeteren,
+Zodat ze de mensen beter kunnen verzorgen.
+
+En alhoewel het soms moeilijk is, en soms zelfs onmogelijk,
+Blijven ze doorgaan, met al hun wilskracht."	https://repository.tudelft.nl/islandora/object/uuid%3Afcda7795-fc49-4d04-b4ee-829d3b7fe975	NL	
+Appeltaart	"Hoe bak je nou een goeie appeltaart?
+Je kunt daarvoor een kookboek openslaan
+maar ook op internet te rade gaan
+want youtube is echt onge�venaard.
+
+De zoekmachine helpt je uiteraard.
+Door slimme algoritmes komt spontaan
+precies het juiste filmpje bovenaan:
+voil�: een taart waarvan je likkebaardt.
+
+Bij vinden is het altijd de essentie
+dat je iets afweet van de zoekintentie.
+Dus ga je zoekmachines programmeren
+
+dan moet je die intenties integreren.
+Mocht dan je taartbakzoektocht n�g niet slagen
+dan kun je altijd nog je moeder vragen."	User Intent in Online Video Search	"Een verlangen naar meer, een stijgende vraag
+Naar video zoekmachines met veel meer kracht.
+Gebruikers verwachten dat deze hun noden raakt,
+Communicatie, onderwijs en oplossingen slaagt.
+
+Informatiebehoefte is wat ze willen hebben:
+De 'wat' dimensie waarop geschikte resultaten komen.
+Maar ook de 'waarom' dimensie die hun intenties verhelpen,
+Is van groot belang om hun informatienoden te bevredigen. 
+
+Video zoekmachines zijn relatief succesvol in het teruggeven van resultaten die relevant zijn voor de gebruiker. 
+Maar om de informatienoden volledig te bevredigen moet er rekening gehouden worden met de intenties van de gebruiker. 
+De doelstelling van dit proefschrift is om een focusverschuiving te maken in het ontwerp en realiseren van video zoekmachines, 
+zodat ze gebruikersinformatienoden volledig kunnen bevredigen. 
+Dit is echter een uitdaging die invloed heeft op alle delen van de video zoekmachine: indexering, queryverwerking en rangschikken van resultaten. 
+Maar als we hierin slagen kan dit enorm bijdragen aan de bruikbaarheid en economische waarde van online video content."	https://repository.tudelft.nl/islandora/object/uuid%3A79f06a17-f563-467e-ac49-aa55d33d8b0d	NL	
+Eigensensor	"Van te veel warmte raak je overstuur.
+Een chip die te verhit raakt, expireert.
+Silicium, zo blijkt nu, assisteert
+bij microprocessorenlevensduur.
+
+Je meet de snelheid waarmee door heel puur
+silicium de warmte diffundeert.
+De thermische vertraging etaleert
+je dan heel nauwgezet de temperatuur.
+
+Zo kan de chip dus z�lf de thermometer
+van zijn systeem zijn, en het is dus beter
+als er silicium wordt ingebouwd.
+
+Ook taal meet z�lf haar eigen krachtenveld:
+het kan dat u voor deze woorden smelt
+maar evengoed laat dit sonnet u koud."	Integrated Temperature Sensors based on Heat Diffusion	"Wij maken nieuwe sensoren voor de temperatuur,
+Gebaseerd op de warmte die door silicium gaat.
+We meten de tijd die het kost om te diffunderen
+En zo weten we hoe warm het op een bepaalde plaats.
+
+Deze sensoren heten Electrothermal Filters,
+En ze zijn gemaakt met CMOS-technologie.
+Ze kunnen klein, snel en nauwkeurig zijn,
+En volgen de wet van Moore, die zegt dat ze steeds beter zullen zijn.
+
+Ze worden voornamelijk gebruikt om microprocessoren te koelen,
+Want die hebben veel kleine, snelle en nauwkeurige sensoren nodig.
+Maar er zijn nog veel meer toepassingen,
+En wij onderzoeken hoe we deze sensoren kunnen verbeteren.
+
+Met behulp van PDMs kunnen we de temperatuur omzetten naar een digitale waarde,
+En zo kunnen we de ETFs beter begrijpen."	https://repository.tudelft.nl/islandora/object/uuid%3Abd907442-60d2-4f76-a463-048db5d69d6a	NL	
+Effici�ntie	"Een zonnecel is niet echt effici�nt.
+Je kunt een hoger rendement behalen
+met betere conversiematerialen.
+Het toverwoord? Fotoluminescent.
+
+Wat wij tot dusver weten hieromtrent
+is dat je van een foton bij spectrale
+conversie energie�n kunt vertalen
+van hoog naar laag � dat vlak is nu verkend.
+
+Wanneer die omzetting nu kan geschieden
+in filmpjes van siliciumnitride
+dan kun je die conversie integreren
+
+met hoe de zonnecellen opereren.
+Het rendement verbeter je dan iets;
+dat scheelt weer geld � de zon gaat op voor niets."	Deposition of luminescent thin films for solar energy applications 	"De zon is een bron van duurzame energie,
+Maar helaas gebruiken we haar kracht nog niet zo veel.
+Met behulp van fotovolta�sche apparaten
+Kunnen we haar licht omzetten in elektriciteit,
+
+Maar het rendement is nog niet optimaal.
+Daarom zoeken we naar manieren om het te verhogen.
+Met behulp van dunne films die het licht omzetten
+Kunnen we de efficiency van zonnecellen verhogen.
+
+Daarnaast willen we deze cellen beter integreren
+In het gebouwde milieu, zodat we ze beter kunnen gebruiken.
+Met behulp van luminescente zonnestraling
+Kunnen we deze cellen beter in de gebouwen plaatsen.
+
+We maken dunne films met magnetron sputtering
+En hopen zo de zon beter te kunnen gebruiken."	https://repository.tudelft.nl/islandora/object/uuid%3A49043973-cc06-4f6c-9d5f-50e7905517c6	NL	
+Vermoeiingsfysica	"Een boot moet, bij een reddingsoperatie,
+vaak pijlsnel naar de plek des onheils toe.
+Een zware, stalen romp is dus taboe;
+men kiest een aluminium formatie.
+
+Maar snelheid leidt ook snel tot irritatie
+en net als mensen wordt metaal dan moe.
+Dan scheurt de romp dus, en de vraag is: hoe?
+Wat blijkt: er is een ��n-op-��n relatie
+
+met hoe de romp gelast is, want wat vaststaat:
+een scheur loopt langs of loodrecht op de lasnaad.
+Je kunt voorspellen hoe het zal gebeuren.
+
+Met hulp van de vermoeiingsfysica
+gaan fysici dus onvermoeibaar na
+hoe lang de speedboot nog kan blijven scheuren."	Fatigue resistance of welded joints in aluminium high-speed craft: A total stress concept	"Voor taken zoals het overbrengen van bemanningen,
+Surveillance, beveiliging, redding en interventie op zee,
+Zijn snelle schepen vaak vereist. Aluminium wordt vaak gebruikt
+Als bouwmateriaal voor de romp, om het gewicht te verminderen.
+Maar de sterkte in tijden van vermoeidheid kan een zorg zijn,
+Vanwege de lagere Young's modulus.
+Omgeslagen golven zijn een voorname vorm van herhaaldelijke belasting,
+Wat betekent dat vermoeidheid de beperkende factor is in het ontwerp van aluminium snelle schepen.
+Besondere aandacht gaat daarbij naar de gelaste verbindingen
+Die de onderdelen van de rompstructuur verbinden,
+Want de lassen geometrie introduceert knikken,
+Kwetsbare punten waar vermoeidheid snel optreedt.
+Daarom een multi-scale aanpak vereisen
+Om vermoeidheid te modelleren."	https://repository.tudelft.nl/islandora/object/uuid%3A370b3d44-f4a6-403e-9629-d36174c3aca4	NL	
+Hoe groeit een stad?	"Hoe groeit een stad? Door simpel uit te breiden
+totdat een wijdvertakt conglomeraat
+zowat het ganse ommeland beslaat?
+Ten dele slechts, want in de loop der tijden
+
+wordt ook gesloopt, opdat iets nieuws ontstaat.
+Een stad is een proces. Je moet je bij de
+opbouw dus al grondig voorbereiden
+op de verandering die komen gaat.
+
+Maar wat verdwijnt, en wat heeft eeuwig waarde?
+Een vraag die al zo oud is als de aarde;
+wat schoonheid is, dat zal de tijd ons leren.
+
+Wie weet gaat ooit de grachtengordel plat
+en zie je straks, ver van de binnenstad,
+Japanners Bijlmerflats fotograferen."	Wenken voor een veranderbare stad: Een studie naar veranderingspatronen van Amsterdamse buurten en bouwblokken	"Verand'rend is de stad, zoals het leven gaat,
+Met bouwsels die veranderen in hun baan.
+De stedenbouwkunde zal dit proces aangaan,
+Om openheid te cre\u00ebren in de straat.
+
+De stad is als een proces dat nooit stilstaat,
+Een kunst om met verandering om te gaan.
+Richard Sennett lanceert de open stad als plan:
+Een visie waarmee we onze toekomst vatten. 
+
+Het schaalniveau waarop verandering plaatsvindt, 
+Is van groot belang voor onderzoek en plan. 
+Van eigendom tot architectuur en band, 
+Alleen zo wordt de stad voortdurend levend. 
+
+De stad is voortdurend onderhevig aan verandering; 
+In ontwerp en analyse ligt haar bestemming!"	https://repository.tudelft.nl/islandora/object/uuid%3A392741c8-784e-4ad1-82fd-d2cb3d67f4b8	NL	
+Daar zit muziek in!	"Niets is zo veelzijdig als muziek.
+Bijna eindeloos zijn de facetten
+waar de musici op kunnen letten:
+aanslag, instrumentkeus, klanktechniek�
+
+Wat doet elke keus met het publiek?
+Als je Bach vertolkt in strijkkwartetten
+klinkt het anders dan met castagnetten.
+Toch zijn beide keuzes artistiek.
+
+Kun je een etude of toccata
+omzetten in muzikale data
+zodat vergelijken daarvan gaat?
+
+Ja, bewijst dit proefschrift! Lees dus nu die
+resultaten in een kloeke studie �
+uiteraard m�t notenapparaat."	Multifaceted Approaches to Music Information Retrieval	"Muziek, zo multifaceted,
+Met zoveel modaliteiten,
+Verbeeldt ons in tall'lijke contexten
+En laat ons interpreteren,
+
+Met Music Information Retrieval
+En digital research,
+Ontdekken we de diepten
+Van opgenomen muziekprestaties,
+Orkestopnamen en meer.
+
+Muziek is een bron van verkenning,
+Een weg naar kennis en begrip,
+Een pad naar emoties diep en sterk,
+Een universum van geluid en klank.
+
+Laten we luisteren en leren,
+Van al die muziek die ons omringt."	https://repository.tudelft.nl/islandora/object/uuid%3Ae8a04372-4c55-4b5f-9bc3-aaab73fe649d	NL	
+Kedeng Kedeng	"Het spoor is onderhevig aan slijtage.
+En ook al rijdt een trein horizontaal;
+belasting van het spoor is verticaal:
+de bielzen voelen iedere passage.
+
+De reiziger wil graag een bon voyage.
+Wij onderzoeken dus hoe goed het staal
+de trillingen op mi- en macroschaal
+verwerkt � dit ter voorkoming van ravage.
+
+Door vele hamerexcitatieproeven
+weet men hoe wissels, dwarsliggers en schroeven
+aftakelen � niet goed voor het comfort.
+
+Het baanvak heeft van treinen flink te lijden.
+Dus als die krengen weer een keer niet rijden
+bedenk dan: dat is w�l goed voor het spoor."	Vertical railway track dynamics: From measurements to numerical modelling	"Mijn dagelijks leven draait om sporen en wagons
+Het treinvervoer is mijn passie en mijn plicht
+Maar helaas, de sporen vertonen tekenen van verval
+De trams en metros zijn ook niet altijd zonder fout
+
+Ik doe mijn best om alles in goede staat te houden
+Maar soms is het onderhoud niet voldoende
+De trillingen op het spoor zijn een grote bron van zorg
+Want als we niet oppassen, kan het leiden tot een ongeluk
+
+We transporteren zowel passagiers als vracht
+Maar het is belangrijk dat we het spoor goed onderhouden
+Want alleen dan kunnen we veilig reizen en vervoeren
+Het is een uitdaging, maar ik ben ervan overtuigd
+Dat we, door middel van goede track designs en maintenance measures,
+Altijd op het juiste spoor zullen blijven."	https://repository.tudelft.nl/islandora/object/uuid%3A0997d21a-bc6e-43bc-8a0c-55341c65e3ce	NL	
+Wij leven van de wind	"Wij leven van de wind, leert een gezang
+dat deel is van het liedboek voor de kerken.
+Dat lied laat zich niet tot geloof beperken,
+want ook bij energie is wind in zwang.
+
+Je ziet in een windmolenwiekengang
+meestal drie bladen. Toch is er een sterke
+interesse om met twee bladen te werken:
+die draaien sneller, dus goedkoper. Lang
+
+bestonden er esthetische bezwaren,
+maar onderzoek bedwong de felste maren.
+Met lineaire bladhoekregeling
+
+gaat windwinning nog beter dan het ging.
+Zo wint dat kerklied over wind aan strekking
+en spreken wij van energie-opwekking."	Control Design for Two-Bladed Wind Turbines	"De wind draait altijd mee in onze tijd
+Want energie uit de lucht is nu een must
+Onshore turbines zijn inmiddels concurrerend
+Met andere, fossiele energiebronnen
+
+Maar soms wordt de plaatsing ervan belemmerd
+Door sociale weerstand of gebrek aan ruimte
+Daarom kijken we ook naar de zee
+Waar nog oneindig veel mogelijkheden zijn
+
+Helaas is offshore wind nog steeds duur
+Daarom zoeken we naar andere oplossingen
+Misschien kunnen tweeblads turbines helpen
+Ze bieden veel voordelen ten opzichte van de traditionele
+
+Er is nog veel te leren over tweeblad turbines
+Daarom stellen we controllers voor, om belasting te verminderen."	https://repository.tudelft.nl/islandora/object/uuid%3Aabb59ca8-877a-4599-8ea9-6f23c46d39b9	NL	

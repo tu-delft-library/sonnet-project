@@ -52,6 +52,11 @@
     height: 100%;
 }
 
+#poem-selector > div.page {
+    width: auto;
+    height: 75%;
+}
+
 /* .x.page-container > div.page::after {
     width: 100vw;
     height: auto;

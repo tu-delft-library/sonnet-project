@@ -9,7 +9,7 @@ d3.select("#page4 #right_poem")
 /**
  * Load data, basically an init function, whith a state variables such as the counts
  */
-d3.dsv(";", "/data/poems.csv").then((data) => {
+d3.dsv("\t", "/data/poems.txt").then((data) => {
     data.forEach((d) => {
         d.left = d.title + "\n\n" + d.text;
         d.right = d.title + "\n\n" + d.AIPoem;
@@ -24,45 +24,19 @@ d3.dsv(";", "/data/poems.csv").then((data) => {
 
     //setup the interactive poem selection
     var count = 0;
+    var texts_abstracts = []
     var texts_human = [];
     var texts_ai = [];
 
     data.forEach((d) => {
+        texts_abstracts.push(d.abstract);
         texts_human.push(d.left);
         texts_ai.push(d.right);
     });
 
-    d3.select("#left_poem")
-        .call(add_typewriter_text, texts_human[(count) % texts_human.length]);
-    d3.select("#right_poem")
-        .call(add_typewriter_text, texts_ai[(count) % texts_ai.length]);
-
-    d3.interval(() => {
-        let correct_is_left = Math.floor(Math.random() * 2);
-        set_correct(correct_is_left ? "left-button" : "right-button");
-
-        count++;
-
-        if (correct_is_left) {
-            d3.select("#left_poem").call(add_typewriter_text, texts_human[(count) % texts_human.length]);
-            d3.select("#right_poem").call(add_typewriter_text, texts_ai[(count) % texts_ai.length]);
-        } else {
-            d3.select("#left_poem").call(add_typewriter_text, texts_ai[(count) % texts_ai.length]);
-            d3.select("#right_poem").call(add_typewriter_text, texts_human[(count) % texts_human.length]);
-        }
-    }
-        , 45000);
-
+    //Welcome animation
     var state = 0;
     d3.interval(() => {
-        
-        state = (state + 1) % 4;
-
-        let floating_poems = d3.select("#page1").selectAll('.float-container');
-
-        let floating_children = floating_poems.selectAll('.float-child');
-        let human_poems = floating_poems.select('.float-child' );
-
 
         state = (state + 1) % 4;
 
@@ -75,97 +49,166 @@ d3.dsv(";", "/data/poems.csv").then((data) => {
             .style("opacity", 1);
 
 
-        switch (state) {
-            case 0:
-                floating_poems.transition()
+        change_state(state);
+    }, 10000)
+
+    add_poem_selector(texts_abstracts, texts_human, texts_ai);
+});
+
+function add_poem_selector(texts_abstracts, texts_human, texts_ai) {
+    const index = d3.local();
+    let choice_selection = d3.select("#poem-selector").selectAll("div")
+        .data(texts_abstracts)
+        .enter()
+        .append("div")
+        .classed("page white float-container margin-3", true)
+        .each(function (d, i) {
+            index.set(this, i); // Store index in local variable.
+        })
+        .on("click", function () {
+
+            let i = index.get(this); // Get index from local variable.
+            d3.select(this.parentNode).style("visibility", "hidden");
+            d3.select("#poem-comparison").style("visibility", "visible");
+
+            let correct_is_left = Math.floor(Math.random() * 2);
+            set_correct(correct_is_left ? "left-button" : "right-button");
+
+            if (correct_is_left) {
+                d3.select("#left_poem").call(add_typewriter_text, texts_human[(i) % texts_human.length]);
+                d3.select("#right_poem").call(add_typewriter_text, texts_ai[(i) % texts_ai.length]);
+            } else {
+                d3.select("#left_poem").call(add_typewriter_text, texts_ai[(i) % texts_ai.length]);
+                d3.select("#right_poem").call(add_typewriter_text, texts_human[(i) % texts_human.length]);
+            }
+
+            setTimeout(function(){  
+                d3.select("#poem-selector").style("visibility", "visible");
+                d3.select("#poem-comparison").style("visibility", "hidden");
+            }, 40000);
+        });
+    //.style("object-fit", "contain");
+    choice_selection.append("div")
+        .classed("float-child", true)
+        .append("img")
+        .attr("src", (d, i) => "/images/" + i + ".jpg")
+        .style("max-height", "100%")
+        .style("max-width", "100%");
+
+
+    choice_selection.append("div")
+        .classed("float-child", true)
+        .append("p")
+        .classed("margin-5", true)
+        .style("max-height", "100%")
+        .style("overflow", "hidden")
+        .text(d => {
+            let new_string = d.substring(0, 1000).split(".");
+            return new_string.slice(0, new_string.length - 1).flat() + " ...";
+        }
+        );
+}
+
+function change_state(state) {
+    let floating_poems = d3.select("#page1").selectAll('.float-container');
+    let floating_children = floating_poems.selectAll('.float-child');
+    let human_poems = floating_poems.select('.float-child');
+
+    switch (state) {
+        case 0: // engineering sonnets
+            d3.select("#page1").select("#hacktxt_container")
+                .transition()
+                .duration(5000)
+                .style("opacity", 0);
+
+            floating_poems.transition()
                 .duration(5000)
                 .style("opacity", 1);
 
-                floating_children.transition()
+            floating_children.transition()
                 .duration(5000)
                 .style("opacity", 1);
 
-                floating_poems.selectAll("img")
+            floating_poems.selectAll("img")
                 .transition()
                 .duration(5000)
                 .style("opacity", 1);
 
-                break;
-        
-            case 1:
-                floating_children.transition()
-                .duration(5000)
-                .style("opacity", 0);
-
-            case 2:
-
-                floating_children.transition()
-                .duration(5000)
-                .style("opacity", 0);
-
-                floating_poems.selectAll("img")
-                    .transition()
-                    .duration(5000)
-                    .style("opacity", 0);
-
-                human_poems.transition()
-                .duration(5000)
-                .style("opacity", 1);
-                break;
-
-            case 3:
-
-                floating_poems.transition()
-                .duration(5000)
-                .style("opacity", 0);
-                break;
-            default:
-                break;
-        }
-
-        setTimeout(function(){  
-            switch (state) {
-
-                case 0:
-                    d3.select("#page1").select("h1")
+            setTimeout(function () {
+                d3.select("#page1").select("h1")
                     .text("Engineering")
                     .append('span')
                     .style('display', 'block')
-                    .text("\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Sonnets");  
-                    break;
+                    .text("\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Sonnets");
+            }, 3000);
+            break;
 
-                case 1:
-                    d3.select("#page1").select("h1")
-                    .text("Based on")
+        case 1: // Based on abstracts from TUDelft theses
+            floating_children.transition()
+                .duration(5000)
+                .style("opacity", 0);
+
+            setTimeout(function () {
+                d3.select("#page1").select("h1")
+                    .text("Based on Abstracts from")
                     .append('span')
                     .style('display', 'block')
-                    .text("TUDelft theses");  
-                    break;
+                    .text("TUDelft theses");
+            }, 3000);
 
-                case 2:
-                    d3.select("#page1").select("h1")
+            break;
+
+        case 2: // Written by bauke & jeroen
+            floating_children.transition()
+                .duration(5000)
+                .style("opacity", 0);
+
+            floating_poems.selectAll("img")
+                .transition()
+                .duration(5000)
+                .style("opacity", 0);
+
+            human_poems.transition()
+                .duration(5000)
+                .style("opacity", 1);
+
+            setTimeout(function () {
+                d3.select("#page1").select("h1")
                     .text("Sonnets written by")
                     .append('span')
                     .style('display', 'block')
-                    .text("Jeroen & Bauke");  
-                    break;
+                    .text("Jeroen & Bauke");
+            }, 3000);
 
-                case 3:
-                    d3.select("#page1").select("h1")
-                    .text("Can AI generate")
-                    .append('span')
-                    .style('display', 'block')
-                    .text("Scientific Sonnets?");  
-                    break;
 
-                default:
-                    break;
-            }
-        }, 3000);
-        
+            break;
 
-    }, 10000)
-});
+        case 3: // Can Ai generate scientific Sonnets
+            d3.select("#page1").select("h1")
+                .transition()
+                .duration(5000)
+                .style("opacity", 0);
+
+            floating_poems.transition()
+                .duration(5000)
+                .style("opacity", 0);
+
+            d3.select("#page1").select("#hacktxt_container")
+                .transition()
+                .duration(5000)
+                .style("opacity", 1);
+
+            setTimeout(function () {
+                d3.select("#page1").select("h1")
+                    .text("");
+            }, 3000);
+
+
+            break;
+        default:
+            break;
+    }
+}
 
 /**
  * Write the text using a typewriter effect.
@@ -251,9 +294,8 @@ function moveRandomly(selection) {
 
                 })
                 .transition()
-                .duration(29000 - 3000 * (delay))
-                .on("end", animation)
-                ;
+                .duration(10000 - 3000 * (delay))
+                .on("end", animation);
         }
     });
 }

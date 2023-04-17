@@ -59,6 +59,14 @@ body {
     padding: 5%;
 }
 
+.margin-1 {
+  margin: 1%;
+}
+
+.margin-3 {
+  margin: 3%;
+}
+
 .margin-5 {
   margin: 5%;
 }
@@ -111,7 +119,8 @@ body {
   text-align: left;
 }
 
-#page4 h1 {
+
+#poem-comparison h1 {
   text-align: center;
 }
 
