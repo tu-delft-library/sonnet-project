@@ -81,12 +81,6 @@
     animation:         ca3_fade_move_up 3s ease-in-out infinite;
 }
 
-/* .scroll-button.left {
-    -webkit-animation: ca3_fade_move_left 3s ease-in-out infinite;
-    -moz-animation:    ca3_fade_move_left 3s ease-in-out infinite;
-    animation:         ca3_fade_move_left 3s ease-in-out infinite;
-} */
-
 #back-button {
     text-align: center; 
     background-image: url(/images/arrow_left.png);
@@ -96,11 +90,6 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
-
-/* .scroll-button:hover {
-    opacity: 1;
-    animation: none;
-  } */
 
 @-webkit-keyframes ca3_fade_move_down {
     0%   { -webkit-transform:translate(0,-5px); opacity: 0;  }

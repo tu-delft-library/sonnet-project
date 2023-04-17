@@ -20,9 +20,12 @@
 
 <body>
     <div class="page-container x mandatory-scroll-snapping no-scrollbar" style="height:100%;" dir="ltr">
-        <div id="page1" class="page white" style="overflow:hidden">
+        <div id="page1" class="page white" style="overflow:hidden" onclick="document.getElementById('page2').scrollIntoView();">
             <h1 style="position: relative; top:50%; left:50%; z-index:10000; font-size: 5em;">Engineering<span
                     style="display: block;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sonnets</span></h1>
+            <div id="finger-touch" style="position:absolute; left: 20%; top:80%; background:rgb(128, 128, 128); border-radius: 50%; width:50px; height:50px; z-index:10000;">
+                <img id="finger" src="/images/finger.png" style="position: relative; top:-100px; left:-190px; opacity: 0.7; z-index:10000;">
+            </div> 
             <div id="hacktxt_container"
                 style="opacity:0; position: absolute; top:0%; left:0%; width:100%; height:100%; z-index:10000;">
                 <svg id="coolsvg" width="100%" height="100%" viewBox="0 0 800 300">
@@ -76,7 +79,6 @@
                 <h3 class="white centered" style="margin-top: 5%; margin-left: 10%; margin-right: 10%;">Ai-generstive
                     models are being widely used for knowledge production, including creative writing like poetry. What
                     does this mean for humans as authors? Does distinguishing the author change the meaning? </h3>
-
             </div>
         </div>
 </body>

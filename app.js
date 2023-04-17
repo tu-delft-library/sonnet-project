@@ -256,7 +256,7 @@ function add_typewriter_text(selection, text) {
 
     function typing(selection) {
         selection
-            .transition()
+            .transition("typing")
             .duration(d => d.length * 50)
             .delay((d, i) => 50 * delays[i])
             .attr("cursor", true)
