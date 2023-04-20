@@ -1,5 +1,5 @@
 title	text	Researchtitle	AIPoem	url	Language	abstract
-Oh well�	"Drilling wells is an expensive process.
+Oh well...	"Drilling wells is an expensive process.
 Thus whenever we can be more clever
 we are saving money, time and effort.
 This incites economy and progress.
@@ -14,8 +14,8 @@ amount of wells computers pretty well
 can guess, as does this master student tell.
 
 But still, trajectories their optimum
-requires judgment � engineers to dwell
-an index finger in their mouth: �Oh well��"	Well trajectory optimization	"In fields of oil and gas, a well's path
+requires judgment - engineers to dwell
+an index finger in their mouth: 'Oh well...'"	Well trajectory optimization	"In fields of oil and gas, a well's path
 Must be precise, or all the drilling's for naught.
 A costly process, much time and effort spent,
 Each well must be studied before it's brought
@@ -44,7 +44,7 @@ by uninformed na�ve consumers who
 
 are sipping from their fresh made jasmine tea
 unconscious of its juicy history.
-Thanks to a coefficient called �LogD�
+Thanks to a coefficient called 'LogD'
 
 and grouping tools to model chemistry
 we now have managed to steep tea from pee.
@@ -101,13 +101,13 @@ drawn to all the things we can acquire
 dissonance dissolves into thin air.
 
 We thought we caught the cancer DNA
-with Watson�s project, previous century
+with Watson's project, previous century
 by pairing bases complementary
 connecting C with G and T with A.
 
 Yet while this trick made us plain lyrical
 we clean forgot its instabilities
-in measuring � how hypocritical.
+in measuring - how hypocritical.
 
 Our data shined in small varieties.
 We tried to make them look statistical
@@ -135,8 +135,8 @@ However, molecule by molecule
 
 we optimized some drooly stuff as cool
 no guru, Hulk or Bond has ever seen.
-It�s called a sol-gel coating and it�s lean
-it�s thermo-sensitive and like a jewel
+It's called a sol-gel coating and it's lean
+it's thermo-sensitive and like a jewel
 
 combines with almost any metal subsoil.
 Moneywise such film prevents a waste
@@ -176,8 +176,8 @@ As oft, the answer is both yes and no�
 more random is the turbulence of spray!
 
 Comparing models brings a winning one.
-This outcome doesn�t save the planet though
-let�s hope and say: for now it saves the day."	Computational modeling of turbulent spray combustion	"In hot-diluted environments, flames are quelled
+This outcome doesn't save the planet though
+let's hope and say: for now it saves the day."	Computational modeling of turbulent spray combustion	"In hot-diluted environments, flames are quelled
 By liquid fuel combustion, known as spray
 To study its behavior, we've compiled
 A database of flames that flow this way
@@ -194,7 +194,7 @@ The temperature in droplet evaporation's stress
 
 So now we've developed non-adiabatic FGM
 To model evaporation and combustion with aplomb"	https://repository.tudelft.nl/islandora/object/uuid%3Ac1c27066-a205-45f4-a7b4-e36016bc313a	EN	"The objective of the research presented in this thesis is development and validation of predictive models or modeling approaches of liquid fuel combustion (spray combustion) in hot-diluted environments, known as flameless combustion or MILD combustion. The goal is to combine good physical insight, appropriate numerical methods and good software development in the context of the general framework of Computational Fluid Dynamics (CFD). For model validation to be possible, availability of relevant, accurate and complete experimental datasets is important. For this study the database of Delft Spray-in-Hot-Coflow(DSHC) flames has been employed. Using different combinations of model components and approaches, the modeling has been developed and tested at three levels of complexity and accuracy. Depending on the chosen combination of turbulence and combustion models, the modeling methods used in this thesis are the following: 1) Reynolds Averaged Navier-Stokes (RANS) approach for turbulence modeling with Steady Flamelet Model (SFM) approach for combustion; 2) Transported Probability Density Function (TPDF) approach for turbulence modeling with Flamelet Generated Manifolds (FGM) for combustion; 3) Largy Eddy Simulation (LES) for turbulence with FGM for combustion. The CFD codes that are used for these methods are respectively the commercial software ANSYS Fluent (version 15.0), the in-house code �PDFD� and the open source software OpenFOAM. The first stage of the research aimed at exploring the characteristics of the target flames, and gaining understanding of the relevance of each model component in order to clarify the directions of further model improvements. Existing standard models (RANS/SFM) within the commercial software were employed for this purpose. The main outcome of this stage of the study is that the SFM fails in predicting the lifted-off phenomena of the DSHC flames, and it is concluded that a more sophisticated Turbulence-Chemistry Interaction (TCI) model is required. In the second stage of the study, advancements on both turbulence and combustion models have been made, respectively with TPDF and FGM. TPDF was used because it offers a more detailed description of statistical properties and FGM because it offers the possibility to include finite rate chemical effects in the frame of TPDF at affordable cost. In this stage of the study the focus was on simulations of the dilute spray region. Ignoring the dense region close to the atomizer, the simulation starts from a certain distance downstream, preferably a region where experimental data are available or good insight in local conditions is available by other means. Because of the careful specification of the boundary conditions of spray as well as gas phase, the flow and combustion development downstream were correctly reproduced by this approach, including the lift-off height. Next, based on this platform, parametric studies on many important aspects have been carried out, for example, the influence of the droplet initial temperature, a comparison between different model variants on evaporation etc. Good agreement with experimental data was achieved and useful information on model performance was obtained. However, also limitations of the modeling approach were identified. The most important one is that the use of an adiabatic approach disregarding the energy consumed in the evaporation of liquid (adiabatic FGM table) over-predicts the gas phase temperature in the region of intense droplets evaporation. In the third stage of this study we used Large Eddy Simulation of turbulence in combination with non-adiabatic FGM for evaporation and combustion. The subgrid scale fluctuations of the FGM scalars were modeled using assumed-shape PDFs. The CFD platform for doing so is the open source CFD package � OpenFOAM. Since the desired FGM model is not available in the public released version of OpenFOAM, the first step in this third stage was development and validation of a new implementation of FGM. A well-documented gaseous lifted flame in hot-diluted coflow was used as test case. In this study, it was found that the auto-ignition process is highly sensitive to the model constants that are used to evaluate the variances of mixture fraction and progress variable. Dynamic procedures have been developed for the determination of these constants in the context of LES. Using the developed dynamic models significant improvement of the prediction of the flame lift-off height has been achieved. The second step of LES/FGM method development was the extension of the implemented FGM method to spray combustion. Two major model developments were completed in this step � the Condition Droplet Injection Model (CDIM) and the non-adiabatic FGM method. The CDIM was proposed to take into account the influence of flash-boiling atomization of the DSHC flames. The comparison of CIDM with a conventional droplet injection model showed superior performance of the CDIM in modeling of the DSHC flames. Furthermore, with the addition of enthalpy deficit as an extra dimension of the FGM table, the prediction of the gas phase temperature was significantly improved. The third step of modeling stage three was to apply the developed LES/FGM method to a wide range of test cases including the hot and cold coflow cases to test the range of applicability of models, and to some virtual (i.e. not yet studied experimentally) cases in order to gain deeper insight on the involved phenomena. The simulations showed that the developed LES/FGM method is able to correctly capture major features of spray flames under different coflow conditions, for example the flame width and flame lift-off height. Independent parameter study of the coflow temperature and oxygen concentration clarified the effects of these two important factors, and suggested better operation conditions to achieve a strict MILD spray combustion condition. Simulation and comparison of the hot coflow (Hii) and cold coflow (Aii) cases revealed very interesting mechanisms that determine different flame structures and their transition in spray combustion. The �single� and �double� flame structures of these two cases have been successfully reproduced. Detailed analysis showed that the actual flame topologies have been over-simplified by their conventional names (single/double flame) used in literature, which are mainly based on the experimental observation. It was found that the appearance of multi-flame or multiple reaction regions in spray combustion are resulting from the disparity of time scales of the processes involved. And it was further demonstrated that by matching important time scales, similar flame structure can be achieved under considerably different operating conditions. In summary, three different levels of modeling approaches for spray combustion have been developed and tested. These approaches can be employed in different applications based on the consideration of the required accuracy and computational affordability. The RANS/SFM is the cheapest one in terms of computation cost, but the interpretation of the results should take into account that a number of important aspects such as lift-off height are not well predicted. The LES/FGM method provides most accurate results compared to other two, but is also most computationally demanding. The method using the last approach offers the most promises for a better understanding of the MILD spray combustion and design of clean and efficient combustion technology."
-Glycolysis	"Don�t underestimate the might of yeast
+Glycolysis	"Don't underestimate the might of yeast
 with its fermenting glycolytic genes
 producing families of proteins
 quite as complex as those of man at least.
@@ -209,8 +209,8 @@ to date to crack the code and to reflect
 on what might be the secret of its flux.
 
 Despite the brains it took to disconnect
-some double genes � this should have hit the crux
-we thought! � surprise: we measured no effect�"	Reducing the genetic complexity of glycolysis in Saccharomyces cerevisiae	"The sweet aroma of sugar on the tongue,
+some double genes - this should have hit the crux
+we thought! ' surprise: we measured no effect'"	Reducing the genetic complexity of glycolysis in Saccharomyces cerevisiae	"The sweet aroma of sugar on the tongue,
 A taste that lingers and brings us delight.
 In yeast, the source of fermentation's might,
 To break down glucose and yield the night's
@@ -229,7 +229,7 @@ in nanowire as thermometer
 for an astronomer to monitor 
 each photon flying through the galaxy.
 
-This is a quantum thing � so much is true
+This is a quantum thing - so much is true
 creating super sensitivity
 by means of endless resistivity
 but how it really worked, we had no clue.
@@ -257,12 +257,12 @@ It signals a breakdown of models based on average properties."	https://repositor
 Welding torch	"The modern need to weld is paramount.
 To weld or not to� not to fall apart
 or to be sort of screwed up part by part.
-World�s progress on this process we did found!
+World's progress on this process we did found!
 
 Yet, energy is lost by radiation
 despite the famous law of conservation.
 Therefore we tried by experimentation
-to feed what�s lost back in the main equation.
+to feed what's lost back in the main equation.
 
 By narrowing the �arc� � no, not a porch,
 but there where electricity at glance
@@ -287,11 +287,11 @@ Our hopes for success have been embraced!"	https://repository.tudelft.nl/islando
 Solar radiation budget	"We know our climate changes, as we know
 the radiation of the Sun descending
 minus heat rays from the Earth ascending
-makes our climate�s total status quo.
+makes our climate's total status quo.
 
 Whereas: what do we know of here and now?
 A rain gauge marks the local load of rain.
-Who has a �sun-o-meter� to maintain
+Who has a 'sun-o-' to maintain
 at home? The word does not exist somehow.
 
 Of course, on satellites we can rely.
@@ -325,7 +325,7 @@ may feel ok, but economically
 is ridicule. The trick is to incite
 
 attackers and defeneders in a way
-that surely doesn�t kill the cyber cheat
+that surely doesn't kill the cyber cheat
 but balances the costs and gains at play.
 
 Walls of fire, wire and concrete
