@@ -62,6 +62,7 @@ d3.dsv("\t", "/data/poems.txt").then((data) => {
 function add_poem_selector(texts_abstracts, texts_human, texts_ai) {
     const index = d3.local();
     let selected = 0;
+    let timeout = d3.timeout();
     let choice_selection = d3.select("#poem-selector").selectAll("div .page")
         .data(texts_abstracts)
         .enter()
@@ -88,7 +89,7 @@ function add_poem_selector(texts_abstracts, texts_human, texts_ai) {
                 d3.select("#right_poem").call(add_typewriter_text, texts_human[(i) % texts_human.length]);
             }
 
-            setTimeout(function () {
+            timeout.restart(function () {
                 if (d3.select("#poem-comparison").style("visibility") == "visible") {
                     d3.select("#right_poem").selectAll("p").transition("typing"); //cancels the transitions
                     d3.select("#left_poem").selectAll("p").transition("typing");
@@ -129,6 +130,8 @@ function add_poem_selector(texts_abstracts, texts_human, texts_ai) {
     });
 
     d3.select("#back-button").on("click", () => {
+        timeout.stop();
+        
         if (d3.select("#poem-comparison").style("visibility") == "visible") {
             d3.select("#right_poem").selectAll("p").transition("typing"); //cancels the transitions
             d3.select("#left_poem").selectAll("p").transition("typing");

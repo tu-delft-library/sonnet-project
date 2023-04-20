@@ -5,6 +5,8 @@ var stats_wrong = 0;
 var stats_right = 0;
 var clicked_once = false;
 
+
+
 const buttons = document.querySelectorAll('.btn');
 
 for (var i = 0; i < buttons.length; i++) {
