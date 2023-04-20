@@ -46,9 +46,11 @@
 
             <div id="poem-selector" class="page-container y  mandatory-scroll-snapping no-scrollbar"
                 style="position:relative; left:10%; height:100%; width: 80%;   scroll-behavior: smooth;" dir="ltr">
-                <div id="up" class="scroll-button up" style="z-index: 2 ; top:5%; background-image: url(/images/arrow_up.png); " > </div>
-                <div id="down" class="scroll-button down" style="z-index: 2 ;top:95%;  background-image: url(/images/arrow_down.png); " >  </div>
-                <h4 id="credits" style="position: sticky; top:80%; left:100%; width:17em; z-index:10000;">poems_ Bauke Steenhuisen,
+                <div id="up" class="scroll-button up" style="z-index: 2 ; top:7%; background-image: url(/images/arrow_up.png); " > </div>
+                <div id="down" class="scroll-button down" style="z-index: 2 ;top:93%;  background-image: url(/images/arrow_down.png); " >  </div>
+                <h4 id="select_text" style="position: sticky; top:2%; text-align:center; margin-left:auto; margin-right:auto; z-index:10000;">Select a thesis to generate a scientific sonnet &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                <div style="position:relative; width:100%; height:10%;" > </div>
+                <h4 id="credits" style="position: sticky; top:2%; left:100%; width:17em; z-index:10000;">poems_ Bauke Steenhuisen,
                     <span style="display: block;">&nbsp;&nbsp; Jeroen Manders & ChatGPT</span>
                     <span style="display: block;">R&D_ &nbsp;&nbsp;TU Delft Library</span>
                     <span style="display: block;">code_ &nbsp;Koen Wösten</span></h4>
@@ -57,26 +59,26 @@
             <div id="poem-comparison"
                 style="visibility: hidden; position:absolute; width:100%; height: 100%; top: 0%; left: 0%;">
                 <h1 class="white centered">Select the poem written by a human.</h1>
-                <h1 id="stats" class="white centered" style="height: 1em;"> </h1>
+                <h2 id="stats" class="white centered" style="height: 1em"> </h2>
                 <div id="back-button"  style="position: absolute; top: 50%; left: 0%; z-index: 2;"> Back </div>
                 <div id="poem_container" style="height:70%;" class="float-container">
                     <div class="float-child">
                         <div id="left-button" class="padding-5 margin-5 border-3 btn from-left "
-                            style="margin-left: 15%; margin-right: 15%;">
+                            style="margin-left: 15%; margin-right: 7.5%;">
                             <span> </span>
                             <div class="animated-text-container" id="left_poem"></div>
                         </div>
                     </div>
                     <div class="float-child">
                         <div id="right-button" class="padding-5 margin-5 border-3 btn from-left"
-                            style="margin-left: 15%; margin-right: 15%;">
+                            style="margin-left: 7.5%; margin-right: 15%;">
                             <span> </span>
                             <div class="animated-text-container" id="right_poem"></div>
                         </div>
                     </div>
                 </div>
 
-                <h3 class="white centered" style="margin-top: 5%; margin-left: 10%; margin-right: 10%;">Ai-generstive
+                <h3 class="white centered" style="margin-top: 5%; margin-left: 10%; margin-right: 10%;">Ai-generative
                     models are being widely used for knowledge production, including creative writing like poetry. What
                     does this mean for humans as authors? Does distinguishing the author change the meaning? </h3>
             </div>

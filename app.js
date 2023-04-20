@@ -85,6 +85,10 @@ function add_poem_selector(texts_abstracts, texts_human, texts_ai) {
 
             setTimeout(function () {
                 if (d3.select("#poem-selector").style("visibility") == "visible") {
+                    d3.select("#right_poem").selectAll("p").transition("typing"); //cancels the transitions
+                    d3.select("#left_poem").selectAll("p").transition("typing");
+                    d3.select("#right_poem").selectAll("p").attr("cursor", "false");
+                    d3.select("#left_poem").selectAll("p").attr("cursor", "false");
                     d3.select("#poem-selector").style("visibility", "visible");
                     d3.select("#poem-comparison").style("visibility", "hidden");
                 }
@@ -120,6 +124,10 @@ function add_poem_selector(texts_abstracts, texts_human, texts_ai) {
     });
 
     d3.select("#back-button").on("click", () => {
+        d3.select("#right_poem").selectAll("p").transition("typing"); //cancels the transitions
+        d3.select("#left_poem").selectAll("p").transition("typing");
+        d3.select("#right_poem").selectAll("p").attr("cursor", "false");
+        d3.select("#left_poem").selectAll("p").attr("cursor", "false");
         d3.select("#poem-selector").style("visibility", "visible");
         d3.select("#poem-comparison").style("visibility", "hidden");
     });

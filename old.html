@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"> 
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script type="module" src='app.js' defer></script>
+    <script type="module" src="modules/d3-hacker_text/script.js"></script>
+    <script type="module" src="modules/right-wrong/right-wrong.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="modules/d3-hacker_text/style.css">
+</head>
+<body>
+    <div class="page-container x mandatory-scroll-snapping no-scrollbar" style="height:100%;" dir="ltr">
+        <div id="page1" class="page white" style="overflow:hidden">
+            <h1 style="position: relative; top:50%; left:50%; z-index:10000; font-size: 5em;">Engineering<span style = "display: block;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sonnets</span></h1>
+            <div  id="hacktxt_container" style="opacity:0; position: absolute; top:0%; left:0%; width:100%; height:100%; z-index:10000;">
+                <svg id="coolsvg" width="100%" height="100%" viewBox="0 0 800 300">
+                    <text id="appearing_text" y="125"  mask="url(#Mask)" >
+                    </text>
+                    <defs>
+                        <mask id="Mask">
+                            <text id="cooltext" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"><tspan fill="white">Can AI generate</tspan><tspan fill="white" x="50%" dy="1em">scientific sonnets?</tspan></text>
+                        </mask>
+                    </defs>
+                </svg>
+            </div>
+        </div> 
+        <div id="page2" class="page white" style="overflow:hidden">
+            <div id="poem-selector" class="page-container y  mandatory-scroll-snapping no-scrollbar" style="position:relative; left:10%; height:100%; width: 80%;" dir="ltr">
+            </div>
+        </div>
+        <div id="page4" class="page">
+            <h1 class="white centered">Select the poem written by a human!</h1>
+            <h1 id="stats" class="white centered" style="height: 1em;"> </h1>
+            <div id="poem_container" style="height:75%;" class="float-container">
+                <div class="float-child" >
+                    <div id="left-button" class="padding-5 margin-10 border-3 btn from-left " style="margin-left: 15%; margin-right: 15%;">
+                        <span> </span>
+                        <div class="animated-text-container" id="left_poem"></div>
+                    </div>
+                </div>
+                <div class="float-child" >
+                    <div id="right-button" class="padding-5 margin-10 border-3 btn from-left" style="margin-left: 15%; margin-right: 15%;">
+                        <span> </span>
+                        <div class="animated-text-container" id="right_poem"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

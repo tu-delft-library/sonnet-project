@@ -119,17 +119,19 @@ body {
   text-align: left;
 }
 
-
 #poem-comparison h1 {
+  text-align: center;
+}
+#poem-comparison h2 {
   text-align: center;
 }
 
 #finger-touch{
-  /* border-color: white;
-  border-width: 2px; */
-  /* -webkit-animation: finger_touch_size 5s ease-in-out infinite;
+  /* border-color: white; */
+  /* border-width: 2px;  */
+  -webkit-animation: finger_touch_size 5s ease-in-out infinite; 
   -moz-animation:    finger_touch_size 5s ease-in-out infinite;
-  animation:         finger_touch_size 5s ease-in-out infinite; */
+  animation:         finger_touch_size 5s ease-in-out infinite;
 }
 
 @-webkit-keyframes finger_touch_size {
