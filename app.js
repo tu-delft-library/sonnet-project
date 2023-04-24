@@ -75,8 +75,11 @@ function add_poem_selector(texts_abstracts, texts_human, texts_ai) {
         .on("click", function () {
 
             let i = index.get(this); // Get index from local variable.
-            d3.select(this.parentNode).style("visibility", "hidden");
+            d3.select("#poem-selector").style("visibility", "hidden");
+            d3.select("#select_text").style("visibility", "hidden");
+
             d3.select("#poem-comparison").style("visibility", "visible");
+            
 
             let correct_is_left = Math.floor(Math.random() * 2);
             set_correct(correct_is_left ? "left-button" : "right-button");
@@ -96,8 +99,11 @@ function add_poem_selector(texts_abstracts, texts_human, texts_ai) {
                     d3.select("#left_poem").selectAll("p").transition().delay(0).attr("cursor", false);
                     d3.select("#right_poem").selectAll("p").transition("typing"); //cancels the transitions
                     d3.select("#left_poem").selectAll("p").transition("typing");
-                    d3.select("#poem-selector").style("visibility", "visible");
+                    d3.select("#poem-selector").style("visibility", "visible");          
+                    d3.select("#select_text").style("visibility", "visible");
                     d3.select("#poem-comparison").style("visibility", "hidden");
+                    d3.select("#ethical-question").style("visibility", "hidden");
+
                 }
             }, 40000);
         });
@@ -114,6 +120,7 @@ function add_poem_selector(texts_abstracts, texts_human, texts_ai) {
         .append("p")
         .classed("margin-5", true)
         .style("max-height", "100%")
+        .style("line-height", "150%")
         .style("overflow", "hidden")
         .text(d => {
             let new_string = d.substring(0, 1000).split(".");
@@ -140,7 +147,10 @@ function add_poem_selector(texts_abstracts, texts_human, texts_ai) {
             d3.select("#right_poem").selectAll("p").transition("typing"); //cancels the transitions
             d3.select("#left_poem").selectAll("p").transition("typing");
             d3.select("#poem-selector").style("visibility", "visible");
+            d3.select("#select_text").style("visibility", "visible");
             d3.select("#poem-comparison").style("visibility", "hidden");
+            d3.select("#ethical-question").style("visibility", "hidden");
+
         }
     });
 }
@@ -193,7 +203,7 @@ function change_state(state) {
                     .text(" Abstracts from")
                     .append('span')
                     .style('display', 'block')
-                    .text("TUDelft theses");
+                    .text("TU Delft theses");
             }, 3000);
 
             break;

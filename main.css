@@ -28,6 +28,11 @@ body {
   scrollbar-width: none;  /* Firefox */
 } 
 
+.container {
+  height: 100%;
+  width: 100%;
+}
+
 .poem-container {
   width: auto;
 }
@@ -75,10 +80,22 @@ body {
   margin: 10%;
 }
 
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .border-3 {
   border: 3px solid;
 }
 
+.border-2 {
+  border: 2px solid;
+}
+
+.border-1 {
+  border: 1px solid;
+}
 .fill-black {
   fill: black;
   background-color: black;
@@ -98,12 +115,6 @@ body {
 .absolute-child.center {
   right: 50%;
 }  
-
-.demo-text {
-  font-family: monospace;
-  text-align: center;
-  font-size: large;
-}
 
 .left_poem {
   /* margin-right: 10%; */

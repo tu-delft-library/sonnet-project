@@ -14,7 +14,13 @@ for (var i = 0; i < buttons.length; i++) {
 }
 
 function addClass(event) {
+
+    if (clicked_once) {
+        return;
+    }
+
     let rightwrong = "wrong"
+
     if (event.currentTarget.id == current_right) {
         rightwrong = "right"
     }
@@ -35,6 +41,8 @@ function addClass(event) {
             d3.select("#stats").text("You were unable to distinguish AI from human. Just like " + stats_wrong / (stats_right + stats_wrong) * 100 + "% of participants.");
         }
     }
+
+    d3.select("#ethical-question").style("visibility", "visible");
 
     clicked_once = true;
 
