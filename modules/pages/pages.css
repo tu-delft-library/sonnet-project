@@ -1,6 +1,8 @@
 .page-container{
     display: flex;
     overflow: auto; 
+    /* outline: 1px dashed red; */
+
     /* outline: 1px dashed lightgray; */
     /* flex: none; */
 }
@@ -55,31 +57,32 @@
 #poem-selector > div.page {
     /* outline: 1px dashed lightgray; */
     width: auto;
-    height: 66%;
+    height: 90%;
+    overflow: hidden;
 }
 
-#poem-selector:before {
+#poem-selector > div.fadedown {
   content: "";
-  position: fixed;
+  position: sticky;
   z-index: 1;
   top: 0;
   left: 0;
   pointer-events: none;
-  background-image: linear-gradient(to top, rgba(255,255,255,0), rgba(0,0,0, 1) 40%);
+  background-image: linear-gradient(to top, rgba(255,255,255,0), rgba(0,0,0, 1) 90%);
   width: 100%;
-  height: 10em;
+  min-height: 3%;
 }
 
-#poem-selector:after {
+#poem-selector > div.fadeup {
   content: "";
-  position: fixed;
+  position: sticky;
   z-index: 1;
-  bottom: 0;
+  top: 97%;
   left: 0;
   pointer-events: none;
   background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(0,0,0, 1) 90%);
   width: 100%;
-  height: 4em;
+  min-height: 3%;
 }
 
 .scroll-button{
@@ -111,9 +114,12 @@
     background-image: url(/images/arrow_left.png);
     width:100px; 
     min-height:2em; 
-    background-position: left center 1em;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+#back-button div {
+  transform: translateY(20%);
 }
 
 @-webkit-keyframes ca3_fade_move_down {

@@ -6,10 +6,10 @@ d3.select("#page4 #left_poem")
 d3.select("#page4 #right_poem")
     .attr("preserveAspectRatio", "xMinYMin meet");
 
-var timer = d3.timeout(() =>  document.getElementById('page1').scrollIntoView(), 90000);
+var timer = d3.timeout((elapsed) =>  document.getElementById('page1').scrollIntoView(), 90000);
    
 
-d3.select("body").on("click", ()=> {timer.restart(() => document.getElementById('page1').scrollIntoView(), 90000)});
+d3.select("body").on("click", () => { timer.restart((elapsed) => document.getElementById('page1').scrollIntoView(), 90000); });
 
 /**
  * Load data, basically an init function, whith a state variables such as the counts
@@ -111,6 +111,7 @@ function add_poem_selector(texts_abstracts, texts_human, texts_ai) {
         choice_selection.append("div")
         .classed("float-child", true)
         .append("img")
+       // .classed("vertical-center", true)
         .attr("src", (d, i) => "/images/" + i + ".jpg")
         .style("max-height", "100%")
         .style("max-width", "100%");
@@ -319,7 +320,7 @@ function moveRandomly(selection) {
             let scale = Math.random() * 3;
             let delay = Math.random()
             d3.select(self)
-                .transition()
+                .transition("move")
                 .duration(1000 + delay * 3000)
                 .style('top', (Math.random() - 0.2) * 125 + '%')
                 .style('left', (Math.random() - 0.2) * 125 + '%')
@@ -332,7 +333,7 @@ function moveRandomly(selection) {
                     // of times to animate anything you want inside
                     // of your custom tween
 
-                    return function (t) {
+                    return function(t) {
                         let elem = d3.select(this);
                         let currentWidth = parseFloat(elem.style("width"));
                         elem.style('filter', "brightness(" + (((currentWidth) - 0.5) / (original_width * 3.1)) + ")");
@@ -341,7 +342,7 @@ function moveRandomly(selection) {
 
                 })
                 .transition()
-                .duration(10000 - 3000 * (delay))
+                .duration(15000 - 3000 * (delay))
                 .on("end", animation);
         }
     });
@@ -363,6 +364,8 @@ function createPoemContainers(selection, text, n_containers) {
             .data(data)
             .enter()
             .append("div")
+            .style("left","50%")
+            .style("top","100%")
             .style("width", "400px")
             .style("height", "250px")
             .style("font-size", "5em")
@@ -373,7 +376,7 @@ function createPoemContainers(selection, text, n_containers) {
 
     container
         .append('img')
-        .attr("src", (d, i) => "images/" + (i) + ".jpg");
+        .attr("src", (d, i) => "images/" + '(' + (i+1) + ')' + ".jpg");
 
     function add_poem(poem_class, text) {
         let poem = container

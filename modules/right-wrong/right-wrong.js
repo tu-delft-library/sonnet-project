@@ -27,18 +27,26 @@ function addClass(event) {
     event.currentTarget.classList.add(rightwrong);
 
     if (event.currentTarget.id == current_right) {
-        event.currentTarget.querySelector('span').textContent = "CORRECT"
+        let span = event.currentTarget.querySelector('span');
+        span.textContent = "CORRECT"
         if (!clicked_once) {
             stats_right++;
-            d3.select("#stats").text("You were able to distinguish human from AI! Just like " + stats_right / (stats_right + stats_wrong) * 100 + "% of participants.");
-
+            d3.select(event.currentTarget)
+                .select("span + span")
+                .text("You were able to distinguish human from AI! Just like " + (stats_right / (stats_right + stats_wrong) * 100).toFixed(2) + "% of participants.")
+                .style("font-size", "small");
         }
 
     } else {
-        event.currentTarget.querySelector('span').textContent = "WRONG"
+        let span = event.currentTarget.querySelector('span');
+        span.textContent = "WRONG"
+        
         if (!clicked_once) {
             stats_wrong++;
-            d3.select("#stats").text("You were unable to distinguish AI from human. Just like " + stats_wrong / (stats_right + stats_wrong) * 100 + "% of participants.");
+            d3.select(event.currentTarget)
+                .select("span + span")
+                .text("You were unable to distinguish AI from human. Just like " + (stats_wrong / (stats_right + stats_wrong) * 100).toFixed(2) + "% of participants.")
+                .style("font-size", "small");
         }
     }
 
@@ -63,7 +71,7 @@ function clear_rightwrong() {
         buttons[i].classList.remove("wrong");
         buttons[i].classList.remove("right");
         buttons[i].querySelector('span').textContent = "";
-    }
+        buttons[i].querySelector('span + span').textContent = "";
 
-    d3.select("#stats").text("");
+    }
 }

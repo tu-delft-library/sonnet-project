@@ -94,3 +94,12 @@ body {
     /* background-color: black; */
     /* transform: rotate(35deg); */
 }
+
+.btn span + span{
+    /* display: block;
+    margin-top: auto;
+    margin-bottom: auto; */
+    transform: translateY(50%);
+    left: 40%;
+    text-align: left;
+}

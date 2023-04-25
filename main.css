@@ -85,6 +85,13 @@ body {
   margin-right: auto;
 }
 
+.vertical-center {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
 .border-3 {
   border: 3px solid;
 }
