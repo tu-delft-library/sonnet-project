@@ -105,14 +105,14 @@ function add_poem_selector(texts_abstracts, texts_human, texts_ai) {
                     d3.select("#ethical-question").style("visibility", "hidden");
 
                 }
-            }, 40000);
+            }, 70000);
         });
 
         choice_selection.append("div")
         .classed("float-child", true)
         .append("img")
        // .classed("vertical-center", true)
-        .attr("src", (d, i) => "/images/" + i + ".jpg")
+        .attr("src", (d, i) => "/images/" + '(' + (i+1) + ')' + ".jpg")
         .style("max-height", "100%")
         .style("max-width", "100%");
 
