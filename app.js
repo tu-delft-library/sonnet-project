@@ -1,4 +1,4 @@
-import { set_correct } from "/modules/right-wrong/right-wrong.js";
+import { set_correct } from "./modules/right-wrong/right-wrong.js";
 
 d3.select("#page4 #left_poem")
     .attr("preserveAspectRatio", "xMinYMin meet");
@@ -14,7 +14,7 @@ d3.select("body").on("click", () => { timer.restart((elapsed) => document.getEle
 /**
  * Load data, basically an init function, whith a state variables such as the counts
  */
-d3.dsv("\t", "/data/poems.txt").then((data) => {
+d3.dsv("\t", "./data/poems.txt").then((data) => {
     data.forEach((d) => {
         d.left = d.title + "\n\n" + d.text;
         d.right = d.title + "\n\n" + d.AIPoem;
@@ -112,7 +112,7 @@ function add_poem_selector(texts_abstracts, texts_human, texts_ai) {
         .classed("float-child", true)
         .append("img")
        // .classed("vertical-center", true)
-        .attr("src", (d, i) => "/images/" + '(' + (i+1) + ')' + ".jpg")
+        .attr("src", (d, i) => "./images/" + '(' + (i+1) + ')' + ".jpg")
         .style("max-height", "100%")
         .style("max-width", "100%");
 
@@ -376,7 +376,7 @@ function createPoemContainers(selection, text, n_containers) {
 
     container
         .append('img')
-        .attr("src", (d, i) => "images/" + '(' + (i+1) + ')' + ".jpg");
+        .attr("src", (d, i) => "./images/" + '(' + (i+1) + ')' + ".jpg");
 
     function add_poem(poem_class, text) {
         let poem = container
